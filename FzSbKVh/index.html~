@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"> 
+<title>Recent earthquakes in Italy</title>
+<meta name="author" content="Riccardo Scalco">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="keywords" content="Earthquakes, Italy, INGV">
+<!--<meta name="description" content="">
+<link rel="alternate" href="/atom.xml" type="application/atom+xml" title="Bud Analysis">-->
+<link rel="icon" href="./favi.ico">
+<!--<link rel="stylesheet" type="text/css" href="./bootstrap.css">-->
+<link rel="stylesheet" type="text/css" href="./normalize.min.css">
+<link rel="stylesheet" type="text/css" href="./style.min.css">
+<link rel="stylesheet" type="text/css" href="./jquery.qtip.min.css" />
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<!--[if !IE 7]>
+	<style type="text/css">
+		#wrap {display:table;height:100%}
+	</style>
+<![endif]-->
+<script type="text/javascript" src="./js/script.min.js"></script>
+<script type="text/javascript">
+ $script(['./js/raphael.min.js', './js/kartograph.min.js'], 'kartograph');
+ $script(['./js/jquery.qtip.min.js'], 'qtip');
+</script>
+</head>
+<body id="top">
+  <div id="wrap">
+   <div class='head'>
+    <p>Latest earthquakes in Italy
+    <!--<a href="/"><i class="icon-envelope"></i></a>
+    <a href="/"><i class="icon-twitter"></i></a>
+    <a href="/"><i class="icon-rss"></i></a>-->
+    </p>
+   </div>
+    <div class="container">
+     <aside>
+      <div>
+       <table id="thelist">
+        <tr><td></td><td></td><td></td><td>Magnitude</td><td>Depth (km)</td></tr>
+       </table>
+      </div>
+     </aside>
+     <section>
+      <div id="map" style="border:0px solid #999; margin-bottom:1em; width:600px;">
+      </div>
+      <!--<img src="./nEDaDbB.png" alt="legend" style="width:400px" />-->
+     </section>
+    </div>
+  </div>
+  <footer>
+   <!--<div class="containerfooter">
+   </div>-->
+   <div class="info">
+    <p class="info">
+     Data Source <a href="http://cnt.rm.ingv.it/index.html">INGV</a> |
+     Web Design and Data Elaboration by <a href="http://eidogram.github.com">eidogram</a> |
+     (C) Copyright 2013 All rights reserved.
+    </p>
+   </div>
+   </footer>
+
+
+  
+ 
+<script type="text/javascript">
+$script.ready(['kartograph', 'qtip'], function() {
+
+    $(function() {
+
+        // initialize tooltips
+        $.fn.qtip.defaults.style.classes = 'qtip-dark';
+        $.fn.qtip.defaults.style.def = false;
+
+        var map = $K.map('#map');
+
+        map.loadMap('./IT.svg', function() {
+            map.addLayer('mondo', {
+                styles: {
+                    stroke: '#36454f',
+                    'stroke-width': 0.2,
+                    fill: 'transparent'
+                }
+            });
+            map.addLayer('regioni', {
+                id: 'bg',
+                styles: {
+                    stroke: '#fafafa',
+                    'stroke-width': 5,
+                    'stroke-linejoin': 'round',
+                    'stroke-linecap': 'square'
+                }
+            });
+            map.addLayer('regioni', {
+                styles: {
+                    stroke: '#36454f',
+                    'stroke-width': 0.4,
+                    fill: '#f5f5f5'
+                }
+                });
+            var jsu='https://raw.github.com/eidogram/eidogram.github.com/master/json/earthquakes.jsonp?callback=?';
+            //see http://www.jquery4u.com/json/jsonp-examples/ for JSOP request
+            $.ajax({
+                    url: jsu,
+                    dataType: 'jsonp',
+                    //async: false,
+                    crossDomain: true,
+                    jsonpCallback: 'jsonCallback',
+                    success: function(cities) {
+                    var l = cities.length;
+                    var i = l-1;
+                    while (i>l-38){
+                      var item = cities[i];
+                      var div_data = "<tr name='"+item.Id+"' style='border-bottom:solid 1px "+item.Color+"'><td>"+item.Place+"</td><td>"+item.Date+"</td><td>"+item.Time+"</td><td>"+item.Magn+"</td><td>"+item.Prof+"</td></tr>";
+                      $(div_data).appendTo("#thelist");
+                      i--
+                    };
+                    $("tr").hover(function(){
+                        var idd = $(this).attr('name');
+                        $("circle[class='"+idd+"']").css({'stroke':'#ff2400', 'stroke-width':'3'});
+                        },
+                        function(){
+                        var idd = $(this).attr('name');
+                        $("circle[class='"+idd+"']").css({'stroke':'#fff', 'stroke-width':'1'});
+                        });
+                    function symbolAttrs(city) {
+                       return {
+                          fill: city['Color'],
+                          'fill-opacity': city['Alpha'],
+                          stroke: '#fff',
+                       }
+                    };
+                    map.addSymbols({
+                        type: $K.Bubble,
+                        data: cities,
+                        location: function(city) {
+                            return [city.Lon, city.Lat];
+                            },
+                        class: function(city) { return city.Id;},  
+                        radius: function(city) {
+                            var x = city.Magn * city.Magn * 1.5;
+                            return x;
+                            //return city.Radius;
+                        }, 
+                        tooltip: function(city) {
+                            return '<h3>'+city.Place+'</h3>'+
+                            city.Date+', '+city.Time+'</br>'+
+                            ' Magnitude: '+city.Magn+'</br>'+
+                            ' Depth: '+city.Prof+' km';
+                        },
+                        attrs: symbolAttrs,
+                        });
+                    }
+                });
+
+        }, { padding: -5 });
+
+    });
+
+});
+</script>
+
+
+</body>
+</html>

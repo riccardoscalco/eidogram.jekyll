@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="http://mbostock.github.com/d3/d3.js"></script>
+<title>Drag And Drop</title>
+    <style type='text/css'>
+        body {
+            background-color:#F4F0EC;
+        }
+        #viz {
+            margin: 0 auto;
+            width: 700px;
+            height: 700px;
+            border: 1.5px solid #fff;
+            background-color:#f6f6f6;
+        }
+        path {
+            fill: red;
+            stroke: #fff;
+            stroke-width: 1px;
+        }
+
+    </style>
+</head>
+<body>  
+ 
+<div id="viz"></div>
+ 
+<script type="text/javascript">
+var tr = [0,-350,0,0,0,1,1]
+var vizSVG = d3.select("#viz")
+    .append("svg:svg")
+    .attr("width", 700)
+    .attr("height", 700);
+    
+vizSVG.append("svg:rect")
+    .attr("id", "blueRect")
+    .attr("x", 50)
+    .attr("y", 140)
+    .attr("width", 100)
+    .attr("height", 100)
+    .attr("fill", "blue")
+    .call(d3.behavior.drag().on("drag", mover));
+    
+
+vizSVG.append("svg:path")
+    .attr("transform","translate(0,-350) rotate(0) scale(1,1)")
+    .attr("id","f7")
+    .attr("d","M 357,809.36218 237,809.36218 297,749.36218 z")
+    .call(d3.behavior.drag().on("drag", movep));
+    //.transition().duration(1000)
+    //.style("fill","blue")
+    //.attr("transform","translate(700,-350) scale(-1,1)");
+    
+vizSVG.append("svg:circle")
+    .attr("id", "redCircle")
+    .attr("cx",tr[0] + 297)
+    .attr("cy", tr[1] + 779.36218)
+    .attr("r", 10)
+    .attr("fill", "green")
+    .call(d3.behavior.drag().on("drag", move));
+
+function setTrAttr(values){
+    return "translate("+tr[0]+","+tr[1]+") rotate("+tr[2]+","+tr[3]+","+tr[4]+") scale("+tr[5]+","+tr[6]+")";
+}
+
+function angle(x,y){
+    return Math.sqrt(x*x + y*y);
+}
+
+
+function getTrAtr(attr_value){
+    var l = attr_value.length;
+    return attr_value.substring(10,l-1).split(',');
+}
+
+
+
+function movep(){
+    this.parentNode.appendChild(this);
+    var dragTarget = d3.select(this);
+    if (d3.event.shiftKey) {
+        console.log("!!!");
+        tr[2] = tr[2] + angle(d3.event.dx,d3.event.dy);
+        tr[3] = tr[0] + 297;
+        tr[4] = 0 + 779.36218;
+    };
+        //else {
+    //tr[0] = tr[0] + d3.event.dx;
+    //tr[1] = tr[1] + d3.event.dy;
+    //};
+    dragTarget
+        .attr("transform", setTrAttr(tr));
+};
+
+function mover(){
+    this.parentNode.appendChild(this);
+    var dragTarget = d3.select(this);
+    dragTarget
+        .attr("x", function(){return d3.event.dx + parseInt(dragTarget.attr("x"))})
+        .attr("y", function(){return d3.event.dy + parseInt(dragTarget.attr("y"))});
+};
+
+
+function move(){
+    this.parentNode.appendChild(this);
+    var dragTarget = d3.select(this);
+    dragTarget
+        .attr("cx", function(){return d3.event.dx + parseInt(dragTarget.attr("cx"))})
+        .attr("cy", function(){return d3.event.dy + parseInt(dragTarget.attr("cy"))});
+};
+ 
+</script>
+   
+</body>
+</html>

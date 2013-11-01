@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Science, Technology and Innovation in Italy</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Riccardo Scalco">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Analytic Journalism, Data Driven Journalism,
+    Data Visualization, Data Analysis, Web Spidering, Data scientist, Data
+    artist, interactive things, web design, web developer">
+    <link rel="stylesheet" type="text/css" href="./normalize.min.css">
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="http://d3js.org/topojson.v1.min.js"></script>
+    <script src="lib/cartogram.js"></script>
+    <style type="text/css">
+
+    html, body{
+      height: 100%;
+    }
+
+    .map {
+      stroke: #fff;
+      stroke-width:0.7;
+      width: 500px;
+      height: 680px;
+    }
+
+    #menu {float: left;}
+    
+    #container {
+      width:1120px;
+      margin:0 auto;
+      overflow: auto;
+      margin-top:20px;
+      padding-top:0px;
+      padding-bottom: 17px;
+    }
+
+    #wrap {min-height: 100%;}
+
+    header {
+      font-size:15px;
+      height:23px;
+      color:#f5f5f5;
+      background: #0087bd; /* Old browsers */
+      background: -moz-linear-gradient(left, #0087bd 0%, #f9f9f9 80%); /* FF3.6+ */
+      background: -webkit-gradient(linear, left top, right top, color-stop(0%,#0087bd), color-stop(80%,#f9f9f9)); /* Chrome,Safari4+ */
+      background: -webkit-linear-gradient(left, #0087bd 0%,#f9f9f9 80%); /* Chrome10+,Safari5.1+ */
+      background: -o-linear-gradient(left, #0087bd 0%,#f9f9f9 80%); /* Opera 11.10+ */
+      background: -ms-linear-gradient(left, #0087bd 0%,#f9f9f9 80%); /* IE10+ */
+      background: linear-gradient(to right, #0087bd 0%,#f9f9f9 80%); /* W3C */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0087bd', endColorstr='#f9f9f9',GradientType=1 ); /* IE6-9 */    
+    }
+
+    header p{
+      font-family: 'droid_sans_monoregular', monospace, sans-serif;
+      padding-top:0px;
+      padding-left:10px;
+      margin:0;
+    }
+
+    body {
+      background-color: #f9f9f9;
+    }
+
+    #descr {
+      clear: both;
+    	color: #0087bd;
+    	font-size: 12px;
+    	font-family: 'droid_sans_monoregular', monospace, sans-serif;
+        padding-top:0px;
+        padding-bottom:0px;
+        margin:0;    	
+    }
+    
+
+
+    footer{
+      margin-top: -17px;
+      height: 17px;
+      clear:both;
+      position: relative;
+      background: #f9f9f9; /* Old browsers */
+      background: -moz-linear-gradient(left, #f9f9f9 64%, #0087bd 100%); /* FF3.6+ */
+      background: -webkit-gradient(linear, left top, right top, color-stop(64%,#f9f9f9), color-stop(100%,#0087bd)); /* Chrome,Safari4+ */
+      background: -webkit-linear-gradient(left, #f9f9f9 64%,#0087bd 100%); /* Chrome10+,Safari5.1+ */
+      background: -o-linear-gradient(left, #f9f9f9 64%,#0087bd 100%); /* Opera 11.10+ */
+      background: -ms-linear-gradient(left, #f9f9f9 64%,#0087bd 100%); /* IE10+ */
+      background: linear-gradient(to right, #f9f9f9 64%,#0087bd 100%); /* W3C */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#0087bd',GradientType=1 ); /* IE6-9 */
+    }
+
+    footer p, footer a {
+      padding-top: 0px;
+      color: #f9f9f9;
+      font-family: 'droid_sans_monoregular', monospace, sans-serif;
+      font-size: 11px;
+      text-align: right;
+      padding-right: 2px;
+      margin:0 auto;
+    }
+
+    /*Opera Fix*/
+    /*body:before {
+      content:"";
+      height:100%;
+      float:left;
+      width:0;
+      margin-top:-32767px;/
+    }*/
+
+    rect {
+      stroke: #f9f9f9;
+      stroke-width: 2px;
+    }
+
+    
+    text.label {
+      font-family: 'droid_sans_monoregular', sans-serif;
+      font-size: 12px;
+      fill: #0087BD;
+      fill-opacity: 0.7;
+    }
+
+    tspan {
+      font-family: 'droid_sans_monoregular', monospace, sans-serif;
+      font-size: 1.4px;
+      //fill: #0087BD;
+    }
+
+    @font-face {
+    font-family: 'droid_sans_monoregular';
+    src: url('font/DroidSansMono-webfont.eot');
+    src: url('font/DroidSansMono-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/DroidSansMono-webfont.woff') format('woff'),
+         url('font/DroidSansMono-webfont.ttf') format('truetype'),
+         url('font/DroidSansMono-webfont.svg#droid_sans_monoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+    
+
+
+    </style>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-28849332-2', 'eidogram.com');
+      ga('send', 'pageview');
+    </script>
+  </head>
+  
+   <body>
+    <div id="wrap">
+    <header>
+      <p>Science, Technology and Innovation in Italy</p>
+    </header>
+    <div id="container">
+    <div id="menu">
+    <!-- Created with Inkscape (http://www.inkscape.org/) -->
+    <svg width="620" height="620">
+      <g id="layer1" transform="scale(7) translate(-123,-355)">
+        <rect
+           class="cl3"
+           width="15"
+           height="15"
+           x="140"
+           y="362.36218" />
+        <rect
+           class="cl2"
+           width="15"
+           height="15"
+           x="155"
+           y="362.36218" />
+        <rect
+           class="cl4"
+           width="15"
+           height="15"
+           x="155"
+           y="377.36218" />
+        <rect
+           class="cl1"
+           width="15"
+           height="15"
+           x="140"
+           y="392.36218" />
+        <rect
+           class="cl0"
+           width="15"
+           height="15"
+           x="170"
+           y="392.36218" />
+        <rect
+           class="cl5"
+           width="15"
+           height="15"
+           x="170"
+           y="407.36218" />
+        <rect
+           class="cl6"
+           width="15"
+           height="15"
+           x="155"
+           y="422.36218" />
+        <text
+           x="172.08485"
+           y="391.97705"
+           class="cl0">
+           <tspan
+             x="172.08485"
+             y="391.97705">
+             R&amp;D expenditure(% of GDP, 2010)
+           </tspan>
+        </text>
+        <text
+           x="133.65846"
+           y="407.10675"
+           class="cl1">
+           <tspan
+             x="133.65846"
+             y="407.10675">Patents</tspan><tspan
+             x="133.65846"
+             y="408.83698">(per million inhabitants, 2008)</tspan></text>
+        <text
+           x="161.65411"
+           y="356.31586"
+           class="cl2">
+           <tspan
+             x="161.65411"
+             y="356.31586">Enterprises using</tspan><tspan
+             x="161.65411"
+             y="358.04608">fixed broadband</tspan><tspan
+             x="161.65411"
+             y="359.77631">connections to the Internet</tspan><tspan
+             x="161.65411"
+             y="361.5065">(% of enterprises, 2011)</tspan></text>
+        <text
+           x="123.79781"
+           y="377.18365"
+           class="cl3"
+           >
+           <tspan
+             x="123.79781"
+             y="377.18365">R&amp;D personnel (FTE)</tspan><tspan
+             x="123.79781"
+             y="378.91388">(per thousand inhabitants, 2010)</tspan></text>
+        <text
+           x="170.27373"
+           y="379.90353"
+           class="cl4">
+           <tspan
+             x="170.27373"
+             y="379.90353">Innovative SMEs (10-249 employees)</tspan><tspan
+             x="170.27373"
+             y="381.63376">(percentage values on 2008-2010)</tspan></text>
+        <text
+           x="171.94856"
+           y="423.8215"
+           class="cl5">
+           <tspan
+             x="171.94856"
+             y="423.8215">Science and technology (S&amp;T) graduates</tspan><tspan
+             x="171.94856"
+             y="425.55173">(per 1000 inhabitants aged 20-29 years, 2010)</tspan></text>
+        <text
+           x="155.85202"
+           y="438.97601"
+           class="cl6">
+           <tspan
+             x="155.85202"
+             y="438.97601">Households that are connectable</tspan><tspan
+             x="155.85202"
+             y="440.70624">to the Internet over a broadband connection</tspan><tspan
+             x="155.85202"
+             y="442.43646">(% of households with the same characteristics, 2012)</tspan></text>
+      </g>
+    </svg></div>
+    <div id="map"></div>
+    <p id="descr">
+      The map shows the role, in terms of innovation, played by the italian administrative regions.
+      The statistics is presented by means of a cartogram, where the area of every region is proportional
+      to the corresponding innovation effort.
+    </p>
+    </div></div>
+    <footer>
+      <p>Data source: <a href="http://noi-italia2013en.istat.it/index.php?id=56&user_100ind_pi1%5Buid_categoria%5D=33&cHash=b0056993ae90a8610ba51cd06375d953">istat.it</a> | Created by <a href="http://eidogram.com/">eidogram</a></p>
+    </footer>
+  </body>
+   	<script type="text/javascript">
+
+    // attributes rects
+
+    d3.selectAll("rect")
+    .attr("fill","#0087BD")
+    .attr("fill-opacity",0.8)
+    .on("mouseover",function() {
+      var cl =  d3.select(this).attr('class')[2];
+      d3.selectAll(".cl"+cl)
+      .attr("fill-opacity",1);
+    })
+    .on("mouseout",function() {
+      var cl =  d3.select(this).attr('class')[2];
+      d3.selectAll(".cl"+cl)
+      .attr("fill-opacity",0.8);
+    })
+    .on("click",function() {
+      var cl =  d3.select(this).attr('class')[2];
+      update(cl);
+      d3.selectAll("rect")
+      .attr({"rx":0, "ry":0});
+      d3.select(this)
+      //.transition().duration(750).ease("linear")
+      .attr('rx',5)
+      .attr('ry',5);
+    });                            
+    
+    d3.selectAll("text")
+    .attr("fill","#0087BD")
+    .attr("fill-opacity",0.8);
+
+    d3.select("rect.cl3")
+      .attr('rx',5)
+      .attr('ry',5);
+    
+    
+    // make map
+
+    var update;
+
+   	d3.json("./dati_min.json", function(error_data, data) {
+   		if (error_data) return console.warn(error_data);
+
+   		d3.json("./map1.json", function(error_topo, topo) {
+   			if (error_topo) return console.warn(error_topo);
+
+            var h = 680,
+                w = 500,
+   			        svg = d3.select("#map")
+   			        .append("svg")
+   			        .attr("width", w)
+   			        .attr("height", h);
+
+   			var projection = d3.geo.albers()
+                .center([0, 41])
+                .rotate([347, 0])
+                .parallels([35, 45])
+                .scale(3000)
+                .translate([w/2, h/2]);
+
+            var carto = d3.cartogram()
+                .projection(projection)
+                .value(function(d) {
+                   return 100 * data[3].data[d.id];
+                });
+
+            var geom = topo.objects.sub.geometries,
+                features = carto(topo, geom).features;
+
+            var domain = function(ii) {
+              var x = data[ii].data
+              return [0,d3.max(d3.values(x))];
+            };
+
+            var fill = d3.scale.linear()
+                .domain(domain(3))
+                .range(["#f0f0f0", "#0087BD"]);
+
+            /*
+            var titlelabel = svg.append("svg:text")
+            .attr("class","label")
+            .attr("transform","translate (300,175)")
+            .text(function() { return data[0].stat; });            
+            */
+
+            var label = svg.append("svg:text")
+            .attr("class", "label")
+            .attr("transform","translate (300,200)");
+
+
+            // Visualization
+           	var map = svg.selectAll("#reg")
+          	.data(features)
+          	.enter().append("path")
+          	.attr("class","map")
+          	.attr("id","reg")
+            .attr("fill", function(d) {
+              return fill(data[3].data[d.id]);
+            })
+            .attr("d",carto.path)
+            .on("mouseover", function(d) {
+              var t = d.id + ": " + data[3].data[d.id];
+              label.text(function() { return t });
+            })
+            .on("mouseout", function(d) {
+              label.text(function() { return "" });
+            });
+
+
+
+
+            update = function(ii) {
+              carto.value(function(d) {
+                return 100 * data[ii].data[d.id];
+              });
+              map.on("mouseover", function(d) {
+                  var t = d.id + ": " + data[ii].data[d.id];
+                  label.text(function() { return t });
+                })
+                .on("mouseout", function(d) {
+                  label.text(function() { return "" });
+                });
+              features = carto(topo, geom).features;
+              map.data(features)
+                .transition()
+                .duration(750)
+                .ease("linear")
+                .attr("fill", function(d) {
+                  fill.domain(domain(ii))
+                  return fill(data[ii].data[d.id]);
+                })
+                .attr("d",carto.path);
+            };
+
+   		});
+   	});
+   	</script>
+</html>
+
+

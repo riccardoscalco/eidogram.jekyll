@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <link rel="stylesheet" type="text/css" href="./normalize.css">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="stylesheet" type="text/css" href="./jquery.qtip.min.css">
+  <!--<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css" />
+  <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  <script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+ <script>
+  $(function() {
+    $( document ).tooltip();
+  });
+  </script>
+  <style>
+  label {
+    display: inline-block;
+    width: 5em;
+  }
+  </style>-->
+ </head>
+ <body>
+  <!--<header>
+  </header>-->
+  <div id="wrap">
+  <div class="container">
+  <!--<aside>
+  <img src="mariox.png" alt="Italian Camera Composition" width="500"><br>
+  <p>Click on the bubbles to discover the</p><br>
+  <h1>Italian Camera Composition</h1><br>
+  <h3>by party, gender, age and education</h3>
+  <button type="button" onclick="update(1)">Display Date</button>
+  </aside>-->
+  <!--<section>-->
+  <img src="mariox.png" alt="Italian Camera Composition" width="500" style="left:50px;">
+  <img id="discover" src="fungo.png" alt="Composizione Camera Italia" width="80" style="right:200px;">
+  <div id="chart"></div>
+  <!--</section>-->
+  </div>
+  </div>
+  <footer>
+  <div class="containerfooter">
+  <p>Created by <a href="http://eidogram.com">eidogram</a> | All rights reserved.</p> 
+  </div>
+  </footer>
+
+
+
+
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.1.1.min.js"></script>
+<script type="text/javascript" src="./jquery.qtip.min.js"></script>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+
+
+
+<script type="text/javascript">
+
+var w = 900,
+    h = 600,
+    node,
+    link,
+    root;
+
+var force = d3.layout.force()
+    .on("tick", tick)
+    .linkDistance(function(d) { return (Math.sqrt(d.source.size) / 10) + (Math.sqrt(d.target.size) / 10);})
+    .linkStrength(7)
+    .charge(function(d) { return -1 * Math.sqrt(d.size); })
+    .size([w, h]); 
+
+
+var vis = d3.select("#chart").append("svg:svg")
+    .attr("width", w)
+    .attr("height", h);
+
+    
+d3.json("./bubbletree.json", function(json) {
+        roots = [],
+        json.forEach(function(i) {roots.push(i)}),
+        update();
+});
+   
+
+function update(kk) {
+  var nodes = flatten(roots, kk),
+      links = d3.layout.tree().links(nodes);
+ // Restart the force layout.
+  force
+      .nodes(nodes)
+      .links(links)
+      .start();
+
+  // Update the nodes…
+  node = vis.selectAll("circle.node")
+      .data(nodes, function(d) { return d.name; });
+      /*.style({"fill": function(d) { return d.color; },
+              "fill-opacity": '0.3',
+              "stroke": function(d) { return d.stroke; },
+              "stroke-width": function(d) { return d.strokew; }, 
+              "stroke-dasharray": function(d) { return d.stroked; }, 
+              "cursor": "pointer"});*/
+
+  node.transition()
+      .attr("r", function(d) { return Math.sqrt(d.size) / 10 || 4.5; });
+
+  // Enter any new nodes.
+  node.enter().append("svg:circle")
+      .attr("class", "node")
+      .attr("cx", function(d) { return d.x; })
+      .attr("cy", function(d) { return d.y; })
+      .attr("r", function(d) { return Math.sqrt(d.size) / 10 || 4.5; })
+      .attr("title", function(d) { return d.title; })
+      .style({"fill": function(d) { return d.color; },
+              "fill-opacity": '0.3',
+              "stroke": function(d) { return d.stroke; },
+              "stroke-width": function(d) { return d.strokew; }, 
+              "stroke-dasharray": function(d) { return d.stroked; }, 
+              "cursor": "pointer"})
+      .on("click", click)
+      .call(force.drag);
+
+  // Exit any old nodes.
+  node.exit().remove();
+
+$(document).ready(function()
+{
+    $('circle').qtip({
+        position: {
+            target: 'mouse',
+            adjust: {
+                mouse: true,
+                y: +20
+            }
+         },
+         style: {
+		     classes: 'qtip-red qtip-shadow'
+	     }
+
+    });
+}); 
+
+}
+
+$(document).ready(function(){
+     $("#discover").click(function() { update(1) });
+     $("#discover").qtip({
+         position: {
+            at: 'top center',
+            my: 'bottom center',
+            adjust: {
+                y: -20
+            }
+         },
+         style: {
+            classes: 'qtip-red qtip-shadow',
+         },
+         content: {
+             text: 'Click me<br> to unfold<br> all the bubbles!'
+         }
+    })
+});
+
+
+function tick() {
+ node.attr("cx", function(d) { return d.x; })
+      .attr("cy", function(d) { return d.y; });
+}
+
+// Toggle children on click.
+function click(d) {
+  if (d.children) {
+    d._children = d.children;
+    d.children = null;
+  } else {
+    d.children = d._children;
+    d._children = null;
+    d.children.forEach(function(q) {
+      alpha = Math.floor((Math.random() * 100)-50);
+      //q.x = q.x ? q.x : d.x + 100;
+      //q.y = q.y ? q.y : d.y + 100;
+      q.x = d.x + alpha;
+      q.y = d.y + alpha;
+    });
+  }
+  update(0);
+}
+// Returns a list of all nodes under the root.
+function flatten(roots, kk) {
+  var nodes = [], i = 0;
+  function recurse(node) {
+    if (node._children && kk) {
+      node.children = node._children;
+      node._children = null;
+  }
+    if (node.children) node.children.forEach(recurse);
+    //if (!node.id) node.id = ++i;
+    nodes.push(node);
+  }
+  roots.forEach(recurse);
+  return nodes;
+}
+</script>
+
+  </body>
+</html>

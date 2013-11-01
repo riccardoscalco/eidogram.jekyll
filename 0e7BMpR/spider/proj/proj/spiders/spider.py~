@@ -1,0 +1,43 @@
+from scrapy.selector import HtmlXPathSelector
+from scrapy.contrib.linkextractors.sgml import SgmlLinkExtractor
+from scrapy.contrib.spiders import CrawlSpider, Rule
+from proj.items import ProjItem
+
+import pickle
+
+class ProjSpider(CrawlSpider):
+    name = 'projspider'
+    allowed_domains = ['camera.it']
+    start_urls = ['http://www.camera.it/leg17/28?lettera=A']
+    restr_xpath = '//*[@id="composizioneOrgano"]/div[3]'
+
+    rules = (
+            Rule(SgmlLinkExtractor(allow=['idPersona','tipoPersona'], restrict_xpaths=restr_xpath), callback='parse_item', unique=True),
+    )
+
+    def parse_item(self, response):
+        hxs = HtmlXPathSelector(response)
+        earthquakes = {}
+        j = 2
+        while 1:
+            try:
+                xpath = "//*[@id='bodytext']/center/table/tr["+str(j)+"]"
+                s = hxs.select(xpath).extract()[0]
+                i = TerremotiItem()
+                i['Id'] = hxs.select(xpath+"/td[1]/text()").extract()[0]
+                i['Data'] = hxs.select(xpath+"/td[3]/text()").extract()[0]
+                i['Ora'] = hxs.select(xpath+"/td[4]/text()").extract()[0]
+                i['Lat'] = hxs.select(xpath+"/td[5]/text()").extract()[0]
+                i['Lon'] = hxs.select(xpath+"/td[6]/text()").extract()[0]
+                i['Prof'] = hxs.select(xpath+"/td[7]/text()").extract()[0]
+                i['Magn'] = hxs.select(xpath+"/td[8]/text()").extract()[0][3:]
+                i['Place'] = hxs.select(xpath+"/td[10]/text()").extract()[0]
+                earthquakes[j] = dict(i)
+                j = j + 1
+            except IndexError:
+                break
+        #print earthquakes
+        f = open('earthquakes.pickle','w')
+        pickle.dump(earthquakes,f)
+        f.close()
+        return None

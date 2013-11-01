@@ -1,0 +1,11422 @@
+(lp0
+(dp1
+S'Nome'
+p2
+VAngelo
+p3
+sS'Gruppo'
+p4
+VIL POPOLO DELLA LIBERTA'
+p5
+sS'Cognome'
+p6
+VATTAGUILE
+p7
+sS'Sesso'
+p8
+S'M'
+p9
+sS'Anno_nascita'
+p10
+V1947
+p11
+sS'Titolo'
+p12
+VRevisore contabile
+p13
+sa(dp14
+g2
+VRocco
+p15
+sg4
+VUNIONE DI CENTRO
+p16
+sg6
+VBUTTIGLIONE
+p17
+sg8
+g9
+sg10
+V1948
+p18
+sg12
+VLaurea in giurisprudenza
+p19
+sa(dp20
+g2
+VTommaso
+p21
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p22
+sg6
+VCURRO'
+p23
+sg8
+g9
+sg10
+V1973
+p24
+sg12
+VLaurea in fisica, Abilitazione all'insegnamento della fisica e della matematica (SISS A 049)
+p25
+sa(dp26
+g2
+VFrancesco
+p27
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p28
+sg6
+VD'UVA
+p29
+sg8
+g9
+sg10
+V1987
+p30
+sg12
+VLaurea in chimica
+p31
+sa(dp32
+g2
+VDavid
+p33
+sg4
+VPARTITO DEMOCRATICO
+p34
+sg6
+VERMINI
+p35
+sg8
+g9
+sg10
+V1959
+p36
+sg12
+VLaurea in giurisprudenza
+p37
+sa(dp38
+g2
+VAlessandro
+p39
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p40
+sg6
+VFURNARI
+p41
+sg8
+g9
+sg10
+V1976
+p42
+sg12
+VLibero professionista nel campo della comunicazione
+p43
+sa(dp44
+g2
+VItzhak
+p45
+sg4
+VPARTITO DEMOCRATICO
+p46
+sg6
+VGUTGELD
+p47
+sg8
+g9
+sg10
+V1959
+p48
+sg12
+VDottorato di ricerca
+p49
+sa(dp50
+g2
+VMaria
+p51
+sg4
+VPARTITO DEMOCRATICO
+p52
+sg6
+VGULLO
+p53
+sg8
+S'F'
+p54
+sg10
+V1964
+p55
+sg12
+VLaurea in economia e commercio
+p56
+sa(dp57
+g2
+VVanna
+p58
+sg4
+VPARTITO DEMOCRATICO
+p59
+sg6
+VIORI
+p60
+sg8
+g54
+sg10
+V1948
+p61
+sg12
+VDottorato di ricerca in Pedagogia - Education
+p62
+sa(dp63
+g2
+VLoredana
+p64
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p65
+sg6
+VLUPO
+p66
+sg8
+g54
+sg10
+V1978
+p67
+sg12
+VLaurea in scienze agrarie
+p68
+sa(dp69
+g2
+VDelia
+p70
+sg4
+VPARTITO DEMOCRATICO
+p71
+sg6
+VMURER
+p72
+sg8
+g54
+sg10
+V1955
+p73
+sg12
+VDiploma di liceo classico
+p74
+sa(dp75
+g2
+VRiccardo
+p76
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p77
+sg6
+VNUTI
+p78
+sg8
+g9
+sg10
+V1981
+p79
+sg12
+VDiploma di istituto tecnico industriale
+p80
+sa(dp81
+g2
+VMauro
+p82
+sg4
+VSVP
+p83
+sg6
+VOTTOBRE
+p84
+sg8
+g9
+sg10
+V1974
+p85
+sg12
+VDiploma di qualifica di istituto professionale
+p86
+sa(dp87
+g2
+VAris
+p88
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p89
+sg6
+VPRODANI
+p90
+sg8
+g9
+sg10
+V1973
+p91
+sg12
+VDiploma di liceo classico
+p92
+sa(dp93
+g2
+VGiuseppe
+p94
+sg4
+VSCELTA CIVICA CON MONTI PER L'ITALIA
+p95
+sg6
+VQUINTARELLI
+p96
+sg8
+g9
+sg10
+V1965
+p97
+sg12
+VLaurea magistrale in scienze dell'informazione
+p98
+sa(dp99
+g2
+VPaolo
+p100
+sg4
+VIL POPOLO DELLA LIBERTA'
+p101
+sg6
+VRUSSO
+p102
+sg8
+g9
+sg10
+V1960
+p103
+sg12
+VLaurea in medicina e chirurgia, Specializzazione in oculistica
+p104
+sa(dp105
+g2
+VNicola
+p106
+sg4
+VPARTITO DEMOCRATICO
+p107
+sg6
+VSTUMPO
+p108
+sg8
+g9
+sg10
+V1969
+p109
+sg12
+V 
+p110
+sa(dp111
+g2
+VLuca
+p112
+sg4
+VIL POPOLO DELLA LIBERTA'
+p113
+sg6
+VSQUERI
+p114
+sg8
+g9
+sg10
+V1961
+p115
+sg12
+VLaurea in scienze giuridiche
+p116
+sa(dp117
+g2
+VArianna
+p118
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p119
+sg6
+VSPESSOTTO
+p120
+sg8
+g54
+sg10
+V1985
+p121
+sg12
+VLaurea in scienze dell'economia e della gestione aziendale, Master I livello scienze tecniche della prevenzione e della sicurezza sul lavoro e ambiente
+p122
+sa(dp123
+g2
+VRoberto
+p124
+sg4
+VPARTITO DEMOCRATICO
+p125
+sg6
+VSPERANZA
+p126
+sg8
+g9
+sg10
+V1979
+p127
+sg12
+VLaurea in scienze politiche, Dottorato di ricerca in storia
+p128
+sa(dp129
+g2
+VMaria
+p130
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p131
+sg6
+VSPADONI
+p132
+sg8
+g54
+sg10
+V1979
+p133
+sg12
+VLaurea in lingue e letterature straniere (europee)
+p134
+sa(dp135
+g2
+VGiulio
+p136
+sg4
+VSCELTA CIVICA CON MONTI PER L'ITALIA
+p137
+sg6
+VSOTTANELLI
+p138
+sg8
+g9
+sg10
+V1970
+p139
+sg12
+VDiploma di istituto tecnico industriale
+p140
+sa(dp141
+g2
+VGirgis
+p142
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p143
+sg6
+VSORIAL
+p144
+sg8
+g9
+sg10
+V1983
+p145
+sg12
+VLaurea in ingegneria dell'informazione, Master in business administration
+p146
+sa(dp147
+g2
+VMassimiliano
+p148
+sg4
+VSINISTRA ECOLOGIA LIBERTA'
+p149
+sg6
+VSMERIGLIO
+p150
+sg8
+g9
+sg10
+V1966
+p151
+sg12
+VLaurea in lettere, Master in comunicazione d'impresa, Master in gestione risorse umane
+p152
+sa(dp153
+g2
+VFrancesco
+p154
+sg4
+VIL POPOLO DELLA LIBERTA'
+p155
+sg6
+VSISTO
+p156
+sg8
+g9
+sg10
+V1955
+p157
+sg12
+VLaurea in giurisprudenza
+p158
+sa(dp159
+g2
+VElisa
+p160
+sg4
+VPARTITO DEMOCRATICO
+p161
+sg6
+VSIMONI
+p162
+sg8
+g54
+sg10
+V1973
+p163
+sg12
+VLaurea in scienze politiche, Master in formazione e gestione delle risorse umane
+p164
+sa(dp165
+g2
+VCarlo
+p166
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p167
+sg6
+VSIBILIA
+p168
+sg8
+g9
+sg10
+V1986
+p169
+sg12
+VLaurea in biotecnologie
+p170
+sa(dp171
+g2
+VMarina
+p172
+sg4
+VPARTITO DEMOCRATICO
+p173
+sg6
+VSERENI
+p174
+sg8
+g54
+sg10
+V1960
+p175
+sg12
+VDiploma di liceo classico
+p176
+sa(dp177
+g2
+VAngelo
+p178
+sg4
+VPARTITO DEMOCRATICO
+p179
+sg6
+VSENALDI
+p180
+sg8
+g9
+sg10
+V1962
+p181
+sg12
+VLaurea in chimica
+p182
+sa(dp183
+g2
+VSamuele
+p184
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p185
+sg6
+VSEGONI
+p186
+sg8
+g9
+sg10
+V1978
+p187
+sg12
+VLaurea in scienze geologiche, Dottorato di ricerca in scienze della terra
+p188
+sa(dp189
+g2
+VChiara
+p190
+sg4
+VPARTITO DEMOCRATICO
+p191
+sg6
+VSCUVERA
+p192
+sg8
+g54
+sg10
+V1975
+p193
+sg12
+VLaurea in giurisprudenza
+p194
+sa(dp195
+g2
+VArturo
+p196
+sg4
+VSINISTRA ECOLOGIA LIBERTA'
+p197
+sg6
+VSCOTTO
+p198
+sg8
+g9
+sg10
+V1978
+p199
+sg12
+VLaurea in scienze politiche
+p200
+sa(dp201
+g2
+VRosanna
+p202
+sg4
+VIL POPOLO DELLA LIBERTA'
+p203
+sg6
+VSCOPELLITI
+p204
+sg8
+g54
+sg10
+V1983
+p205
+sg12
+VPresidente fondazione Antonino Scopelliti
+p206
+sa(dp207
+g2
+VManfred
+p208
+sg4
+VSVP
+p209
+sg6
+VSCHULLIAN
+p210
+sg8
+g9
+sg10
+V1962
+p211
+sg12
+VLaurea in giurisprudenza
+p212
+sa(dp213
+g2
+VPLANETA
+p214
+sg4
+VSCELTA CIVICA CON MONTI PER L'ITALIA
+p215
+sg6
+VSCHIRO'
+p216
+sg8
+g54
+sg10
+V1963
+p217
+sg12
+VLaurea in filosofia
+p218
+sa(dp219
+g2
+VGian
+p220
+sg4
+VPARTITO DEMOCRATICO
+p221
+sg6
+VSCANU
+p222
+sg8
+g9
+sg10
+V1953
+p223
+sg12
+VLaurea in scienze politiche
+p224
+sa(dp225
+g2
+VIvan
+p226
+sg4
+VPARTITO DEMOCRATICO
+p227
+sg6
+VSCALFAROTTO
+p228
+sg8
+g9
+sg10
+V1965
+p229
+sg12
+VLaurea in giurisprudenza
+p230
+sa(dp231
+g2
+VEmanuele
+p232
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p233
+sg6
+VSCAGLIUSI
+p234
+sg8
+g9
+sg10
+V1984
+p235
+sg12
+VDiploma di istituto tecnico industriale
+p236
+sa(dp237
+g2
+VDaniela
+p238
+sg4
+VPARTITO DEMOCRATICO
+p239
+sg6
+VSBROLLINI
+p240
+sg8
+g54
+sg10
+V1971
+p241
+sg12
+VDiploma di liceo classico
+p242
+sa(dp243
+g2
+VMario
+p244
+sg4
+VSCELTA CIVICA CON MONTI PER L'ITALIA
+p245
+sg6
+VSBERNA
+p246
+sg8
+g9
+sg10
+V1960
+p247
+sg12
+VMagistero in scienze religiose
+p248
+sa(dp249
+g2
+VSandra
+p250
+sg4
+VIL POPOLO DELLA LIBERTA'
+p251
+sg6
+VSAVINO
+p252
+sg8
+g54
+sg10
+V1960
+p253
+sg12
+VDiploma di istituto tecnico commerciale
+p254
+sa(dp255
+g2
+VElvira
+p256
+sg4
+VIL POPOLO DELLA LIBERTA'
+p257
+sg6
+VSAVINO
+p258
+sg8
+g54
+sg10
+V1977
+p259
+sg12
+VLaurea in economia e commercio, Master in marketing
+p260
+sa(dp261
+g2
+VGiulia
+p262
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p263
+sg6
+VSARTI
+p264
+sg8
+g54
+sg10
+V1986
+p265
+sg12
+VLaurea in giurisprudenza
+p266
+sa(dp267
+g2
+VCarlo
+p268
+sg4
+VIL POPOLO DELLA LIBERTA'
+p269
+sg6
+VSARRO
+p270
+sg8
+g9
+sg10
+V1959
+p271
+sg12
+VLaurea in giurisprudenza
+p272
+sa(dp273
+g2
+VMilena
+p274
+sg4
+VSCELTA CIVICA CON MONTI PER L'ITALIA
+p275
+sg6
+VSANTERINI
+p276
+sg8
+g54
+sg10
+V1953
+p277
+sg12
+VLaurea in lettere e filosofia, Corso di perfezionamento in storia medievale e moderna, Dottorato di ricerca in pedagogia
+p278
+sa(dp279
+g2
+VJole
+p280
+sg4
+VIL POPOLO DELLA LIBERTA'
+p281
+sg6
+VSANTELLI
+p282
+sg8
+g54
+sg10
+V1968
+p283
+sg12
+VLaurea in giurisprudenza
+p284
+sa(dp285
+g2
+VArcangelo
+p286
+sg4
+VSINISTRA ECOLOGIA LIBERTA'
+p287
+sg6
+VSANNICANDRO
+p288
+sg8
+g9
+sg10
+V1943
+p289
+sg12
+VLaurea in giurisprudenza
+p290
+sa(dp291
+g2
+VGiovanna
+p292
+sg4
+VPARTITO DEMOCRATICO
+p293
+sg6
+VSANNA
+p294
+sg8
+g54
+sg10
+V1960
+p295
+sg12
+VLaurea in scienze naturali
+p296
+sa(dp297
+g2
+VFrancesco
+p298
+sg4
+VPARTITO DEMOCRATICO
+p299
+sg6
+VSANNA
+p300
+sg8
+g9
+sg10
+V1965
+p301
+sg12
+VLaurea in giurisprudenza
+p302
+sa(dp303
+g2
+VLuca
+p304
+sg4
+VPARTITO DEMOCRATICO
+p305
+sg6
+VSANI
+p306
+sg8
+g9
+sg10
+V1965
+p307
+sg12
+VDiploma di istituto tecnico industriale
+p308
+sa(dp309
+g2
+VGiovanni
+p310
+sg4
+VPARTITO DEMOCRATICO
+p311
+sg6
+VSANGA
+p312
+sg8
+g9
+sg10
+V1962
+p313
+sg12
+VLaurea in economia e commercio
+p314
+sa(dp315
+g2
+VGianfranco
+p316
+sg4
+VIL POPOLO DELLA LIBERTA'
+p317
+sg6
+VSAMMARCO
+p318
+sg8
+g9
+sg10
+V1950
+p319
+sg12
+VDiploma di ragioneria
+p320
+sa(dp321
+g2
+VMatteo
+p322
+sg4
+VLEGA NORD
+p323
+sg6
+VSALVINI
+p324
+sg8
+g9
+sg10
+V1973
+p325
+sg12
+V 
+p326
+sa(dp327
+g2
+VBarbara
+p328
+sg4
+VIL POPOLO DELLA LIBERTA'
+p329
+sg6
+VSALTAMARTINI
+p330
+sg8
+g54
+sg10
+V1972
+p331
+sg12
+VDiploma di liceo scientifico
+p332
+sa(dp333
+g2
+VCarla
+p334
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p335
+sg6
+VRUOCCO
+p336
+sg8
+g54
+sg10
+V1973
+p337
+sg12
+VAbilitazione alla professione di dottore commercialista
+p338
+sa(dp339
+g2
+VAngelo
+p340
+sg4
+VPARTITO DEMOCRATICO
+p341
+sg6
+VRUGHETTI
+p342
+sg8
+g9
+sg10
+V1967
+p343
+sg12
+VLaurea in giurisprudenza
+p344
+sa(dp345
+g2
+VSimonetta
+p346
+sg4
+VPARTITO DEMOCRATICO
+p347
+sg6
+VRUBINATO
+p348
+sg8
+g54
+sg10
+V1963
+p349
+sg12
+VLaurea in giurisprudenza
+p350
+sa(dp351
+g2
+VAlessia
+p352
+sg4
+VPARTITO DEMOCRATICO
+p353
+sg6
+VROTTA
+p354
+sg8
+g54
+sg10
+V1975
+p355
+sg12
+VLaurea in scienze della comunicazione
+p356
+sa(dp357
+g2
+VGianfranco
+p358
+sg4
+VIL POPOLO DELLA LIBERTA'
+p359
+sg6
+VROTONDI
+p360
+sg8
+g9
+sg10
+V1960
+p361
+sg12
+VLaurea in giurisprudenza
+p362
+sa(dp363
+g2
+VGessica
+p364
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p365
+sg6
+VROSTELLATO
+p366
+sg8
+g54
+sg10
+V1982
+p367
+sg12
+VDiploma di istituto tecnico commerciale
+p368
+sa(dp369
+g2
+VMichela
+p370
+sg4
+VPARTITO DEMOCRATICO
+p371
+sg6
+VROSTAN
+p372
+sg8
+g54
+sg10
+V1982
+p373
+sg12
+VLaurea in giurisprudenza
+p374
+sa(dp375
+g2
+VAnna
+p376
+sg4
+VPARTITO DEMOCRATICO
+p377
+sg6
+VROSSOMANDO
+p378
+sg8
+g54
+sg10
+V1963
+p379
+sg12
+VLaurea in giurisprudenza
+p380
+sa(dp381
+g2
+VDomenico
+p382
+sg4
+VSCELTA CIVICA CON MONTI PER L'ITALIA
+p383
+sg6
+VROSSI
+p384
+sg8
+g9
+sg10
+V1951
+p385
+sg12
+VLaurea in scienze strategiche, Laurea in scienze politiche
+p386
+sa(dp387
+g2
+VEttore
+p388
+sg4
+VPARTITO DEMOCRATICO
+p389
+sg6
+VROSATO
+p390
+sg8
+g9
+sg10
+V1968
+p391
+sg12
+VDiploma di istituto tecnico commerciale
+p392
+sa(dp393
+g2
+VMarco
+p394
+sg4
+VLEGA NORD
+p395
+sg6
+VRONDINI
+p396
+sg8
+g9
+sg10
+V1968
+p397
+sg12
+VDiploma di qualifica di istituto professionale
+p398
+sa(dp399
+g2
+VGiuseppe
+p400
+sg4
+VIL POPOLO DELLA LIBERTA'
+p401
+sg6
+VROMELE
+p402
+sg8
+g9
+sg10
+V1951
+p403
+sg12
+V 
+p404
+sa(dp405
+g2
+VPaolo
+p406
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p407
+sg6
+VROMANO
+p408
+sg8
+g9
+sg10
+V1984
+p409
+sg12
+VDiploma di istituto tecnico industriale
+p410
+sa(dp411
+g2
+VFrancesco
+p412
+sg4
+VIL POPOLO DELLA LIBERTA'
+p413
+sg6
+VROMANO
+p414
+sg8
+g9
+sg10
+V1964
+p415
+sg12
+VLaurea in giurisprudenza
+p416
+sa(dp417
+g2
+VAndrea
+p418
+sg4
+VSCELTA CIVICA CON MONTI PER L'ITALIA
+p419
+sg6
+VROMANO
+p420
+sg8
+g9
+sg10
+V1967
+p421
+sg12
+VLaurea in storia, Dottorato di ricerca in storia
+p422
+sa(dp423
+g2
+VMaria
+p424
+sg4
+VPARTITO DEMOCRATICO
+p425
+sg6
+VROCCHI
+p426
+sg8
+g54
+sg10
+V1955
+p427
+sg12
+VLaurea in economia e commercio
+p428
+sa(dp429
+g2
+VEugenia
+p430
+sg4
+VIL POPOLO DELLA LIBERTA'
+p431
+sg6
+VROCCELLA
+p432
+sg8
+g54
+sg10
+V1953
+p433
+sg12
+VLaurea in lettere, Dottorato di ricerca
+p434
+sa(dp435
+g2
+VGianluca
+p436
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p437
+sg6
+VRIZZO
+p438
+sg8
+g9
+sg10
+V1974
+p439
+sg12
+VDiploma di liceo scientifico
+p440
+sa(dp441
+g2
+VWalter
+p442
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p443
+sg6
+VRIZZETTO
+p444
+sg8
+g9
+sg10
+V1975
+p445
+sg12
+VDiploma di liceo classico
+p446
+sa(dp447
+g2
+VAndrea
+p448
+sg4
+VPARTITO DEMOCRATICO
+p449
+sg6
+VRIGONI
+p450
+sg8
+g9
+sg10
+V1960
+p451
+sg12
+VLaurea in economia e commercio
+p452
+sa(dp453
+g2
+VMatteo
+p454
+sg4
+VPARTITO DEMOCRATICO
+p455
+sg6
+VRICHETTI
+p456
+sg8
+g9
+sg10
+V1974
+p457
+sg12
+VDiploma di liceo scientifico
+p458
+sa(dp459
+g2
+VLara
+p460
+sg4
+VSINISTRA ECOLOGIA LIBERTA'
+p461
+sg6
+VRICCIATTI
+p462
+sg8
+g54
+sg10
+V1985
+p463
+sg12
+VLaurea in scienze politiche
+p464
+sa(dp465
+g2
+VFrancesco
+p466
+sg4
+VPARTITO DEMOCRATICO
+p467
+sg6
+VRIBAUDO
+p468
+sg8
+g9
+sg10
+V1959
+p469
+sg12
+VDiploma di istituto tecnico commerciale
+p470
+sa(dp471
+g2
+VErmete
+p472
+sg4
+VPARTITO DEMOCRATICO
+p473
+sg6
+VREALACCI
+p474
+sg8
+g9
+sg10
+V1955
+p475
+sg12
+VDiploma di liceo classico
+p476
+sa(dp477
+g2
+VLaura
+p478
+sg4
+VIL POPOLO DELLA LIBERTA'
+p479
+sg6
+VRAVETTO
+p480
+sg8
+g54
+sg10
+V1971
+p481
+sg12
+VLaurea in giurisprudenza
+p482
+sa(dp483
+g2
+VRoberto
+p484
+sg4
+VPARTITO DEMOCRATICO
+p485
+sg6
+VRAMPI
+p486
+sg8
+g9
+sg10
+V1977
+p487
+sg12
+VLaurea in filosofia teoretica, morale, politica ed estetica
+p488
+sa(dp489
+g2
+VFabio
+p490
+sg4
+VFRATELLI D'ITALIA
+p491
+sg6
+VRAMPELLI
+p492
+sg8
+g9
+sg10
+V1960
+p493
+sg12
+VLaurea in archittettura
+p494
+sa(dp495
+g2
+VMichele
+p496
+sg4
+VSINISTRA ECOLOGIA LIBERTA'
+p497
+sg6
+VRAGOSTA
+p498
+sg8
+g9
+sg10
+V1955
+p499
+sg12
+VDiploma di Ragioneria
+p500
+sa(dp501
+g2
+VFausto
+p502
+sg4
+VPARTITO DEMOCRATICO
+p503
+sg6
+VRACITI
+p504
+sg8
+g9
+sg10
+V1984
+p505
+sg12
+VDiploma di liceo classico
+p506
+sa(dp507
+g2
+VMariano
+p508
+sg4
+VSCELTA CIVICA CON MONTI PER L'ITALIA
+p509
+sg6
+VRABINO
+p510
+sg8
+g9
+sg10
+V1970
+p511
+sg12
+VLaurea in giurisprudenza
+p512
+sa(dp513
+g2
+VPROCOPIO
+p514
+sg4
+VPARTITO DEMOCRATICO
+p515
+sg6
+VQUARTAPELLE
+p516
+sg8
+g54
+sg10
+V1982
+p517
+sg12
+VLaurea in economia dello Sviluppo Avanzata, Master in Economia, Soas Università di Londra, Dottorato di ricerca in economia
+p518
+sa(dp519
+g2
+VStefano
+p520
+sg4
+VSINISTRA ECOLOGIA LIBERTA'
+p521
+sg6
+VQUARANTA
+p522
+sg8
+g9
+sg10
+V1971
+p523
+sg12
+VLaurea in giurisprudenza
+p524
+sa(dp525
+g2
+VErnesto
+p526
+sg4
+VPARTITO DEMOCRATICO
+p527
+sg6
+VPREZIOSI
+p528
+sg8
+g9
+sg10
+V1955
+p529
+sg12
+VLaurea in scienze politiche
+p530
+sa(dp531
+g2
+VStefania
+p532
+sg4
+VIL POPOLO DELLA LIBERTA'
+p533
+sg6
+VPRESTIGIACOMO
+p534
+sg8
+g54
+sg10
+V1966
+p535
+sg12
+VLaurea in scienze della pubblica amministrazione
+p536
+sa(dp537
+g2
+VEmanuele
+p538
+sg4
+VLEGA NORD
+p539
+sg6
+VPRATAVIERA
+p540
+sg8
+g9
+sg10
+V1985
+p541
+sg12
+VLaurea in scienze politiche e delle relazioni internazionali
+p542
+sa(dp543
+g2
+VGiacomo
+p544
+sg4
+VPARTITO DEMOCRATICO
+p545
+sg6
+VPORTAS
+p546
+sg8
+g9
+sg10
+V1959
+p547
+sg12
+VDiploma di istituto tecnico per geometri
+p548
+sa(dp549
+g2
+VFabio
+p550
+sg4
+VPARTITO DEMOCRATICO
+p551
+sg6
+VPORTA
+p552
+sg8
+g9
+sg10
+V1963
+p553
+sg12
+VLaurea in sociologia
+p554
+sa(dp555
+g2
+VRenata
+p556
+sg4
+VIL POPOLO DELLA LIBERTA'
+p557
+sg6
+VPOLVERINI
+p558
+sg8
+g54
+sg10
+V1962
+p559
+sg12
+VSindacalista
+p560
+sa(dp561
+g2
+VBarbara
+p562
+sg4
+VPARTITO DEMOCRATICO
+p563
+sg6
+VPOLLASTRINI
+p564
+sg8
+g54
+sg10
+V1947
+p565
+sg12
+VLaurea in lingue e letterature straniere
+p566
+sa(dp567
+g2
+VCatia
+p568
+sg4
+VIL POPOLO DELLA LIBERTA'
+p569
+sg6
+VPOLIDORI
+p570
+sg8
+g54
+sg10
+V1967
+p571
+sg12
+VLaurea in economia bancaria, Dottorato di ricerca in scienze della formazione
+p572
+sa(dp573
+g2
+VAlbrecht
+p574
+sg4
+VSVP
+p575
+sg6
+VPLANGGER
+p576
+sg8
+g9
+sg10
+V1960
+p577
+sg12
+VLaurea in giurisprudenza
+p578
+sa(dp579
+g2
+VAntonio
+p580
+sg4
+VSINISTRA ECOLOGIA LIBERTA'
+p581
+sg6
+VPLACIDO
+p582
+sg8
+g9
+sg10
+V1962
+p583
+sg12
+V 
+p584
+sa(dp585
+g2
+VSergio
+p586
+sg4
+VIL POPOLO DELLA LIBERTA'
+p587
+sg6
+VPIZZOLANTE
+p588
+sg8
+g9
+sg10
+V1961
+p589
+sg12
+VDiploma di liceo scientifico
+p590
+sa(dp591
+g2
+VLapo
+p592
+sg4
+VPARTITO DEMOCRATICO
+p593
+sg6
+VPISTELLI
+p594
+sg8
+g9
+sg10
+V1964
+p595
+sg12
+VLaurea in scienze politiche
+p596
+sa(dp597
+g2
+VVincenzo
+p598
+sg4
+VIL POPOLO DELLA LIBERTA'
+p599
+sg6
+VPISO
+p600
+sg8
+g9
+sg10
+V1958
+p601
+sg12
+VDiploma di liceo classico
+p602
+sa(dp603
+g2
+VPino
+p604
+sg4
+VCENTRO DEMOCRATICO
+p605
+sg6
+VPISICCHIO
+p606
+sg8
+g9
+sg10
+V1954
+p607
+sg12
+VLaurea in giurisprudenza
+p608
+sa(dp609
+g2
+VGirolamo
+p610
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p611
+sg6
+VPISANO
+p612
+sg8
+g9
+sg10
+V1974
+p613
+sg12
+VLaurea in ingegneria elettronica
+p614
+sa(dp615
+g2
+VMichele
+p616
+sg4
+VSINISTRA ECOLOGIA LIBERTA'
+p617
+sg6
+VPIRAS
+p618
+sg8
+g9
+sg10
+V1972
+p619
+sg12
+VLaurea in scienze politiche
+p620
+sa(dp621
+g2
+VPaola
+p622
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p623
+sg6
+VPINNA
+p624
+sg8
+g54
+sg10
+V1974
+p625
+sg12
+VLaurea in scienze politiche, Master in business administration
+p626
+sa(dp627
+g2
+VGiuditta
+p628
+sg4
+VPARTITO DEMOCRATICO
+p629
+sg6
+VPINI
+p630
+sg8
+g54
+sg10
+V1984
+p631
+sg12
+VLaurea in mediazione linguistica culturale
+p632
+sa(dp633
+g2
+VGianluca
+p634
+sg4
+VLEGA NORD
+p635
+sg6
+VPINI
+p636
+sg8
+g9
+sg10
+V1973
+p637
+sg12
+VDiploma di istituto tecnico industriale
+p638
+sa(dp639
+g2
+VNazzareno
+p640
+sg4
+VSINISTRA ECOLOGIA LIBERTA'
+p641
+sg6
+VPILOZZI
+p642
+sg8
+g9
+sg10
+V1969
+p643
+sg12
+VMaturità classica
+p644
+sa(dp645
+g2
+VMauro
+p646
+sg4
+VIL POPOLO DELLA LIBERTA'
+p647
+sg6
+VPILI
+p648
+sg8
+g9
+sg10
+V1966
+p649
+sg12
+VGiornalista professionista
+p650
+sa(dp651
+g2
+VGaetano
+p652
+sg4
+VSCELTA CIVICA CON MONTI PER L'ITALIA
+p653
+sg6
+VPIEPOLI
+p654
+sg8
+g9
+sg10
+V1947
+p655
+sg12
+VLaurea in giurisprudenza
+p656
+sa(dp657
+g2
+VPina
+p658
+sg4
+VPARTITO DEMOCRATICO
+p659
+sg6
+VPICIERNO
+p660
+sg8
+g54
+sg10
+V1981
+p661
+sg12
+VLaurea in scienze della comunicazione
+p662
+sa(dp663
+g2
+VFilippo
+p664
+sg4
+VIL POPOLO DELLA LIBERTA'
+p665
+sg6
+VPICCONE
+p666
+sg8
+g9
+sg10
+V1961
+p667
+sg12
+VImprenditore
+p668
+sa(dp669
+g2
+VSalvatore
+p670
+sg4
+VPARTITO DEMOCRATICO
+p671
+sg6
+VPICCOLO
+p672
+sg8
+g9
+sg10
+V1948
+p673
+sg12
+VLaurea in giurisprudenza
+p674
+sa(dp675
+g2
+VGiorgio
+p676
+sg4
+VPARTITO DEMOCRATICO
+p677
+sg6
+VPICCOLO
+p678
+sg8
+g9
+sg10
+V1947
+p679
+sg12
+VDiploma istituto tecnico professionale
+p680
+sa(dp681
+g2
+VNARDELLI
+p682
+sg4
+VPARTITO DEMOCRATICO
+p683
+sg6
+VPICCOLI
+p684
+sg8
+g54
+sg10
+V1946
+p685
+sg12
+VLaurea in filosofia
+p686
+sa(dp687
+g2
+VTeresa
+p688
+sg4
+VPARTITO DEMOCRATICO
+p689
+sg6
+VPICCIONE
+p690
+sg8
+g54
+sg10
+V1955
+p691
+sg12
+VLaurea in lettere moderne
+p692
+sa(dp693
+g2
+VGuglielmo
+p694
+sg4
+VIL POPOLO DELLA LIBERTA'
+p695
+sg6
+VPICCHI
+p696
+sg8
+g9
+sg10
+V1973
+p697
+sg12
+VLaurea, Master in business administration
+p698
+sa(dp699
+g2
+VIleana
+p700
+sg4
+VSINISTRA ECOLOGIA LIBERTA'
+p701
+sg6
+VPIAZZONI
+p702
+sg8
+g54
+sg10
+V1972
+p703
+sg12
+VLaurea in scienze dell'amministrazione
+p704
+sa(dp705
+g2
+VPaolo
+p706
+sg4
+VPARTITO DEMOCRATICO
+p707
+sg6
+VPETRINI
+p708
+sg8
+g9
+sg10
+V1963
+p709
+sg12
+VLaurea in scienze politiche
+p710
+sa(dp711
+g2
+VGiovanna
+p712
+sg4
+VIL POPOLO DELLA LIBERTA'
+p713
+sg6
+VPETRENGA
+p714
+sg8
+g54
+sg10
+V1956
+p715
+sg12
+VLaurea in lettere
+p716
+sa(dp717
+g2
+VCosimo
+p718
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p719
+sg6
+VPETRAROLI
+p720
+sg8
+g9
+sg10
+V1978
+p721
+sg12
+VDiploma di istituto tecnico industriale
+p722
+sa(dp723
+g2
+VEmma
+p724
+sg4
+VPARTITO DEMOCRATICO
+p725
+sg6
+VPETITTI
+p726
+sg8
+g54
+sg10
+V1970
+p727
+sg12
+VLaurea in filosofia
+p728
+sa(dp729
+g2
+VDaniele
+p730
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p731
+sg6
+VPESCO
+p732
+sg8
+g9
+sg10
+V1973
+p733
+sg12
+VLaurea in ingegneria edile
+p734
+sa(dp735
+g2
+VCaterina
+p736
+sg4
+VPARTITO DEMOCRATICO
+p737
+sg6
+VPES
+p738
+sg8
+g54
+sg10
+V1960
+p739
+sg12
+VLaurea in filosofia, Diploma di perfezionamento in storia contemporanea
+p740
+sa(dp741
+g2
+VVinicio
+p742
+sg4
+VPARTITO DEMOCRATICO
+p743
+sg6
+VPELUFFO
+p744
+sg8
+g9
+sg10
+V1971
+p745
+sg12
+VDiploma di liceo classico
+p746
+sa(dp747
+g2
+VSerena
+p748
+sg4
+VSINISTRA ECOLOGIA LIBERTA'
+p749
+sg6
+VPELLEGRINO
+p750
+sg8
+g54
+sg10
+V1966
+p751
+sg12
+VLaurea in architettura
+p752
+sa(dp753
+g2
+VMichele
+p754
+sg4
+VPARTITO DEMOCRATICO
+p755
+sg6
+VPELILLO
+p756
+sg8
+g9
+sg10
+V1957
+p757
+sg12
+VLaurea in giurisprudenza
+p758
+sa(dp759
+g2
+VEdoardo
+p760
+sg4
+VPARTITO DEMOCRATICO
+p761
+sg6
+VPATRIARCA
+p762
+sg8
+g9
+sg10
+V1953
+p763
+sg12
+VLaurea in chimica
+p764
+sa(dp765
+g2
+VOreste
+p766
+sg4
+VPARTITO DEMOCRATICO
+p767
+sg6
+VPASTORELLI
+p768
+sg8
+g9
+sg10
+V1955
+p769
+sg12
+VDiploma di liceo scientifico
+p770
+sa(dp771
+g2
+VDario
+p772
+sg4
+VPARTITO DEMOCRATICO
+p773
+sg6
+VPARRINI
+p774
+sg8
+g9
+sg10
+V1973
+p775
+sg12
+VLaurea in scienze politiche
+p776
+sa(dp777
+g2
+VMassimo
+p778
+sg4
+VIL POPOLO DELLA LIBERTA'
+p779
+sg6
+VPARISI
+p780
+sg8
+g9
+sg10
+V1968
+p781
+sg12
+VDiploma di liceo classico
+p782
+sa(dp783
+g2
+VPaolo
+p784
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p785
+sg6
+VPARENTELA
+p786
+sg8
+g9
+sg10
+V1983
+p787
+sg12
+VDiploma di istituto tecnico commerciale
+p788
+sa(dp789
+g2
+VMassimo
+p790
+sg4
+VPARTITO DEMOCRATICO
+p791
+sg6
+VPAOLUCCI
+p792
+sg8
+g9
+sg10
+V1959
+p793
+sg12
+VDiploma di liceo scientifico
+p794
+sa(dp795
+g2
+VAnnalisa
+p796
+sg4
+VSINISTRA ECOLOGIA LIBERTA'
+p797
+sg6
+VPANNARALE
+p798
+sg8
+g54
+sg10
+V1976
+p799
+sg12
+V 
+p800
+sa(dp801
+g2
+VElio
+p802
+sg4
+VIL POPOLO DELLA LIBERTA'
+p803
+sg6
+VPALMIZIO
+p804
+sg8
+g9
+sg10
+V1954
+p805
+sg12
+VLaurea in economia e commercio
+p806
+sa(dp807
+g2
+VAntonio
+p808
+sg4
+VIL POPOLO DELLA LIBERTA'
+p809
+sg6
+VPALMIERI
+p810
+sg8
+g9
+sg10
+V1961
+p811
+sg12
+VLaurea in filosofia
+p812
+sa(dp813
+g2
+VRocco
+p814
+sg4
+VIL POPOLO DELLA LIBERTA'
+p815
+sg6
+VPALESE
+p816
+sg8
+g9
+sg10
+V1953
+p817
+sg12
+VLaurea in medicina e chirurgia, Chirurgia generale, Specializzazione in chirurgia d'urgenza
+p818
+sa(dp819
+g2
+VErasmo
+p820
+sg4
+VSINISTRA ECOLOGIA LIBERTA'
+p821
+sg6
+VPALAZZOTTO
+p822
+sg8
+g9
+sg10
+V1982
+p823
+sg12
+V 
+p824
+sa(dp825
+g2
+VGiovanni
+p826
+sg4
+VSINISTRA ECOLOGIA LIBERTA'
+p827
+sg6
+VPAGLIA
+p828
+sg8
+g9
+sg10
+V1977
+p829
+sg12
+VLaurea in scienze politiche
+p830
+sa(dp831
+g2
+VAlberto
+p832
+sg4
+VPARTITO DEMOCRATICO
+p833
+sg6
+VPAGANI
+p834
+sg8
+g9
+sg10
+V1971
+p835
+sg12
+VLaurea in scienze politiche
+p836
+sa(dp837
+g2
+VAndrea
+p838
+sg4
+VPARTITO DEMOCRATICO
+p839
+sg6
+VORLANDO
+p840
+sg8
+g9
+sg10
+V1969
+p841
+sg12
+VDiploma di liceo scientifico
+p842
+sa(dp843
+g2
+VMatteo
+p844
+sg4
+VPARTITO DEMOCRATICO
+p845
+sg6
+VORFINI
+p846
+sg8
+g9
+sg10
+V1974
+p847
+sg12
+VDiploma di liceo classico
+p848
+sa(dp849
+g2
+VRoberta
+p850
+sg4
+VSCELTA CIVICA CON MONTI PER L'ITALIA
+p851
+sg6
+VOLIARO
+p852
+sg8
+g54
+sg10
+V1965
+p853
+sg12
+VPerito aziendale corrispondente in lingue estere
+p854
+sa(dp855
+g2
+VFucsia
+p856
+sg4
+VCON MONTI PER L'ITALIA
+p857
+sg6
+VNISSOLI
+p858
+sg8
+g54
+sg10
+V1963
+p859
+sg12
+VDiploma di istituto tecnico commerciale
+p860
+sa(dp861
+g2
+VMichele
+p862
+sg4
+VPARTITO DEMOCRATICO
+p863
+sg6
+VNICOLETTI
+p864
+sg8
+g9
+sg10
+V1956
+p865
+sg12
+VLaurea in filosofia
+p866
+sa(dp867
+g2
+VMarisa
+p868
+sg4
+VSINISTRA ECOLOGIA LIBERTA'
+p869
+sg6
+VNICCHI
+p870
+sg8
+g54
+sg10
+V1954
+p871
+sg12
+V 
+p872
+sa(dp873
+g2
+VDalila
+p874
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p875
+sg6
+VNESCI
+p876
+sg8
+g54
+sg10
+V1986
+p877
+sg12
+V 
+p878
+sa(dp879
+g2
+VGaetano
+p880
+sg4
+VFRATELLI D'ITALIA
+p881
+sg6
+VNASTRI
+p882
+sg8
+g9
+sg10
+V1968
+p883
+sg12
+VDiploma di istituto tecnico industriale
+p884
+sa(dp885
+g2
+VMartina
+p886
+sg4
+VSINISTRA ECOLOGIA LIBERTA'
+p887
+sg6
+VNARDI
+p888
+sg8
+g54
+sg10
+V1973
+p889
+sg12
+VDiploma di liceo scientifico
+p890
+sa(dp891
+g2
+VDario
+p892
+sg4
+VPARTITO DEMOCRATICO
+p893
+sg6
+VNARDELLA
+p894
+sg8
+g9
+sg10
+V1975
+p895
+sg12
+VDottorato di ricerca in istituzioni di diritto pubblico
+p896
+sa(dp897
+g2
+VAlessandro
+p898
+sg4
+VPARTITO DEMOCRATICO
+p899
+sg6
+VNACCARATO
+p900
+sg8
+g9
+sg10
+V1969
+p901
+sg12
+VLaurea in storia
+p902
+sa(dp903
+g2
+VRomina
+p904
+sg4
+VPARTITO DEMOCRATICO
+p905
+sg6
+VMURA
+p906
+sg8
+g54
+sg10
+V1970
+p907
+sg12
+VLaurea in scienze politiche
+p908
+sa(dp909
+g2
+VGiovanni
+p910
+sg4
+VIL POPOLO DELLA LIBERTA'
+p911
+sg6
+VMOTTOLA
+p912
+sg8
+g9
+sg10
+V1946
+p913
+sg12
+VLaurea in scienze politiche
+p914
+sa(dp915
+g2
+VAntonino
+p916
+sg4
+VPARTITO DEMOCRATICO
+p917
+sg6
+VMOSCATT
+p918
+sg8
+g9
+sg10
+V1980
+p919
+sg12
+VDiploma di liceo scientifico
+p920
+sa(dp921
+g2
+VAlessia
+p922
+sg4
+VPARTITO DEMOCRATICO
+p923
+sg6
+VMOSCA
+p924
+sg8
+g54
+sg10
+V1975
+p925
+sg12
+VLaurea in filosofia, Dottorato di ricerca
+p926
+sa(dp927
+g2
+VSara
+p928
+sg4
+VPARTITO DEMOCRATICO
+p929
+sg6
+VMORETTO
+p930
+sg8
+g54
+sg10
+V1980
+p931
+sg12
+VLaurea in economia aziendale
+p932
+sa(dp933
+g2
+VAlessandra
+p934
+sg4
+VPARTITO DEMOCRATICO
+p935
+sg6
+VMORETTI
+p936
+sg8
+g54
+sg10
+V1973
+p937
+sg12
+VLaurea in giurisprudenza, Abilitazione all'attività forense
+p938
+sa(dp939
+g2
+VRoberto
+p940
+sg4
+VPARTITO DEMOCRATICO
+p941
+sg6
+VMORASSUT
+p942
+sg8
+g9
+sg10
+V1963
+p943
+sg12
+VLaurea in lettere moderne
+p944
+sa(dp945
+g2
+VAlessia
+p946
+sg4
+VPARTITO DEMOCRATICO
+p947
+sg6
+VMORANI
+p948
+sg8
+g54
+sg10
+V1976
+p949
+sg12
+VLaurea in giurisprudenza
+p950
+sa(dp951
+g2
+VColomba
+p952
+sg4
+VPARTITO DEMOCRATICO
+p953
+sg6
+VMONGIELLO
+p954
+sg8
+g54
+sg10
+V1961
+p955
+sg12
+VLaurea in lingue e letterature straniere
+p956
+sa(dp957
+g2
+VGiovanni
+p958
+sg4
+VSCELTA CIVICA CON MONTI PER L'ITALIA
+p959
+sg6
+VMONCHIERO
+p960
+sg8
+g9
+sg10
+V1946
+p961
+sg12
+VLaurea in scienze politiche
+p962
+sa(dp963
+g2
+VFrancesco
+p964
+sg4
+VPARTITO DEMOCRATICO
+p965
+sg6
+VMONACO
+p966
+sg8
+g9
+sg10
+V1951
+p967
+sg12
+VLaurea in scienze politiche
+p968
+sa(dp969
+g2
+VNicola
+p970
+sg4
+VLEGA NORD
+p971
+sg6
+VMOLTENI
+p972
+sg8
+g9
+sg10
+V1976
+p973
+sg12
+VLaurea in giurisprudenza
+p974
+sa(dp975
+g2
+VBruno
+p976
+sg4
+VSCELTA CIVICA CON MONTI PER L'ITALIA
+p977
+sg6
+VMOLEA
+p978
+sg8
+g9
+sg10
+V1955
+p979
+sg12
+VDiploma di istituto tecnico per geometri
+p980
+sa(dp981
+g2
+VMichele
+p982
+sg4
+VPARTITO DEMOCRATICO
+p983
+sg6
+VMOGNATO
+p984
+sg8
+g9
+sg10
+V1961
+p985
+sg12
+VDiploma di istituto tecnico industriale
+p986
+sa(dp987
+g2
+VFederica
+p988
+sg4
+VPARTITO DEMOCRATICO
+p989
+sg6
+VMOGHERINI
+p990
+sg8
+g54
+sg10
+V1973
+p991
+sg12
+VLaurea in scienze politiche
+p992
+sa(dp993
+g2
+VDore
+p994
+sg4
+VIL POPOLO DELLA LIBERTA'
+p995
+sg6
+VMISURACA
+p996
+sg8
+g9
+sg10
+V1957
+p997
+sg12
+VLaurea in economia e commercio
+p998
+sa(dp999
+g2
+VAntonio
+p1000
+sg4
+VPARTITO DEMOCRATICO
+p1001
+sg6
+VMISIANI
+p1002
+sg8
+g9
+sg10
+V1968
+p1003
+sg12
+VLaurea in economia politica
+p1004
+sa(dp1005
+g2
+VLorena
+p1006
+sg4
+VIL POPOLO DELLA LIBERTA'
+p1007
+sg6
+VMILANATO
+p1008
+sg8
+g54
+sg10
+V1962
+p1009
+sg12
+VDiploma di istituto tecnico commerciale
+p1010
+sa(dp1011
+g2
+VGennaro
+p1012
+sg4
+VSINISTRA ECOLOGIA LIBERTA'
+p1013
+sg6
+VMIGLIORE
+p1014
+sg8
+g9
+sg10
+V1968
+p1015
+sg12
+VLaurea in fisica
+p1016
+sa(dp1017
+g2
+VMarco
+p1018
+sg4
+VPARTITO DEMOCRATICO
+p1019
+sg6
+VMICCOLI
+p1020
+sg8
+g9
+sg10
+V1961
+p1021
+sg12
+VIstituto tecnico professionale per elettrotecnici
+p1022
+sa(dp1023
+g2
+VMichele
+p1024
+sg4
+VPARTITO DEMOCRATICO
+p1025
+sg6
+VMETA
+p1026
+sg8
+g9
+sg10
+V1953
+p1027
+sg12
+VDiploma di istituto tecnico aeronautico
+p1028
+sa(dp1029
+g2
+VRicardo
+p1030
+sg4
+VMOV.ASSOCIATIVO ITALIANI ALL'ESTERO
+p1031
+sg6
+VMERLO
+p1032
+sg8
+g9
+sg10
+V1962
+p1033
+sg12
+VLaurea in scienze politiche
+p1034
+sa(dp1035
+g2
+VMarco
+p1036
+sg4
+VPARTITO DEMOCRATICO
+p1037
+sg6
+VMELONI
+p1038
+sg8
+g9
+sg10
+V1971
+p1039
+sg12
+VLaurea in giurisprudenza, Dottorato di ricerca in diritto dell'Unione europea
+p1040
+sa(dp1041
+g2
+VGiorgia
+p1042
+sg4
+VFRATELLI D'ITALIA
+p1043
+sg6
+VMELONI
+p1044
+sg8
+g54
+sg10
+V1977
+p1045
+sg12
+VDiploma di liceo linguistico
+p1046
+sa(dp1047
+g2
+VFabio
+p1048
+sg4
+VPARTITO DEMOCRATICO
+p1049
+sg6
+VMELILLI
+p1050
+sg8
+g9
+sg10
+V1958
+p1051
+sg12
+VLaurea in giurisprudenza
+p1052
+sa(dp1053
+g2
+VGeneroso
+p1054
+sg4
+VSINISTRA ECOLOGIA LIBERTA'
+p1055
+sg6
+VMELILLA
+p1056
+sg8
+g9
+sg10
+V1954
+p1057
+sg12
+VLaurea in filosofia
+p1058
+sa(dp1059
+g2
+VAlessandro
+p1060
+sg4
+VPARTITO DEMOCRATICO
+p1061
+sg6
+VMAZZOLI
+p1062
+sg8
+g9
+sg10
+V1972
+p1063
+sg12
+VDiploma di liceo scientifico
+p1064
+sa(dp1065
+g2
+VDI
+p1066
+sg4
+VSCELTA CIVICA CON MONTI PER L'ITALIA
+p1067
+sg6
+VMAZZIOTTI
+p1068
+sg8
+g9
+sg10
+V1966
+p1069
+sg12
+VLaurea in giurisprudenza
+p1070
+sa(dp1071
+g2
+VMatteo
+p1072
+sg4
+VPARTITO DEMOCRATICO
+p1073
+sg6
+VMAURI
+p1074
+sg8
+g9
+sg10
+V1970
+p1075
+sg12
+VLaurea in scienze politiche
+p1076
+sa(dp1077
+g2
+VDavide
+p1078
+sg4
+VPARTITO DEMOCRATICO
+p1079
+sg6
+VMATTIELLO
+p1080
+sg8
+g9
+sg10
+V1972
+p1081
+sg12
+VLaurea in giurisprudenza
+p1082
+sa(dp1083
+g2
+VSalvatore
+p1084
+sg4
+VSCELTA CIVICA CON MONTI PER L'ITALIA
+p1085
+sg6
+VMATARRESE
+p1086
+sg8
+g9
+sg10
+V1962
+p1087
+sg12
+VLaurea in ingegneria civile
+p1088
+sa(dp1089
+g2
+VMichela
+p1090
+sg4
+VPARTITO DEMOCRATICO
+p1091
+sg6
+VMARZANO
+p1092
+sg8
+g54
+sg10
+V1970
+p1093
+sg12
+VLaurea in filosofia, Habilitation à diriger de recherches, Sorbona, Parigi, Dottorato di ricerca in filosofia alla Scuola Normale Superiore di Pisa
+p1094
+sa(dp1095
+g2
+VMaria
+p1096
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p1097
+sg6
+VMARZANA
+p1098
+sg8
+g54
+sg10
+V1982
+p1099
+sg12
+VLaurea in scienze della formazione
+p1100
+sa(dp1101
+g2
+VRoberto
+p1102
+sg4
+VIL POPOLO DELLA LIBERTA'
+p1103
+sg6
+VMARTI
+p1104
+sg8
+g9
+sg10
+V1974
+p1105
+sg12
+VDiploma di istituto tecnico per periti aziendali
+p1106
+sa(dp1107
+g2
+VPierdomenico
+p1108
+sg4
+VPARTITO DEMOCRATICO
+p1109
+sg6
+VMARTINO
+p1110
+sg8
+g9
+sg10
+V1963
+p1111
+sg12
+VDiploma di liceo classico
+p1112
+sa(dp1113
+g2
+VAntonio
+p1114
+sg4
+VIL POPOLO DELLA LIBERTA'
+p1115
+sg6
+VMARTINO
+p1116
+sg8
+g9
+sg10
+V1942
+p1117
+sg12
+VLaurea in giurisprudenza, Specializzazione in economia
+p1118
+sa(dp1119
+g2
+VMarco
+p1120
+sg4
+VIL POPOLO DELLA LIBERTA'
+p1121
+sg6
+VMARTINELLI
+p1122
+sg8
+g9
+sg10
+V1962
+p1123
+sg12
+VDiploma di istituto nautico
+p1124
+sa(dp1125
+g2
+VGiovanna
+p1126
+sg4
+VPARTITO DEMOCRATICO
+p1127
+sg6
+VMARTELLI
+p1128
+sg8
+g54
+sg10
+V1963
+p1129
+sg12
+VDiploma di istituto tecnico commerciale
+p1130
+sa(dp1131
+g2
+VAndrea
+p1132
+sg4
+VPARTITO DEMOCRATICO
+p1133
+sg6
+VMARTELLA
+p1134
+sg8
+g9
+sg10
+V1968
+p1135
+sg12
+VLaurea in lettere e filosofia
+p1136
+sa(dp1137
+g2
+VUmberto
+p1138
+sg4
+VPARTITO DEMOCRATICO
+p1139
+sg6
+VMARRONI
+p1140
+sg8
+g9
+sg10
+V1966
+p1141
+sg12
+VDiploma di liceo classico
+p1142
+sa(dp1143
+g2
+VSiro
+p1144
+sg4
+VPARTITO DEMOCRATICO
+p1145
+sg6
+VMARROCU
+p1146
+sg8
+g9
+sg10
+V1954
+p1147
+sg12
+VDiploma di liceo classico
+p1148
+sa(dp1149
+g2
+VAntonio
+p1150
+sg4
+VIL POPOLO DELLA LIBERTA'
+p1151
+sg6
+VMAROTTA
+p1152
+sg8
+g9
+sg10
+V1947
+p1153
+sg12
+VLaurea in giurisprudenza
+p1154
+sa(dp1155
+g2
+VElisa
+p1156
+sg4
+VPARTITO DEMOCRATICO
+p1157
+sg6
+VMARIANO
+p1158
+sg8
+g54
+sg10
+V1977
+p1159
+sg12
+VDottorato di ricerca
+p1160
+sa(dp1161
+g2
+VRaffaella
+p1162
+sg4
+VPARTITO DEMOCRATICO
+p1163
+sg6
+VMARIANI
+p1164
+sg8
+g54
+sg10
+V1960
+p1165
+sg12
+VLaurea in scienze geologiche
+p1166
+sa(dp1167
+g2
+VRudi
+p1168
+sg4
+V1-AOSTA
+p1169
+sg6
+VMARGUERETTAZ
+p1170
+sg8
+g9
+sg10
+V1957
+p1171
+sg12
+VDiploma di istituto magistrale
+p1172
+sa(dp1173
+g2
+VGiulio
+p1174
+sg4
+VSINISTRA ECOLOGIA LIBERTA'
+p1175
+sg6
+VMARCON
+p1176
+sg8
+g9
+sg10
+V1959
+p1177
+sg12
+VLaurea in filosofia
+p1178
+sa(dp1179
+g2
+VMarco
+p1180
+sg4
+VLEGA NORD
+p1181
+sg6
+VMARCOLIN
+p1182
+sg8
+g9
+sg10
+V1957
+p1183
+sg12
+VDiploma di istituto tecnico commerciale
+p1184
+sa(dp1185
+g2
+VMaino
+p1186
+sg4
+VPARTITO DEMOCRATICO
+p1187
+sg6
+VMARCHI
+p1188
+sg8
+g9
+sg10
+V1957
+p1189
+sg12
+VLaurea in economia e commercio
+p1190
+sa(dp1191
+g2
+VMario
+p1192
+sg4
+VSCELTA CIVICA CON MONTI PER L'ITALIA
+p1193
+sg6
+VMARAZZITI
+p1194
+sg8
+g9
+sg10
+V1952
+p1195
+sg12
+VLaurea in filosofia
+p1196
+sa(dp1197
+g2
+VDaniele
+p1198
+sg4
+VPARTITO DEMOCRATICO
+p1199
+sg6
+VMARANTELLI
+p1200
+sg8
+g9
+sg10
+V1953
+p1201
+sg12
+VDiploma di istituto tecnico commerciale
+p1202
+sa(dp1203
+g2
+VIrene
+p1204
+sg4
+VPARTITO DEMOCRATICO
+p1205
+sg6
+VMANZI
+p1206
+sg8
+g54
+sg10
+V1977
+p1207
+sg12
+VLaurea in giurisprudenza, Corsi e scritti di specializzazione e approfondimenti
+p1208
+sa(dp1209
+g2
+VMatteo
+p1210
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p1211
+sg6
+VMANTERO
+p1212
+sg8
+g9
+sg10
+V1974
+p1213
+sg12
+VDiploma di istituto tecnico industriale
+p1214
+sa(dp1215
+g2
+VClaudia
+p1216
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p1217
+sg6
+VMANNINO
+p1218
+sg8
+g54
+sg10
+V1978
+p1219
+sg12
+VLaurea in architettura, Master II livello in Gestione dell'Innovazione nella PMI
+p1220
+sa(dp1221
+g2
+VMassimiliano
+p1222
+sg4
+VPARTITO DEMOCRATICO
+p1223
+sg6
+VMANFREDI
+p1224
+sg8
+g9
+sg10
+V1973
+p1225
+sg12
+VDiploma di liceo classico
+p1226
+sa(dp1227
+g2
+VAndrea
+p1228
+sg4
+VPARTITO DEMOCRATICO
+p1229
+sg6
+VMANCIULLI
+p1230
+sg8
+g9
+sg10
+V1969
+p1231
+sg12
+VLaurea in storia
+p1232
+sa(dp1233
+g2
+VSimona
+p1234
+sg4
+VPARTITO DEMOCRATICO
+p1235
+sg6
+VMALPEZZI
+p1236
+sg8
+g54
+sg10
+V1972
+p1237
+sg12
+VLaurea in lettere e filosofia
+p1238
+sa(dp1239
+g2
+VGianna
+p1240
+sg4
+VPARTITO DEMOCRATICO
+p1241
+sg6
+VMALISANI
+p1242
+sg8
+g54
+sg10
+V1954
+p1243
+sg12
+VLaurea in architettura
+p1244
+sa(dp1245
+g2
+VPasquale
+p1246
+sg4
+VFRATELLI D'ITALIA
+p1247
+sg6
+VMAIETTA
+p1248
+sg8
+g9
+sg10
+V1971
+p1249
+sg12
+VLaurea in economia e commercio
+p1250
+sa(dp1251
+g2
+VErnesto
+p1252
+sg4
+VPARTITO DEMOCRATICO
+p1253
+sg6
+VMAGORNO
+p1254
+sg8
+g9
+sg10
+V1961
+p1255
+sg12
+VLaurea in giurisprudenza
+p1256
+sa(dp1257
+g2
+VPatrizia
+p1258
+sg4
+VPARTITO DEMOCRATICO
+p1259
+sg6
+VMAESTRI
+p1260
+sg8
+g54
+sg10
+V1954
+p1261
+sg12
+VDiploma di istituto tecnico commerciale
+p1262
+sa(dp1263
+g2
+VMaria
+p1264
+sg4
+VPARTITO DEMOCRATICO
+p1265
+sg6
+VMADIA
+p1266
+sg8
+g54
+sg10
+V1980
+p1267
+sg12
+VLaurea in scienze politiche
+p1268
+sa(dp1269
+g2
+VMaurizio
+p1270
+sg4
+VIL POPOLO DELLA LIBERTA'
+p1271
+sg6
+VLUPI
+p1272
+sg8
+g9
+sg10
+V1959
+p1273
+sg12
+VLaurea in Scienze politiche
+p1274
+sa(dp1275
+g2
+VLuca
+p1276
+sg4
+VPARTITO DEMOCRATICO
+p1277
+sg6
+VLOTTI
+p1278
+sg8
+g9
+sg10
+V1982
+p1279
+sg12
+VLaurea in scienze dell'amministrazione
+p1280
+sa(dp1281
+g2
+VAlberto
+p1282
+sg4
+VPARTITO DEMOCRATICO
+p1283
+sg6
+VLOSACCO
+p1284
+sg8
+g9
+sg10
+V1970
+p1285
+sg12
+VLaurea in giurisprudenza
+p1286
+sa(dp1287
+g2
+VBeatrice
+p1288
+sg4
+VIL POPOLO DELLA LIBERTA'
+p1289
+sg6
+VLORENZIN
+p1290
+sg8
+g54
+sg10
+V1971
+p1291
+sg12
+VDiploma di liceo classico
+p1292
+sa(dp1293
+g2
+VMarialucia
+p1294
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p1295
+sg6
+VLOREFICE
+p1296
+sg8
+g54
+sg10
+V1980
+p1297
+sg12
+VDiploma di liceo linguistico
+p1298
+sa(dp1299
+g2
+VPiero
+p1300
+sg4
+VIL POPOLO DELLA LIBERTA'
+p1301
+sg6
+VLONGO
+p1302
+sg8
+g9
+sg10
+V1944
+p1303
+sg12
+VLaurea in giurisprudenza
+p1304
+sa(dp1305
+g2
+VMONTE
+p1306
+sg4
+VCENTRO DEMOCRATICO
+p1307
+sg6
+VLO
+p1308
+sg8
+g9
+sg10
+V1956
+p1309
+sg12
+VLaurea in giurisprudenza
+p1310
+sa(dp1311
+g2
+VRoberta
+p1312
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p1313
+sg6
+VLOMBARDI
+p1314
+sg8
+g54
+sg10
+V1973
+p1315
+sg12
+VLaurea in giurisprudenza
+p1316
+sa(dp1317
+g2
+VEmanuele
+p1318
+sg4
+VPARTITO DEMOCRATICO
+p1319
+sg6
+VLODOLINI
+p1320
+sg8
+g9
+sg10
+V1977
+p1321
+sg12
+VDiploma di liceo scientifico
+p1322
+sa(dp1323
+g2
+VPia
+p1324
+sg4
+VPARTITO DEMOCRATICO
+p1325
+sg6
+VLOCATELLI
+p1326
+sg8
+g54
+sg10
+V1949
+p1327
+sg12
+VLaurea in economia e commercio, Laurea in lingue e letterature straniere
+p1328
+sa(dp1329
+g2
+VMirella
+p1330
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p1331
+sg6
+VLIUZZI
+p1332
+sg8
+g54
+sg10
+V1985
+p1333
+sg12
+VLaurea in comunicazione pubblica e di impresa
+p1334
+sa(dp1335
+g2
+VDanilo
+p1336
+sg4
+VPARTITO DEMOCRATICO
+p1337
+sg6
+VLEVA
+p1338
+sg8
+g9
+sg10
+V1978
+p1339
+sg12
+VLaurea in giurisprudenza
+p1340
+sa(dp1341
+g2
+VEnrico
+p1342
+sg4
+VPARTITO DEMOCRATICO
+p1343
+sg6
+VLETTA
+p1344
+sg8
+g9
+sg10
+V1966
+p1345
+sg12
+VLaurea in scienze politiche, Dottorato di ricerca in diritto internazionale
+p1346
+sa(dp1347
+g2
+VMarta
+p1348
+sg4
+VPARTITO DEMOCRATICO
+p1349
+sg6
+VLEONORI
+p1350
+sg8
+g54
+sg10
+V1977
+p1351
+sg12
+VMaster in organizzazione aziendale
+p1352
+sa(dp1353
+g2
+VAntonio
+p1354
+sg4
+VIL POPOLO DELLA LIBERTA'
+p1355
+sg6
+VLEONE
+p1356
+sg8
+g9
+sg10
+V1948
+p1357
+sg12
+VLaurea in giurisprudenza
+p1358
+sa(dp1359
+g2
+VDonata
+p1360
+sg4
+VPARTITO DEMOCRATICO
+p1361
+sg6
+VLENZI
+p1362
+sg8
+g54
+sg10
+V1956
+p1363
+sg12
+VLaurea in giurisprudenza
+p1364
+sa(dp1365
+g2
+VGiovanni
+p1366
+sg4
+VPARTITO DEMOCRATICO
+p1367
+sg6
+VLEGNINI
+p1368
+sg8
+g9
+sg10
+V1959
+p1369
+sg12
+VLaurea in giurisprudenza
+p1370
+sa(dp1371
+g2
+VFabio
+p1372
+sg4
+VSINISTRA ECOLOGIA LIBERTA'
+p1373
+sg6
+VLAVAGNO
+p1374
+sg8
+g9
+sg10
+V1977
+p1375
+sg12
+VLaurea in lingue e letterature orientali
+p1376
+sa(dp1377
+g2
+VEnzo
+p1378
+sg4
+VPARTITO DEMOCRATICO
+p1379
+sg6
+VLATTUCA
+p1380
+sg8
+g9
+sg10
+V1988
+p1381
+sg12
+VLaurea magistrale in scienze giuridiche
+p1382
+sa(dp1383
+g2
+VCosimo
+p1384
+sg4
+VIL POPOLO DELLA LIBERTA'
+p1385
+sg6
+VLATRONICO
+p1386
+sg8
+g9
+sg10
+V1958
+p1387
+sg12
+VLaurea in scienze politiche
+p1388
+sa(dp1389
+g2
+VRUSSA
+p1390
+sg4
+VFRATELLI D'ITALIA
+p1391
+sg6
+VLA
+p1392
+sg8
+g9
+sg10
+V1947
+p1393
+sg12
+VLaurea in giurisprudenza
+p1394
+sa(dp1395
+g2
+VMARCA
+p1396
+sg4
+VPARTITO DEMOCRATICO
+p1397
+sg6
+VLA
+p1398
+sg8
+g54
+sg10
+V1975
+p1399
+sg12
+VLaurea in lingue e letterature straniere, Master e dottorato in letteratura francese
+p1400
+sa(dp1401
+g2
+VGiorgio
+p1402
+sg4
+VIL POPOLO DELLA LIBERTA'
+p1403
+sg6
+VLAINATI
+p1404
+sg8
+g9
+sg10
+V1958
+p1405
+sg12
+VDiploma di liceo scientifico
+p1406
+sa(dp1407
+g2
+VFrancesco
+p1408
+sg4
+VPARTITO DEMOCRATICO
+p1409
+sg6
+VLAFORGIA
+p1410
+sg8
+g9
+sg10
+V1978
+p1411
+sg12
+VLaurea in discipline economiche e sociali, Dottorato di ricerca in economia
+p1412
+sa(dp1413
+g2
+VPietro
+p1414
+sg4
+VIL POPOLO DELLA LIBERTA'
+p1415
+sg6
+VLAFFRANCO
+p1416
+sg8
+g9
+sg10
+V1970
+p1417
+sg12
+VLaurea in giurisprudenza
+p1418
+sa(dp1419
+g2
+VLuigi
+p1420
+sg4
+VSINISTRA ECOLOGIA LIBERTA'
+p1421
+sg6
+VLACQUANITI
+p1422
+sg8
+g9
+sg10
+V1966
+p1423
+sg12
+VLaurea in giurisprudenza
+p1424
+sa(dp1425
+g2
+VVincenza
+p1426
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p1427
+sg6
+VLABRIOLA
+p1428
+sg8
+g54
+sg10
+V1981
+p1429
+sg12
+VLaurea in scienze della comunicazione
+p1430
+sa(dp1431
+g2
+VGiuseppe
+p1432
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p1433
+sg6
+VL'ABBATE
+p1434
+sg8
+g9
+sg10
+V1985
+p1435
+sg12
+VLaurea in informatica
+p1436
+sa(dp1437
+g2
+VCristian
+p1438
+sg4
+VLEGA NORD
+p1439
+sg6
+VINVERNIZZI
+p1440
+sg8
+g9
+sg10
+V1977
+p1441
+sg12
+VDiploma di liceo classico
+p1442
+sa(dp1443
+g2
+VAntonella
+p1444
+sg4
+VPARTITO DEMOCRATICO
+p1445
+sg6
+VINCERTI
+p1446
+sg8
+g54
+sg10
+V1960
+p1447
+sg12
+VLaurea in lettere
+p1448
+sa(dp1449
+g2
+VLeonardo
+p1450
+sg4
+VPARTITO DEMOCRATICO
+p1451
+sg6
+VIMPEGNO
+p1452
+sg8
+g9
+sg10
+V1974
+p1453
+sg12
+VLaurea in giurisprudenza
+p1454
+sa(dp1455
+g2
+VTino
+p1456
+sg4
+VPARTITO DEMOCRATICO
+p1457
+sg6
+VIANNUZZI
+p1458
+sg8
+g9
+sg10
+V1960
+p1459
+sg12
+VLaurea in giurisprudenza
+p1460
+sa(dp1461
+g2
+VCristian
+p1462
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p1463
+sg6
+VIANNUZZI
+p1464
+sg8
+g9
+sg10
+V1973
+p1465
+sg12
+VDiploma di istituto professionale per l'industria e l'artigianato
+p1466
+sa(dp1467
+g2
+VMaria
+p1468
+sg4
+VPARTITO DEMOCRATICO
+p1469
+sg6
+VIACONO
+p1470
+sg8
+g54
+sg10
+V1962
+p1471
+sg12
+VDiploma di liceo classico
+p1472
+sa(dp1473
+g2
+VMauro
+p1474
+sg4
+VPARTITO DEMOCRATICO
+p1475
+sg6
+VGUERRA
+p1476
+sg8
+g9
+sg10
+V1957
+p1477
+sg12
+VLaurea in giurisprudenza
+p1478
+sa(dp1479
+g2
+VLorenzo
+p1480
+sg4
+VPARTITO DEMOCRATICO
+p1481
+sg6
+VGUERINI
+p1482
+sg8
+g9
+sg10
+V1966
+p1483
+sg12
+VLaurea in scienze politiche
+p1484
+sa(dp1485
+g2
+VGiuseppe
+p1486
+sg4
+VPARTITO DEMOCRATICO
+p1487
+sg6
+VGUERINI
+p1488
+sg8
+g9
+sg10
+V1976
+p1489
+sg12
+VLaurea in giurisprudenza, Master in Comunicazione pubblica e politica
+p1490
+sa(dp1491
+g2
+VPaolo
+p1492
+sg4
+VLEGA NORD
+p1493
+sg6
+VGRIMOLDI
+p1494
+sg8
+g9
+sg10
+V1975
+p1495
+sg12
+VDiploma di liceo scientifico
+p1496
+sa(dp1497
+g2
+VGiulia
+p1498
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p1499
+sg6
+VGRILLO
+p1500
+sg8
+g54
+sg10
+V1975
+p1501
+sg12
+VLaurea in medicina e chirurgia, Specializzazione in medicina legale
+p1502
+sa(dp1503
+g2
+VChiara
+p1504
+sg4
+VPARTITO DEMOCRATICO
+p1505
+sg6
+VGRIBAUDO
+p1506
+sg8
+g54
+sg10
+V1981
+p1507
+sg12
+VEducatrice
+p1508
+sa(dp1509
+g2
+VMonica
+p1510
+sg4
+VPARTITO DEMOCRATICO
+p1511
+sg6
+VGREGORI
+p1512
+sg8
+g54
+sg10
+V1980
+p1513
+sg12
+VDiploma di istituto tecnico commerciale
+p1514
+sa(dp1515
+g2
+VMaria
+p1516
+sg4
+VPARTITO DEMOCRATICO
+p1517
+sg6
+VGRECO
+p1518
+sg8
+g54
+sg10
+V1958
+p1519
+sg12
+VLaurea in giurisprudenza
+p1520
+sa(dp1521
+g2
+VGero
+p1522
+sg4
+VPARTITO DEMOCRATICO
+p1523
+sg6
+VGRASSI
+p1524
+sg8
+g9
+sg10
+V1958
+p1525
+sg12
+VDiploma di liceo classico
+p1526
+sa(dp1527
+g2
+VMarta
+p1528
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p1529
+sg6
+VGRANDE
+p1530
+sg8
+g54
+sg10
+V1987
+p1531
+sg12
+VLaurea in lingue e commercio internazionale, Master in Studi Europei
+p1532
+sa(dp1533
+g2
+VSandro
+p1534
+sg4
+VPARTITO DEMOCRATICO
+p1535
+sg6
+VGOZI
+p1536
+sg8
+g9
+sg10
+V1968
+p1537
+sg12
+VLaurea in giurisprudenza, Dottorato in diritto pubblico, Diploma di studi approfonditi di scienze politiche, Master in politica internazionale
+p1538
+sa(dp1539
+g2
+VMarialuisa
+p1540
+sg4
+VPARTITO DEMOCRATICO
+p1541
+sg6
+VGNECCHI
+p1542
+sg8
+g54
+sg10
+V1953
+p1543
+sg12
+VDiploma di liceo classico
+p1544
+sa(dp1545
+g2
+VGiampiero
+p1546
+sg4
+VPARTITO DEMOCRATICO
+p1547
+sg6
+VGIULIETTI
+p1548
+sg8
+g9
+sg10
+V1968
+p1549
+sg12
+VLaurea in filosofia
+p1550
+sa(dp1551
+g2
+VFabrizia
+p1552
+sg4
+VPARTITO DEMOCRATICO
+p1553
+sg6
+VGIULIANI
+p1554
+sg8
+g54
+sg10
+V1966
+p1555
+sg12
+VLaurea in filosofia, Dottorato di ricerca
+p1556
+sa(dp1557
+g2
+VGregorio
+p1558
+sg4
+VSCELTA CIVICA CON MONTI PER L'ITALIA
+p1559
+sg6
+VGITTI
+p1560
+sg8
+g9
+sg10
+V1964
+p1561
+sg12
+VLaurea in giurisprudenza
+p1562
+sa(dp1563
+g2
+VAndrea
+p1564
+sg4
+VPARTITO DEMOCRATICO
+p1565
+sg6
+VGIORGIS
+p1566
+sg8
+g9
+sg10
+V1965
+p1567
+sg12
+VLaurea in giurisprudenza
+p1568
+sa(dp1569
+g2
+VGiancarlo
+p1570
+sg4
+VLEGA NORD
+p1571
+sg6
+VGIORGETTI
+p1572
+sg8
+g9
+sg10
+V1966
+p1573
+sg12
+VLaurea in economia
+p1574
+sa(dp1575
+g2
+VAlberto
+p1576
+sg4
+VIL POPOLO DELLA LIBERTA'
+p1577
+sg6
+VGIORGETTI
+p1578
+sg8
+g9
+sg10
+V1967
+p1579
+sg12
+VLaurea in economia e commercio
+p1580
+sa(dp1581
+g2
+VSilvia
+p1582
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p1583
+sg6
+VGIORDANO
+p1584
+sg8
+g54
+sg10
+V1986
+p1585
+sg12
+VDiploma di liceo classico
+p1586
+sa(dp1587
+g2
+VGiancarlo
+p1588
+sg4
+VSINISTRA ECOLOGIA LIBERTA'
+p1589
+sg6
+VGIORDANO
+p1590
+sg8
+g9
+sg10
+V1972
+p1591
+sg12
+VDiploma di liceo scientifico
+p1592
+sa(dp1593
+g2
+VTommaso
+p1594
+sg4
+VPARTITO DEMOCRATICO
+p1595
+sg6
+VGINOBLE
+p1596
+sg8
+g9
+sg10
+V1953
+p1597
+sg12
+VAssicuratore
+p1598
+sa(dp1599
+g2
+VDario
+p1600
+sg4
+VPARTITO DEMOCRATICO
+p1601
+sg6
+VGINEFRA
+p1602
+sg8
+g9
+sg10
+V1967
+p1603
+sg12
+VLaurea in giurisprudenza
+p1604
+sa(dp1605
+g2
+VGian
+p1606
+sg4
+VSCELTA CIVICA CON MONTI PER L'ITALIA
+p1607
+sg6
+VGIGLI
+p1608
+sg8
+g9
+sg10
+V1952
+p1609
+sg12
+VLaurea in medicina e chirurgia
+p1610
+sa(dp1611
+g2
+VGabriella
+p1612
+sg4
+VIL POPOLO DELLA LIBERTA'
+p1613
+sg6
+VGIAMMANCO
+p1614
+sg8
+g54
+sg10
+V1977
+p1615
+sg12
+VLaurea in scienze della comunicazione
+p1616
+sa(dp1617
+g2
+VSestino
+p1618
+sg4
+VIL POPOLO DELLA LIBERTA'
+p1619
+sg6
+VGIACOMONI
+p1620
+sg8
+g9
+sg10
+V1967
+p1621
+sg12
+VLaurea in Scienze politiche
+p1622
+sa(dp1623
+g2
+VAntonello
+p1624
+sg4
+VPARTITO DEMOCRATICO
+p1625
+sg6
+VGIACOMELLI
+p1626
+sg8
+g9
+sg10
+V1962
+p1627
+sg12
+VDiploma di liceo classico
+p1628
+sa(dp1629
+g2
+VAnna
+p1630
+sg4
+VPARTITO DEMOCRATICO
+p1631
+sg6
+VGIACOBBE
+p1632
+sg8
+g54
+sg10
+V1958
+p1633
+sg12
+VLaurea in lettere e filosofia
+p1634
+sa(dp1635
+g2
+VRoberto
+p1636
+sg4
+VPARTITO DEMOCRATICO
+p1637
+sg6
+VGIACHETTI
+p1638
+sg8
+g9
+sg10
+V1961
+p1639
+sg12
+VDiploma di liceo scientifico
+p1640
+sa(dp1641
+g2
+VManuela
+p1642
+sg4
+VPARTITO DEMOCRATICO
+p1643
+sg6
+VGHIZZONI
+p1644
+sg8
+g54
+sg10
+V1961
+p1645
+sg12
+VLaurea in storia moderna, Dottorato di ricerca in storia
+p1646
+sa(dp1647
+g2
+VSILVERI
+p1648
+sg4
+VPARTITO DEMOCRATICO
+p1649
+sg6
+VGENTILONI
+p1650
+sg8
+g9
+sg10
+V1954
+p1651
+sg12
+VLaurea di scienze politiche
+p1652
+sa(dp1653
+g2
+VFrancantonio
+p1654
+sg4
+VPARTITO DEMOCRATICO
+p1655
+sg6
+VGENOVESE
+p1656
+sg8
+g9
+sg10
+V1968
+p1657
+sg12
+VLaurea in giurisprudenza
+p1658
+sa(dp1659
+g2
+VMariastella
+p1660
+sg4
+VIL POPOLO DELLA LIBERTA'
+p1661
+sg6
+VGELMINI
+p1662
+sg8
+g54
+sg10
+V1973
+p1663
+sg12
+VAvvocato
+p1664
+sa(dp1665
+g2
+VFederico
+p1666
+sg4
+VPARTITO DEMOCRATICO
+p1667
+sg6
+VGELLI
+p1668
+sg8
+g9
+sg10
+V1962
+p1669
+sg12
+VLaurea in medicina e chirurgia
+p1670
+sa(dp1671
+g2
+VRenate
+p1672
+sg4
+VSVP
+p1673
+sg6
+VGEBHARD
+p1674
+sg8
+g54
+sg10
+V1977
+p1675
+sg12
+VLaurea in giurisprudenza
+p1676
+sa(dp1677
+g2
+VDaniela
+p1678
+sg4
+VPARTITO DEMOCRATICO
+p1679
+sg6
+VGASPARINI
+p1680
+sg8
+g54
+sg10
+V1950
+p1681
+sg12
+VDiploma tecnico professionale computista commerciale
+p1682
+sa(dp1683
+g2
+VEnrico
+p1684
+sg4
+VPARTITO DEMOCRATICO
+p1685
+sg6
+VGASBARRA
+p1686
+sg8
+g9
+sg10
+V1962
+p1687
+sg12
+VLaurea in giurisprudenza
+p1688
+sa(dp1689
+g2
+VFrancesco
+p1690
+sg4
+VPARTITO DEMOCRATICO
+p1691
+sg6
+VGAROFANI
+p1692
+sg8
+g9
+sg10
+V1962
+p1693
+sg12
+VLaurea in lettere e filosofia
+p1694
+sa(dp1695
+g2
+VVincenzo
+p1696
+sg4
+VIL POPOLO DELLA LIBERTA'
+p1697
+sg6
+VGAROFALO
+p1698
+sg8
+g9
+sg10
+V1958
+p1699
+sg12
+VLaurea in ingegneria
+p1700
+sa(dp1701
+g2
+VLaura
+p1702
+sg4
+VPARTITO DEMOCRATICO
+p1703
+sg6
+VGARAVINI
+p1704
+sg8
+g54
+sg10
+V1966
+p1705
+sg12
+VLaurea in scienze politiche
+p1706
+sa(dp1707
+g2
+VPaolo
+p1708
+sg4
+VPARTITO DEMOCRATICO
+p1709
+sg6
+VGANDOLFI
+p1710
+sg8
+g9
+sg10
+V1966
+p1711
+sg12
+VLaurea in architettura
+p1712
+sa(dp1713
+g2
+VGuido
+p1714
+sg4
+VPARTITO DEMOCRATICO
+p1715
+sg6
+VGALPERTI
+p1716
+sg8
+g9
+sg10
+V1959
+p1717
+sg12
+VLaurea in giurisprudenza
+p1718
+sa(dp1719
+g2
+VLuigi
+p1720
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p1721
+sg6
+VGALLO
+p1722
+sg8
+g9
+sg10
+V1977
+p1723
+sg12
+VLaurea in ingegneria informatica
+p1724
+sa(dp1725
+g2
+VFilippo
+p1726
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p1727
+sg6
+VGALLINELLA
+p1728
+sg8
+g9
+sg10
+V1979
+p1729
+sg12
+VLaurea in ingegneria meccanica
+p1730
+sa(dp1731
+g2
+VGiampaolo
+p1732
+sg4
+VPARTITO DEMOCRATICO
+p1733
+sg6
+VGALLI
+p1734
+sg8
+g9
+sg10
+V1951
+p1735
+sg12
+VLaurea in economia e commercio, Ph. d. in economia e commercio e scienze sociali
+p1736
+sa(dp1737
+g2
+VCarlo
+p1738
+sg4
+VPARTITO DEMOCRATICO
+p1739
+sg6
+VGALLI
+p1740
+sg8
+g9
+sg10
+V1950
+p1741
+sg12
+VLaurea in filosofia
+p1742
+sa(dp1743
+g2
+VAdriana
+p1744
+sg4
+VSCELTA CIVICA CON MONTI PER L'ITALIA
+p1745
+sg6
+VGALGANO
+p1746
+sg8
+g54
+sg10
+V1963
+p1747
+sg12
+VLaurea in scienze politiche
+p1748
+sa(dp1749
+g2
+VGiuseppe
+p1750
+sg4
+VIL POPOLO DELLA LIBERTA'
+p1751
+sg6
+VGALATI
+p1752
+sg8
+g9
+sg10
+V1961
+p1753
+sg12
+VLaurea in Giurisprudenza
+p1754
+sa(dp1755
+g2
+VGiancarlo
+p1756
+sg4
+VIL POPOLO DELLA LIBERTA'
+p1757
+sg6
+VGALAN
+p1758
+sg8
+g9
+sg10
+V1956
+p1759
+sg12
+VLaurea in giurisprudenza, Master in business administration
+p1760
+sa(dp1761
+g2
+VChiara
+p1762
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p1763
+sg6
+VGAGNARLI
+p1764
+sg8
+g54
+sg10
+V1981
+p1765
+sg12
+VLaurea in scienze della produzione animale
+p1766
+sa(dp1767
+g2
+VMaria
+p1768
+sg4
+VPARTITO DEMOCRATICO
+p1769
+sg6
+VGADDA
+p1770
+sg8
+g54
+sg10
+V1980
+p1771
+sg12
+VLaurea in ingegneria gestionale
+p1772
+sa(dp1773
+g2
+VBenedetto
+p1774
+sg4
+VIL POPOLO DELLA LIBERTA'
+p1775
+sg6
+VFUCCI
+p1776
+sg8
+g9
+sg10
+V1952
+p1777
+sg12
+VLaurea in medicina e chirurgia, Specializzazione in ginecologia e ostetricia
+p1778
+sa(dp1779
+g2
+VLuca
+p1780
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p1781
+sg6
+VFRUSONE
+p1782
+sg8
+g9
+sg10
+V1985
+p1783
+sg12
+VDiploma di liceo scientifico
+p1784
+sa(dp1785
+g2
+VSilvia
+p1786
+sg4
+VPARTITO DEMOCRATICO
+p1787
+sg6
+VFREGOLENT
+p1788
+sg8
+g54
+sg10
+V1972
+p1789
+sg12
+VLaurea in giurisprudenza
+p1790
+sa(dp1791
+g2
+VNicola
+p1792
+sg4
+VSINISTRA ECOLOGIA LIBERTA'
+p1793
+sg6
+VFRATOIANNI
+p1794
+sg8
+g9
+sg10
+V1972
+p1795
+sg12
+VLaurea in lettere e filosofia
+p1796
+sa(dp1797
+g2
+VGian
+p1798
+sg4
+VPARTITO DEMOCRATICO
+p1799
+sg6
+VFRAGOMELI
+p1800
+sg8
+g9
+sg10
+V1973
+p1801
+sg12
+VLaurea in scienze politiche
+p1802
+sa(dp1803
+g2
+VRiccardo
+p1804
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p1805
+sg6
+VFRACCARO
+p1806
+sg8
+g9
+sg10
+V1981
+p1807
+sg12
+VLaurea in giurisprudenza
+p1808
+sa(dp1809
+g2
+VFilippo
+p1810
+sg4
+VPARTITO DEMOCRATICO
+p1811
+sg6
+VFOSSATI
+p1812
+sg8
+g9
+sg10
+V1960
+p1813
+sg12
+VDiploma di liceo scientifico
+p1814
+sa(dp1815
+g2
+VPaolo
+p1816
+sg4
+VPARTITO DEMOCRATICO
+p1817
+sg6
+VFONTANELLI
+p1818
+sg8
+g9
+sg10
+V1953
+p1819
+sg12
+V 
+p1820
+sa(dp1821
+g2
+VGregorio
+p1822
+sg4
+VIL POPOLO DELLA LIBERTA'
+p1823
+sg6
+VFONTANA
+p1824
+sg8
+g9
+sg10
+V1963
+p1825
+sg12
+VDiploma di liceo scientifico
+p1826
+sa(dp1827
+g2
+VVincenzo
+p1828
+sg4
+VPARTITO DEMOCRATICO
+p1829
+sg6
+VFOLINO
+p1830
+sg8
+g9
+sg10
+V1958
+p1831
+sg12
+VDiploma di istituto professionale agrario
+p1832
+sa(dp1833
+g2
+VRaffaele
+p1834
+sg4
+VIL POPOLO DELLA LIBERTA'
+p1835
+sg6
+VFITTO
+p1836
+sg8
+g9
+sg10
+V1969
+p1837
+sg12
+V 
+p1838
+sa(dp1839
+g2
+VGiuseppe
+p1840
+sg4
+VPARTITO DEMOCRATICO
+p1841
+sg6
+VFIORONI
+p1842
+sg8
+g9
+sg10
+V1958
+p1843
+sg12
+VLaurea in medicina e chirurgia
+p1844
+sa(dp1845
+g2
+VRoberto
+p1846
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p1847
+sg6
+VFICO
+p1848
+sg8
+g9
+sg10
+V1974
+p1849
+sg12
+VLaurea in scienze della comunicazione
+p1850
+sa(dp1851
+g2
+VEmanuele
+p1852
+sg4
+VPARTITO DEMOCRATICO
+p1853
+sg6
+VFIANO
+p1854
+sg8
+g9
+sg10
+V1963
+p1855
+sg12
+VLaurea in architettura, Dottorato di ricerca in progettazione architettonica e urbana
+p1856
+sa(dp1857
+g2
+VAndrea
+p1858
+sg4
+VPARTITO DEMOCRATICO
+p1859
+sg6
+VFERRO
+p1860
+sg8
+g9
+sg10
+V1972
+p1861
+sg12
+VDiploma di liceo scientifico
+p1862
+sa(dp1863
+g2
+VAlan
+p1864
+sg4
+VPARTITO DEMOCRATICO
+p1865
+sg6
+VFERRARI
+p1866
+sg8
+g9
+sg10
+V1975
+p1867
+sg12
+VLaurea in ingegneria civile e ambientale
+p1868
+sa(dp1869
+g2
+VVittorio
+p1870
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p1871
+sg6
+VFERRARESI
+p1872
+sg8
+g9
+sg10
+V1987
+p1873
+sg12
+VDiploma in scienze della formazione
+p1874
+sa(dp1875
+g2
+VFrancesco
+p1876
+sg4
+VSINISTRA ECOLOGIA LIBERTA'
+p1877
+sg6
+VFERRARA
+p1878
+sg8
+g9
+sg10
+V1954
+p1879
+sg12
+VLicenza media
+p1880
+sa(dp1881
+g2
+VDonatella
+p1882
+sg4
+VPARTITO DEMOCRATICO
+p1883
+sg6
+VFERRANTI
+p1884
+sg8
+g54
+sg10
+V1957
+p1885
+sg12
+VLaurea in giurisprudenza
+p1886
+sa(dp1887
+g2
+VMassimiliano
+p1888
+sg4
+VLEGA NORD
+p1889
+sg6
+VFEDRIGA
+p1890
+sg8
+g9
+sg10
+V1980
+p1891
+sg12
+VLaurea in scienze della comunicazione
+p1892
+sa(dp1893
+g2
+VMarco
+p1894
+sg4
+VPARTITO DEMOCRATICO
+p1895
+sg6
+VFEDI
+p1896
+sg8
+g9
+sg10
+V1958
+p1897
+sg12
+VDiploma di geometra, Programmatore elettronico
+p1898
+sa(dp1899
+g2
+VGiovanni
+p1900
+sg4
+VLEGA NORD
+p1901
+sg6
+VFAVA
+p1902
+sg8
+g9
+sg10
+V1968
+p1903
+sg12
+VDiploma di istituto tecnico commerciale
+p1904
+sa(dp1905
+g2
+VFederico
+p1906
+sg4
+VSCELTA CIVICA CON MONTI PER L'ITALIA
+p1907
+sg6
+VFAUTTILLI
+p1908
+sg8
+g9
+sg10
+V1948
+p1909
+sg12
+VLaurea in sociologia
+p1910
+sa(dp1911
+g2
+VStefano
+p1912
+sg4
+VPARTITO DEMOCRATICO
+p1913
+sg6
+VFASSINA
+p1914
+sg8
+g9
+sg10
+V1966
+p1915
+sg12
+VLaurea in discipline economiche e sociali
+p1916
+sa(dp1917
+g2
+VDaniele
+p1918
+sg4
+VSINISTRA ECOLOGIA LIBERTA'
+p1919
+sg6
+VFARINA
+p1920
+sg8
+g9
+sg10
+V1964
+p1921
+sg12
+VLaurea in scienze politiche
+p1922
+sa(dp1923
+g2
+VDavide
+p1924
+sg4
+VPARTITO DEMOCRATICO
+p1925
+sg6
+VFARAONE
+p1926
+sg8
+g9
+sg10
+V1975
+p1927
+sg12
+V 
+p1928
+sa(dp1929
+g2
+VEdoardo
+p1930
+sg4
+VPARTITO DEMOCRATICO
+p1931
+sg6
+VFANUCCI
+p1932
+sg8
+g9
+sg10
+V1983
+p1933
+sg12
+VLaurea in economia e legislazione per le imprese (CLELI)
+p1934
+sa(dp1935
+g2
+VMattia
+p1936
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p1937
+sg6
+VFANTINATI
+p1938
+sg8
+g9
+sg10
+V1975
+p1939
+sg12
+VLaurea in ingegneria gestionale
+p1940
+sa(dp1941
+g2
+VLuigi
+p1942
+sg4
+VPARTITO DEMOCRATICO
+p1943
+sg6
+VFAMIGLIETTI
+p1944
+sg8
+g9
+sg10
+V1975
+p1945
+sg12
+VLaurea in giurisprudenza
+p1946
+sa(dp1947
+g2
+VMonica
+p1948
+sg4
+VIL POPOLO DELLA LIBERTA'
+p1949
+sg6
+VFAENZI
+p1950
+sg8
+g54
+sg10
+V1965
+p1951
+sg12
+VLaurea in giurisprudenza
+p1952
+sa(dp1953
+g2
+VMarilena
+p1954
+sg4
+VPARTITO DEMOCRATICO
+p1955
+sg6
+VFABBRI
+p1956
+sg8
+g54
+sg10
+V1969
+p1957
+sg12
+VLaurea in giurisprudenza
+p1958
+sa(dp1959
+g2
+VEttore
+p1960
+sg4
+VPARTITO DEMOCRATICO
+p1961
+sg6
+VEPIFANI
+p1962
+sg8
+g9
+sg10
+V1950
+p1963
+sg12
+VLaurea in filosofia
+p1964
+sa(dp1965
+g2
+VDonatella
+p1966
+sg4
+VSINISTRA ECOLOGIA LIBERTA'
+p1967
+sg6
+VDURANTI
+p1968
+sg8
+g54
+sg10
+V1960
+p1969
+sg12
+VDiploma di istituto magistrale
+p1970
+sa(dp1971
+g2
+VMarco
+p1972
+sg4
+VPARTITO DEMOCRATICO
+p1973
+sg6
+VDONATI
+p1974
+sg8
+g9
+sg10
+V1980
+p1975
+sg12
+VDiploma di istituto tecnico commerciale
+p1976
+sa(dp1977
+g2
+VVITA
+p1978
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p1979
+sg6
+VDI
+p1980
+sg8
+g54
+sg10
+V1984
+p1981
+sg12
+VLaurea in ingegneria gestionale
+p1982
+sa(dp1983
+g2
+VSTEFANO
+p1984
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p1985
+sg6
+VDI
+p1986
+sg8
+g9
+sg10
+V1981
+p1987
+sg12
+VLaurea in ingegneria informatica
+p1988
+sa(dp1989
+g2
+VSTEFANO
+p1990
+sg4
+VIL POPOLO DELLA LIBERTA'
+p1991
+sg6
+VDI
+p1992
+sg8
+g9
+sg10
+V1965
+p1993
+sg12
+VLaurea in farmacia
+p1994
+sa(dp1995
+g2
+VAntonio
+p1996
+sg4
+VIL POPOLO DELLA LIBERTA'
+p1997
+sg6
+VDISTASO
+p1998
+sg8
+g9
+sg10
+V1966
+p1999
+sg12
+VLaurea in giurisprudenza
+p2000
+sa(dp2001
+g2
+VSALVO
+p2002
+sg4
+VSINISTRA ECOLOGIA LIBERTA'
+p2003
+sg6
+VDI
+p2004
+sg8
+g54
+sg10
+V1955
+p2005
+sg12
+VLaurea in scienze politiche
+p2006
+sa(dp2007
+g2
+VVittoria
+p2008
+sg4
+VPARTITO DEMOCRATICO
+p2009
+sg6
+VD'INCECCO
+p2010
+sg8
+g54
+sg10
+V1956
+p2011
+sg12
+VLaurea in medicina e chirurgia, Specializzazione in reumatologia
+p2012
+sa(dp2013
+g2
+VFederico
+p2014
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p2015
+sg6
+VD'INCA'
+p2016
+sg8
+g9
+sg10
+V1976
+p2017
+sg12
+VLaurea in economia e commercio
+p2018
+sa(dp2019
+g2
+VMAIO
+p2020
+sg4
+VPARTITO DEMOCRATICO
+p2021
+sg6
+VDI
+p2022
+sg8
+g9
+sg10
+V1983
+p2023
+sg12
+VDiploma di istituto tecnico industriale
+p2024
+sa(dp2025
+g2
+VMAIO
+p2026
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p2027
+sg6
+VDI
+p2028
+sg8
+g9
+sg10
+V1986
+p2029
+sg12
+VDiploma di liceo classico
+p2030
+sa(dp2031
+g2
+VLELLO
+p2032
+sg4
+VPARTITO DEMOCRATICO
+p2033
+sg6
+VDI
+p2034
+sg8
+g9
+sg10
+V1970
+p2035
+sg12
+VLaurea in giurisprudenza
+p2036
+sa(dp2037
+g2
+VGIOIA
+p2038
+sg4
+VPARTITO DEMOCRATICO
+p2039
+sg6
+VDI
+p2040
+sg8
+g9
+sg10
+V1951
+p2041
+sg12
+VLaurea in scienze politiche, Laurea in economia industriale
+p2042
+sa(dp2043
+g2
+VBENEDETTO
+p2044
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p2045
+sg6
+VDI
+p2046
+sg8
+g54
+sg10
+V1987
+p2047
+sg12
+VScienze e tecnologie dello spettacolo
+p2048
+sa(dp2049
+g2
+VBATTISTA
+p2050
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p2051
+sg6
+VDI
+p2052
+sg8
+g9
+sg10
+V1978
+p2053
+sg12
+VLaurea in discipline dell'arte, della musica e dello spettacolo, Master di secondo livello in tutela internazionale dei diritti umani
+p2054
+sa(dp2055
+g2
+VROSA
+p2056
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p2057
+sg6
+VDE
+p2058
+sg8
+g9
+sg10
+V1979
+p2059
+sg12
+VScienze tecnologie per l'ambiente
+p2060
+sa(dp2061
+g2
+VMITA
+p2062
+sg4
+VUNIONE DI CENTRO
+p2063
+sg6
+VDE
+p2064
+sg8
+g9
+sg10
+V1968
+p2065
+sg12
+VLaurea in giurisprudenza
+p2066
+sa(dp2067
+g2
+VMICHELI
+p2068
+sg4
+VPARTITO DEMOCRATICO
+p2069
+sg6
+VDE
+p2070
+sg8
+g54
+sg10
+V1973
+p2071
+sg12
+VLaurea in scienze politiche
+p2072
+sa(dp2073
+g2
+VMENECH
+p2074
+sg4
+VPARTITO DEMOCRATICO
+p2075
+sg6
+VDE
+p2076
+sg8
+g9
+sg10
+V1973
+p2077
+sg12
+VDiploma di istituto tecnico agrario
+p2078
+sa(dp2079
+g2
+VLORENZIS
+p2080
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p2081
+sg6
+VDE
+p2082
+sg8
+g9
+sg10
+V1979
+p2083
+sg12
+VLaurea in ingegneria informatica
+p2084
+sa(dp2085
+g2
+VMichele
+p2086
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p2087
+sg6
+VDELL'ORCO
+p2088
+sg8
+g9
+sg10
+V1985
+p2089
+sg12
+VDiploma di istituto tecnico industriale
+p2090
+sa(dp2091
+g2
+VVALLE
+p2092
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p2093
+sg6
+VDELLA
+p2094
+sg8
+g9
+sg10
+V1974
+p2095
+sg12
+V 
+p2096
+sa(dp2097
+g2
+VCarlo
+p2098
+sg4
+VPARTITO DEMOCRATICO
+p2099
+sg6
+VDELL'ARINGA
+p2100
+sg8
+g9
+sg10
+V1940
+p2101
+sg12
+VLaurea in scienze politiche, Dottorato di ricerca Oxford University
+p2102
+sa(dp2103
+g2
+VLorenzo
+p2104
+sg4
+VSCELTA CIVICA CON MONTI PER L'ITALIA
+p2105
+sg6
+VDELLAI
+p2106
+sg8
+g9
+sg10
+V1959
+p2107
+sg12
+V 
+p2108
+sa(dp2109
+g2
+VGROSSO
+p2110
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p2111
+sg6
+VDEL
+p2112
+sg8
+g9
+sg10
+V1981
+p2113
+sg12
+VDiploma di istituto tecnico industriale
+p2114
+sa(dp2115
+g2
+VBASSO
+p2116
+sg4
+VPARTITO DEMOCRATICO
+p2117
+sg6
+VDEL
+p2118
+sg8
+g9
+sg10
+V1953
+p2119
+sg12
+VLaurea in giurisprudenza
+p2120
+sa(dp2121
+g2
+VGIROLAMO
+p2122
+sg4
+VIL POPOLO DELLA LIBERTA'
+p2123
+sg6
+VDE
+p2124
+sg8
+g54
+sg10
+V1975
+p2125
+sg12
+VLaurea in giurisprudenza, dottorato di ricerca
+p2126
+sa(dp2127
+g2
+VAntonio
+p2128
+sg4
+VPARTITO DEMOCRATICO
+p2129
+sg6
+VDECARO
+p2130
+sg8
+g9
+sg10
+V1970
+p2131
+sg12
+VLaurea in ingegneria civile
+p2132
+sa(dp2133
+g2
+VVILLA
+p2134
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p2135
+sg6
+VDA
+p2136
+sg8
+g9
+sg10
+V1975
+p2137
+sg12
+VLaurea in scienze dell'economia e della gestione aziendale
+p2138
+sa(dp2139
+g2
+VAlfredo
+p2140
+sg4
+VPARTITO DEMOCRATICO
+p2141
+sg6
+VD'ATTORRE
+p2142
+sg8
+g9
+sg10
+V1973
+p2143
+sg12
+VLaurea in filosofia, Dottorato di ricerca in filosofia e scienze umane
+p2144
+sa(dp2145
+g2
+VVincenzo
+p2146
+sg4
+VPARTITO DEMOCRATICO
+p2147
+sg6
+VD'ARIENZO
+p2148
+sg8
+g9
+sg10
+V1965
+p2149
+sg12
+V 
+p2150
+sa(dp2151
+g2
+VCesare
+p2152
+sg4
+VPARTITO DEMOCRATICO
+p2153
+sg6
+VDAMIANO
+p2154
+sg8
+g9
+sg10
+V1948
+p2155
+sg12
+VDiploma di ragioneria
+p2156
+sa(dp2157
+g2
+VStefano
+p2158
+sg4
+VSCELTA CIVICA CON MONTI PER L'ITALIA
+p2159
+sg6
+VDAMBRUOSO
+p2160
+sg8
+g9
+sg10
+V1962
+p2161
+sg12
+VLaurea in giurisprudenza
+p2162
+sa(dp2163
+g2
+VGiuseppe
+p2164
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p2165
+sg6
+VD'AMBROSIO
+p2166
+sg8
+g9
+sg10
+V1978
+p2167
+sg12
+VLaurea in professioni sanitarie della riabilitazione
+p2168
+sa(dp2169
+g2
+VMORO
+p2170
+sg4
+VPARTITO DEMOCRATICO
+p2171
+sg6
+VDAL
+p2172
+sg8
+g9
+sg10
+V1958
+p2173
+sg12
+VDiploma di istituto tecnico industriale
+p2174
+sa(dp2175
+g2
+VMatteo
+p2176
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p2177
+sg6
+VDALL'OSSO
+p2178
+sg8
+g9
+sg10
+V1978
+p2179
+sg12
+VLaurea in ingegneria elettronica
+p2180
+sa(dp2181
+g2
+VLuigi
+p2182
+sg4
+VPARTITO DEMOCRATICO
+p2183
+sg6
+VDALLAI
+p2184
+sg8
+g9
+sg10
+V1968
+p2185
+sg12
+VLaurea in scienze geologiche, Dottorato di ricerca
+p2186
+sa(dp2187
+g2
+VGianpiero
+p2188
+sg4
+VUNIONE DI CENTRO
+p2189
+sg6
+VD'ALIA
+p2190
+sg8
+g9
+sg10
+V1966
+p2191
+sg12
+VLaurea in giurisprudenza
+p2192
+sa(dp2193
+g2
+VLuca
+p2194
+sg4
+VIL POPOLO DELLA LIBERTA'
+p2195
+sg6
+VD'ALESSANDRO
+p2196
+sg8
+g9
+sg10
+V1965
+p2197
+sg12
+VDiploma di liceo classico
+p2198
+sa(dp2199
+g2
+VAngelo
+p2200
+sg4
+VSCELTA CIVICA CON MONTI PER L'ITALIA
+p2201
+sg6
+VD'AGOSTINO
+p2202
+sg8
+g9
+sg10
+V1961
+p2203
+sg12
+VDiploma di istituto tecnico per geometri
+p2204
+sa(dp2205
+g2
+VFederica
+p2206
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p2207
+sg6
+VDAGA
+p2208
+sg8
+g54
+sg10
+V1976
+p2209
+sg12
+VDiploma di istituto tecnico per periti aziendali
+p2210
+sa(dp2211
+g2
+VFabiana
+p2212
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p2213
+sg6
+VDADONE
+p2214
+sg8
+g54
+sg10
+V1984
+p2215
+sg12
+VLaurea in giurisprudenza
+p2216
+sa(dp2217
+g2
+VGiovanni
+p2218
+sg4
+VPARTITO DEMOCRATICO
+p2219
+sg6
+VCUPERLO
+p2220
+sg8
+g9
+sg10
+V1961
+p2221
+sg12
+VLaurea in discipline dell'arte, della musica e dello spettacolo
+p2222
+sa(dp2223
+g2
+VMagda
+p2224
+sg4
+VPARTITO DEMOCRATICO
+p2225
+sg6
+VCULOTTA
+p2226
+sg8
+g54
+sg10
+V1985
+p2227
+sg12
+VLaurea in scienze economiche e finanziarie
+p2228
+sa(dp2229
+g2
+VDiego
+p2230
+sg4
+VPARTITO DEMOCRATICO
+p2231
+sg6
+VCRIVELLARI
+p2232
+sg8
+g9
+sg10
+V1975
+p2233
+sg12
+VLaurea in filosofia, Master in editoria cartacea e multimediale
+p2234
+sa(dp2235
+g2
+VDavide
+p2236
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p2237
+sg6
+VCRIPPA
+p2238
+sg8
+g9
+sg10
+V1979
+p2239
+sg12
+VLaurea in ingegneria civile e ambientale
+p2240
+sa(dp2241
+g2
+VRocco
+p2242
+sg4
+VIL POPOLO DELLA LIBERTA'
+p2243
+sg6
+VCRIMI
+p2244
+sg8
+g9
+sg10
+V1959
+p2245
+sg12
+VLaurea in farmacia, Specializzazione in farmacologia
+p2246
+sa(dp2247
+g2
+VFilippo
+p2248
+sg4
+VPARTITO DEMOCRATICO
+p2249
+sg6
+VCRIMI'
+p2250
+sg8
+g9
+sg10
+V1987
+p2251
+sg12
+VLaurea in medicina e chirurgia
+p2252
+sa(dp2253
+g2
+VEmanuele
+p2254
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p2255
+sg6
+VCOZZOLINO
+p2256
+sg8
+g9
+sg10
+V1981
+p2257
+sg12
+VLaurea in ingegneria civile e ambientale
+p2258
+sa(dp2259
+g2
+VStefania
+p2260
+sg4
+VPARTITO DEMOCRATICO
+p2261
+sg6
+VCOVELLO
+p2262
+sg8
+g54
+sg10
+V1972
+p2263
+sg12
+VLaurea in giurisprudenza
+p2264
+sa(dp2265
+g2
+VPaolo
+p2266
+sg4
+VPARTITO DEMOCRATICO
+p2267
+sg6
+VCOVA
+p2268
+sg8
+g9
+sg10
+V1962
+p2269
+sg12
+VLaurea in medicina veterinaria
+p2270
+sa(dp2271
+g2
+VCeleste
+p2272
+sg4
+VSINISTRA ECOLOGIA LIBERTA'
+p2273
+sg6
+VCOSTANTINO
+p2274
+sg8
+g54
+sg10
+V1979
+p2275
+sg12
+VLaurea in filosofia, Master in mediazione culturale
+p2276
+sa(dp2277
+g2
+VEnrico
+p2278
+sg4
+VIL POPOLO DELLA LIBERTA'
+p2279
+sg6
+VCOSTA
+p2280
+sg8
+g9
+sg10
+V1969
+p2281
+sg12
+VLaurea in giurisprudenza
+p2282
+sa(dp2283
+g2
+VMaria
+p2284
+sg4
+VPARTITO DEMOCRATICO
+p2285
+sg6
+VCOSCIA
+p2286
+sg8
+g54
+sg10
+V1948
+p2287
+sg12
+VLaurea in psicologia
+p2288
+sa(dp2289
+g2
+VMassimo
+p2290
+sg4
+VFRATELLI D'ITALIA
+p2291
+sg6
+VCORSARO
+p2292
+sg8
+g9
+sg10
+V1963
+p2293
+sg12
+VLaurea in economia e commercio
+p2294
+sa(dp2295
+g2
+VEmanuela
+p2296
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p2297
+sg6
+VCORDA
+p2298
+sg8
+g54
+sg10
+V1974
+p2299
+sg12
+VDiploma di liceo classico
+p2300
+sa(dp2301
+g2
+VPaolo
+p2302
+sg4
+VPARTITO DEMOCRATICO
+p2303
+sg6
+VCOPPOLA
+p2304
+sg8
+g9
+sg10
+V1973
+p2305
+sg12
+VLaurea in scienze dell'informazione, Dottorato di ricerca in informatica
+p2306
+sa(dp2307
+g2
+VMiriam
+p2308
+sg4
+VPARTITO DEMOCRATICO
+p2309
+sg6
+VCOMINELLI
+p2310
+sg8
+g54
+sg10
+V1981
+p2311
+sg12
+VLaurea in ingegneria edile
+p2312
+sa(dp2313
+g2
+VClaudio
+p2314
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p2315
+sg6
+VCOMINARDI
+p2316
+sg8
+g9
+sg10
+V1981
+p2317
+sg12
+VDiploma di istituto professionale per il commercio
+p2318
+sa(dp2319
+g2
+VVega
+p2320
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p2321
+sg6
+VCOLONNESE
+p2322
+sg8
+g54
+sg10
+V1979
+p2323
+sg12
+VDiploma di liceo scientifico
+p2324
+sa(dp2325
+g2
+VAndrea
+p2326
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p2327
+sg6
+VCOLLETTI
+p2328
+sg8
+g9
+sg10
+V1981
+p2329
+sg12
+VLaurea in giurisprudenza, Master in business administration
+p2330
+sa(dp2331
+g2
+VMatteo
+p2332
+sg4
+VPARTITO DEMOCRATICO
+p2333
+sg6
+VCOLANINNO
+p2334
+sg8
+g9
+sg10
+V1970
+p2335
+sg12
+VLaurea in economia e commercio
+p2336
+sa(dp2337
+g2
+VLaura
+p2338
+sg4
+VPARTITO DEMOCRATICO
+p2339
+sg6
+VCOCCIA
+p2340
+sg8
+g54
+sg10
+V1986
+p2341
+sg12
+VLaurea in storia
+p2342
+sa(dp2343
+g2
+VGiuseppe
+p2344
+sg4
+VPARTITO DEMOCRATICO
+p2345
+sg6
+VCIVATI
+p2346
+sg8
+g9
+sg10
+V1975
+p2347
+sg12
+VDottorato di ricerca in filosofia e scienze umane
+p2348
+sa(dp2349
+g2
+VEdmondo
+p2350
+sg4
+VFRATELLI D'ITALIA
+p2351
+sg6
+VCIRIELLI
+p2352
+sg8
+g9
+sg10
+V1964
+p2353
+sg12
+VLaurea in giurisprudenza, Laurea in scienze politiche, Laurea in scienza della sicurezza interna ed esterna
+p2354
+sa(dp2355
+g2
+VTiziana
+p2356
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p2357
+sg6
+VCIPRINI
+p2358
+sg8
+g54
+sg10
+V1976
+p2359
+sg12
+VLaurea in psicologia del lavoro e delle organizzazioni, Master di secondo livello in scienze forensi
+p2360
+sa(dp2361
+g2
+VLuciano
+p2362
+sg4
+VSCELTA CIVICA CON MONTI PER L'ITALIA
+p2363
+sg6
+VCIMMINO
+p2364
+sg8
+g9
+sg10
+V1944
+p2365
+sg12
+VDiploma di istituto tecnico commerciale
+p2366
+sa(dp2367
+g2
+VEleonora
+p2368
+sg4
+VPARTITO DEMOCRATICO
+p2369
+sg6
+VCIMBRO
+p2370
+sg8
+g54
+sg10
+V1978
+p2371
+sg12
+VLaurea in lettere classiche, Scuola di specializzazione per l'insegnamento presso Università di Milano
+p2372
+sa(dp2373
+g2
+VSalvatore
+p2374
+sg4
+VIL POPOLO DELLA LIBERTA'
+p2375
+sg6
+VCICU
+p2376
+sg8
+g9
+sg10
+V1957
+p2377
+sg12
+VLaurea in giurisprudenza
+p2378
+sa(dp2379
+g2
+VFabrizio
+p2380
+sg4
+VIL POPOLO DELLA LIBERTA'
+p2381
+sg6
+VCICCHITTO
+p2382
+sg8
+g9
+sg10
+V1940
+p2383
+sg12
+VLaurea in giurisprudenza
+p2384
+sa(dp2385
+g2
+VSilvia
+p2386
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p2387
+sg6
+VCHIMIENTI
+p2388
+sg8
+g54
+sg10
+V1985
+p2389
+sg12
+VLaurea in lettere classiche
+p2390
+sa(dp2391
+g2
+VGianfranco
+p2392
+sg4
+VIL POPOLO DELLA LIBERTA'
+p2393
+sg6
+VCHIARELLI
+p2394
+sg8
+g9
+sg10
+V1958
+p2395
+sg12
+VLaurea in giurisprudenza
+p2396
+sa(dp2397
+g2
+VKhalid
+p2398
+sg4
+VPARTITO DEMOCRATICO
+p2399
+sg6
+VCHAOUKI
+p2400
+sg8
+g9
+sg10
+V1983
+p2401
+sg12
+VGiornalista professionista
+p2402
+sa(dp2403
+g2
+VLuigi
+p2404
+sg4
+VIL POPOLO DELLA LIBERTA'
+p2405
+sg6
+VCESARO
+p2406
+sg8
+g9
+sg10
+V1952
+p2407
+sg12
+VLaurea in giurisprudenza
+p2408
+sa(dp2409
+g2
+VAntimo
+p2410
+sg4
+VSCELTA CIVICA CON MONTI PER L'ITALIA
+p2411
+sg6
+VCESARO
+p2412
+sg8
+g9
+sg10
+V1968
+p2413
+sg12
+VLaurea in giurisprudenza, Perfezionamento scientifico in filosofia politica e in filosofia del diritto
+p2414
+sa(dp2415
+g2
+VLorenzo
+p2416
+sg4
+VUNIONE DI CENTRO
+p2417
+sg6
+VCESA
+p2418
+sg8
+g9
+sg10
+V1951
+p2419
+sg12
+VLaurea in scienze politiche
+p2420
+sa(dp2421
+g2
+VAngelo
+p2422
+sg4
+VUNIONE DI CENTRO
+p2423
+sg6
+VCERA
+p2424
+sg8
+g9
+sg10
+V1952
+p2425
+sg12
+VDiploma di liceo classico
+p2426
+sa(dp2427
+g2
+VElena
+p2428
+sg4
+VIL POPOLO DELLA LIBERTA'
+p2429
+sg6
+VCENTEMERO
+p2430
+sg8
+g54
+sg10
+V1968
+p2431
+sg12
+VLaurea in lettere classiche, Corso di perfezionamento in economia del turismo, Master in dirigenza per le scuole
+p2432
+sa(dp2433
+g2
+VBruno
+p2434
+sg4
+VPARTITO DEMOCRATICO
+p2435
+sg6
+VCENSORE
+p2436
+sg8
+g9
+sg10
+V1958
+p2437
+sg12
+VLaurea in economia e commercio
+p2438
+sa(dp2439
+g2
+VSusanna
+p2440
+sg4
+VPARTITO DEMOCRATICO
+p2441
+sg6
+VCENNI
+p2442
+sg8
+g54
+sg10
+V1963
+p2443
+sg12
+VDiploma di istituto tecnico commerciale
+p2444
+sa(dp2445
+g2
+VAndrea
+p2446
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p2447
+sg6
+VCECCONI
+p2448
+sg8
+g9
+sg10
+V1984
+p2449
+sg12
+VLaurea in professioni sanitarie infermieristiche e professione sanitaria ostestrica
+p2450
+sa(dp2451
+g2
+VAndrea
+p2452
+sg4
+VSCELTA CIVICA CON MONTI PER L'ITALIA
+p2453
+sg6
+VCAUSIN
+p2454
+sg8
+g9
+sg10
+V1972
+p2455
+sg12
+VDiploma di liceo classico
+p2456
+sa(dp2457
+g2
+VMarco
+p2458
+sg4
+VPARTITO DEMOCRATICO
+p2459
+sg6
+VCAUSI
+p2460
+sg8
+g9
+sg10
+V1956
+p2461
+sg12
+VLaurea in scienze statistiche e demografiche
+p2462
+sa(dp2463
+g2
+VGENOESE
+p2464
+sg4
+VIL POPOLO DELLA LIBERTA'
+p2465
+sg6
+VCATANOSO
+p2466
+sg8
+g9
+sg10
+V1963
+p2467
+sg12
+VDiploma di liceo classico
+p2468
+sa(dp2469
+g2
+VMario
+p2470
+sg4
+VUNIONE DI CENTRO
+p2471
+sg6
+VCATANIA
+p2472
+sg8
+g9
+sg10
+V1952
+p2473
+sg12
+VLaurea in giurisprudenza
+p2474
+sa(dp2475
+g2
+VIvan
+p2476
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p2477
+sg6
+VCATALANO
+p2478
+sg8
+g9
+sg10
+V1986
+p2479
+sg12
+VDiploma di istituto tecnico industriale
+p2480
+sa(dp2481
+g2
+VAntonio
+p2482
+sg4
+VPARTITO DEMOCRATICO
+p2483
+sg6
+VCASTRICONE
+p2484
+sg8
+g9
+sg10
+V1974
+p2485
+sg12
+VLaurea in scienze politiche
+p2486
+sa(dp2487
+g2
+VGiuseppe
+p2488
+sg4
+VIL POPOLO DELLA LIBERTA'
+p2489
+sg6
+VCASTIGLIONE
+p2490
+sg8
+g9
+sg10
+V1963
+p2491
+sg12
+VDiploma di liceo classico
+p2492
+sa(dp2493
+g2
+VGiuseppina
+p2494
+sg4
+VIL POPOLO DELLA LIBERTA'
+p2495
+sg6
+VCASTIELLO
+p2496
+sg8
+g54
+sg10
+V1971
+p2497
+sg12
+VLaurea in lettere moderne
+p2498
+sa(dp2499
+g2
+VLaura
+p2500
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p2501
+sg6
+VCASTELLI
+p2502
+sg8
+g54
+sg10
+V1986
+p2503
+sg12
+VEconomia aziendale
+p2504
+sa(dp2505
+g2
+VFranco
+p2506
+sg4
+VPARTITO DEMOCRATICO
+p2507
+sg6
+VCASSANO
+p2508
+sg8
+g9
+sg10
+V1943
+p2509
+sg12
+VLaurea in giurisprudenza
+p2510
+sa(dp2511
+g2
+VVincenzo
+p2512
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p2513
+sg6
+VCASO
+p2514
+sg8
+g9
+sg10
+V1980
+p2515
+sg12
+VLaurea in economia aziendale
+p2516
+sa(dp2517
+g2
+VLuigi
+p2518
+sg4
+VIL POPOLO DELLA LIBERTA'
+p2519
+sg6
+VCASERO
+p2520
+sg8
+g9
+sg10
+V1958
+p2521
+sg12
+VLaurea in economia e commercio
+p2522
+sa(dp2523
+g2
+VFloriana
+p2524
+sg4
+VPARTITO DEMOCRATICO
+p2525
+sg6
+VCASELLATO
+p2526
+sg8
+g54
+sg10
+V1956
+p2527
+sg12
+VDiploma di scuola magistrale
+p2528
+sa(dp2529
+g2
+VEzio
+p2530
+sg4
+VPARTITO DEMOCRATICO
+p2531
+sg6
+VCASATI
+p2532
+sg8
+g9
+sg10
+V1956
+p2533
+sg12
+VDiploma di istituto tecnico commerciale
+p2534
+sa(dp2535
+g2
+VMario
+p2536
+sg4
+VCON MONTI PER L'ITALIA
+p2537
+sg6
+VCARUSO
+p2538
+sg8
+g9
+sg10
+V1955
+p2539
+sg12
+VDiploma di istituto professionale per l'industria e l'artigianato
+p2540
+sa(dp2541
+g2
+VMaria
+p2542
+sg4
+VPARTITO DEMOCRATICO
+p2543
+sg6
+VCARROZZA
+p2544
+sg8
+g54
+sg10
+V1965
+p2545
+sg12
+VLaurea in fisica, Dottorato di ricerca
+p2546
+sa(dp2547
+g2
+VPiergiorgio
+p2548
+sg4
+VPARTITO DEMOCRATICO
+p2549
+sg6
+VCARRESCIA
+p2550
+sg8
+g9
+sg10
+V1957
+p2551
+sg12
+VLaurea in giurisprudenza
+p2552
+sa(dp2553
+g2
+VMarco
+p2554
+sg4
+VPARTITO DEMOCRATICO
+p2555
+sg6
+VCARRA
+p2556
+sg8
+g9
+sg10
+V1965
+p2557
+sg12
+VLicenza media
+p2558
+sa(dp2559
+g2
+VMara
+p2560
+sg4
+VPARTITO DEMOCRATICO
+p2561
+sg6
+VCAROCCI
+p2562
+sg8
+g54
+sg10
+V1954
+p2563
+sg12
+VLaurea in lettere moderne
+p2564
+sa(dp2565
+g2
+VElena
+p2566
+sg4
+VPARTITO DEMOCRATICO
+p2567
+sg6
+VCARNEVALI
+p2568
+sg8
+g54
+sg10
+V1964
+p2569
+sg12
+VLaurea in fisioterapia
+p2570
+sa(dp2571
+g2
+VPaola
+p2572
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p2573
+sg6
+VCARINELLI
+p2574
+sg8
+g54
+sg10
+V1980
+p2575
+sg12
+VLaurea in scienze della mediazione linguistica
+p2576
+sa(dp2577
+g2
+VFrancesco
+p2578
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p2579
+sg6
+VCARIELLO
+p2580
+sg8
+g9
+sg10
+V1975
+p2581
+sg12
+VLaurea in ingegneria gestionale
+p2582
+sa(dp2583
+g2
+VMaria
+p2584
+sg4
+VIL POPOLO DELLA LIBERTA'
+p2585
+sg6
+VCARFAGNA
+p2586
+sg8
+g54
+sg10
+V1975
+p2587
+sg12
+VLaurea in giurisprudenza
+p2588
+sa(dp2589
+g2
+VRenzo
+p2590
+sg4
+VPARTITO DEMOCRATICO
+p2591
+sg6
+VCARELLA
+p2592
+sg8
+g9
+sg10
+V1951
+p2593
+sg12
+VLaurea in chimica
+p2594
+sa(dp2595
+g2
+VDaniela
+p2596
+sg4
+VPARTITO DEMOCRATICO
+p2597
+sg6
+VCARDINALE
+p2598
+sg8
+g54
+sg10
+V1982
+p2599
+sg12
+VLaurea in scienze della comunicazione sociale e istituzionale
+p2600
+sa(dp2601
+g2
+VErnesto
+p2602
+sg4
+VPARTITO DEMOCRATICO
+p2603
+sg6
+VCARBONE
+p2604
+sg8
+g9
+sg10
+V1974
+p2605
+sg12
+VLaurea in giurisprudenza
+p2606
+sa(dp2607
+g2
+VIlaria
+p2608
+sg4
+VSCELTA CIVICA CON MONTI PER L'ITALIA
+p2609
+sg6
+VCAPUA
+p2610
+sg8
+g54
+sg10
+V1966
+p2611
+sg12
+VLaurea in medicina veterinaria
+p2612
+sa(dp2613
+g2
+VSabrina
+p2614
+sg4
+VPARTITO DEMOCRATICO
+p2615
+sg6
+VCAPOZZOLO
+p2616
+sg8
+g54
+sg10
+V1986
+p2617
+sg12
+VLaurea in scienze dell'educazione
+p2618
+sa(dp2619
+g2
+VSalvatore
+p2620
+sg4
+VPARTITO DEMOCRATICO
+p2621
+sg6
+VCAPONE
+p2622
+sg8
+g9
+sg10
+V1967
+p2623
+sg12
+VDiploma di istituto tecnico industriale
+p2624
+sa(dp2625
+g2
+VAngelo
+p2626
+sg4
+VPARTITO DEMOCRATICO
+p2627
+sg6
+VCAPODICASA
+p2628
+sg8
+g9
+sg10
+V1949
+p2629
+sg12
+VLaurea in lettere e filosofia
+p2630
+sa(dp2631
+g2
+VDaniele
+p2632
+sg4
+VIL POPOLO DELLA LIBERTA'
+p2633
+sg6
+VCAPEZZONE
+p2634
+sg8
+g9
+sg10
+V1972
+p2635
+sg12
+VDiploma di liceo classico
+p2636
+sa(dp2637
+g2
+VRoberto
+p2638
+sg4
+VCENTRO DEMOCRATICO
+p2639
+sg6
+VCAPELLI
+p2640
+sg8
+g9
+sg10
+V1957
+p2641
+sg12
+VDiploma di liceo scientifico
+p2642
+sa(dp2643
+g2
+VDavide
+p2644
+sg4
+VLEGA NORD
+p2645
+sg6
+VCAPARINI
+p2646
+sg8
+g9
+sg10
+V1967
+p2647
+sg12
+VLaurea in ingegneria
+p2648
+sa(dp2649
+g2
+VRoberto
+p2650
+sg4
+VLEGA NORD
+p2651
+sg6
+VCAON
+p2652
+sg8
+g9
+sg10
+V1963
+p2653
+sg12
+VLicenza media
+p2654
+sa(dp2655
+g2
+VEmanuele
+p2656
+sg4
+VPARTITO DEMOCRATICO
+p2657
+sg6
+VCANI
+p2658
+sg8
+g9
+sg10
+V1968
+p2659
+sg12
+VDiploma di istituto tecnico per geometri
+p2660
+sa(dp2661
+g2
+VMicaela
+p2662
+sg4
+VPARTITO DEMOCRATICO
+p2663
+sg6
+VCAMPANA
+p2664
+sg8
+g54
+sg10
+V1977
+p2665
+sg12
+VDiploma di liceo scientifico
+p2666
+sa(dp2667
+g2
+VRaffaele
+p2668
+sg4
+VIL POPOLO DELLA LIBERTA'
+p2669
+sg6
+VCALABRO'
+p2670
+sg8
+g9
+sg10
+V1947
+p2671
+sg12
+VSpecializzazione in cardiologia
+p2672
+sa(dp2673
+g2
+VAnnagrazia
+p2674
+sg4
+VIL POPOLO DELLA LIBERTA'
+p2675
+sg6
+VCALABRIA
+p2676
+sg8
+g54
+sg10
+V1982
+p2677
+sg12
+VLaurea in giurisprudenza, indirizzo giuridico-amministrativo
+p2678
+sa(dp2679
+g2
+VMirko
+p2680
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p2681
+sg6
+VBUSTO
+p2682
+sg8
+g9
+sg10
+V1976
+p2683
+sg12
+VLaurea in ingegneria per l'ambiente e il territorio, Dottorato in sistemi produttivi
+p2684
+sa(dp2685
+g2
+VFilippo
+p2686
+sg4
+VLEGA NORD
+p2687
+sg6
+VBUSIN
+p2688
+sg8
+g9
+sg10
+V1967
+p2689
+sg12
+VLaurea in economia aziendale
+p2690
+sa(dp2691
+g2
+VFrancesca
+p2692
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p2693
+sg6
+VBUSINAROLO
+p2694
+sg8
+g54
+sg10
+V1983
+p2695
+sg12
+VLaurea in giurisprudenza
+p2696
+sa(dp2697
+g2
+VGiovanni
+p2698
+sg4
+VPARTITO DEMOCRATICO
+p2699
+sg6
+VBURTONE
+p2700
+sg8
+g9
+sg10
+V1956
+p2701
+sg12
+VLaurea in medicina e chirurgia
+p2702
+sa(dp2703
+g2
+VGianluca
+p2704
+sg4
+VLEGA NORD
+p2705
+sg6
+VBUONANNO
+p2706
+sg8
+g9
+sg10
+V1966
+p2707
+sg12
+VDiploma di istituto tecnico commerciale
+p2708
+sa(dp2709
+g2
+VRenata
+p2710
+sg4
+VUSEI
+p2711
+sg6
+VBUENO
+p2712
+sg8
+g54
+sg10
+V1979
+p2713
+sg12
+VDottorato di ricerca in diritto internazionale
+p2714
+sa(dp2715
+g2
+VFranco
+p2716
+sg4
+VCENTRO DEMOCRATICO
+p2717
+sg6
+VBRUNO
+p2718
+sg8
+g9
+sg10
+V1962
+p2719
+sg12
+VLaurea in ingegneria
+p2720
+sa(dp2721
+g2
+VBOSSIO
+p2722
+sg4
+VPARTITO DEMOCRATICO
+p2723
+sg6
+VBRUNO
+p2724
+sg8
+g54
+sg10
+V1957
+p2725
+sg12
+VLaurea in filosofia
+p2726
+sa(dp2727
+g2
+VRenato
+p2728
+sg4
+VIL POPOLO DELLA LIBERTA'
+p2729
+sg6
+VBRUNETTA
+p2730
+sg8
+g9
+sg10
+V1950
+p2731
+sg12
+VLaurea in scienze politiche
+p2732
+sa(dp2733
+g2
+VMarco
+p2734
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p2735
+sg6
+VBRUGNEROTTO
+p2736
+sg8
+g9
+sg10
+V1977
+p2737
+sg12
+VDiploma di istituto tecnico commerciale
+p2738
+sa(dp2739
+g2
+VGianclaudio
+p2740
+sg4
+VPARTITO DEMOCRATICO
+p2741
+sg6
+VBRESSA
+p2742
+sg8
+g9
+sg10
+V1956
+p2743
+sg12
+VDiploma di liceo classico
+p2744
+sa(dp2745
+g2
+VGiuseppe
+p2746
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p2747
+sg6
+VBRESCIA
+p2748
+sg8
+g9
+sg10
+V1983
+p2749
+sg12
+VLaurea specialistica in educazione degli adulti e formazione continua
+p2750
+sa(dp2751
+g2
+VMassimo
+p2752
+sg4
+VPARTITO DEMOCRATICO
+p2753
+sg6
+VBRAY
+p2754
+sg8
+g9
+sg10
+V1959
+p2755
+sg12
+VLaurea in lettere e filosofia
+p2756
+sa(dp2757
+g2
+VAlessandro
+p2758
+sg4
+VPARTITO DEMOCRATICO
+p2759
+sg6
+VBRATTI
+p2760
+sg8
+g9
+sg10
+V1958
+p2761
+sg12
+VLaurea in scienze agrarie, Dottorato di Ricerca in Entomologia Agraria
+p2762
+sa(dp2763
+g2
+VGiorgio
+p2764
+sg4
+VPARTITO DEMOCRATICO
+p2765
+sg6
+VBRANDOLIN
+p2766
+sg8
+g9
+sg10
+V1951
+p2767
+sg12
+VLaurea in ingegneria
+p2768
+sa(dp2769
+g2
+VMichela
+p2770
+sg4
+VIL POPOLO DELLA LIBERTA'
+p2771
+sg6
+VBRAMBILLA
+p2772
+sg8
+g54
+sg10
+V1967
+p2773
+sg12
+V 
+p2774
+sa(dp2775
+g2
+VPaola
+p2776
+sg4
+VPARTITO DEMOCRATICO
+p2777
+sg6
+VBRAGANTINI
+p2778
+sg8
+g54
+sg10
+V1974
+p2779
+sg12
+VLaurea in scienze politiche
+p2780
+sa(dp2781
+g2
+VMatteo
+p2782
+sg4
+VLEGA NORD
+p2783
+sg6
+VBRAGANTINI
+p2784
+sg8
+g9
+sg10
+V1975
+p2785
+sg12
+VLaurea in economia e commercio
+p2786
+sa(dp2787
+g2
+VChiara
+p2788
+sg4
+VPARTITO DEMOCRATICO
+p2789
+sg6
+VBRAGA
+p2790
+sg8
+g54
+sg10
+V1979
+p2791
+sg12
+VLaurea in pianificazione territoriale, urbanistica ed ambientale
+p2792
+sa(dp2793
+g2
+VLuisa
+p2794
+sg4
+VPARTITO DEMOCRATICO
+p2795
+sg6
+VBOSSA
+p2796
+sg8
+g54
+sg10
+V1952
+p2797
+sg12
+VLaurea in lettere classiche
+p2798
+sa(dp2799
+g2
+VAntonino
+p2800
+sg4
+VIL POPOLO DELLA LIBERTA'
+p2801
+sg6
+VBOSCO
+p2802
+sg8
+g9
+sg10
+V1979
+p2803
+sg12
+VDiploma di liceo classico
+p2804
+sa(dp2805
+g2
+VMaria
+p2806
+sg4
+VPARTITO DEMOCRATICO
+p2807
+sg6
+VBOSCHI
+p2808
+sg8
+g54
+sg10
+V1981
+p2809
+sg12
+VLaurea in giurisprudenza, Master in diritto societario
+p2810
+sa(dp2811
+g2
+VDELL'ACQUA
+p2812
+sg4
+VSCELTA CIVICA CON MONTI PER L'ITALIA
+p2813
+sg6
+VBORLETTI
+p2814
+sg8
+g54
+sg10
+V1955
+p2815
+sg12
+VLaurea in scienze politiche
+p2816
+sa(dp2817
+g2
+VEnrico
+p2818
+sg4
+VPARTITO DEMOCRATICO
+p2819
+sg6
+VBORGHI
+p2820
+sg8
+g9
+sg10
+V1967
+p2821
+sg12
+VLaurea in scienze politiche
+p2822
+sa(dp2823
+g2
+VStefano
+p2824
+sg4
+VLEGA NORD
+p2825
+sg6
+VBORGHESI
+p2826
+sg8
+g9
+sg10
+V1977
+p2827
+sg12
+VLaurea in economia e commercio
+p2828
+sa(dp2829
+g2
+VMario
+p2830
+sg4
+VMOV.ASSOCIATIVO ITALIANI ALL'ESTERO
+p2831
+sg6
+VBORGHESE
+p2832
+sg8
+g9
+sg10
+V1981
+p2833
+sg12
+VLaurea in medicina e chirurgia
+p2834
+sa(dp2835
+g2
+VMichele
+p2836
+sg4
+VPARTITO DEMOCRATICO
+p2837
+sg6
+VBORDO
+p2838
+sg8
+g9
+sg10
+V1973
+p2839
+sg12
+VLaurea in giurisprudenza
+p2840
+sa(dp2841
+g2
+VFranco
+p2842
+sg4
+VSINISTRA ECOLOGIA LIBERTA'
+p2843
+sg6
+VBORDO
+p2844
+sg8
+g9
+sg10
+V1959
+p2845
+sg12
+VLicenza media
+p2846
+sa(dp2847
+g2
+VFrancesca
+p2848
+sg4
+VPARTITO DEMOCRATICO
+p2849
+sg6
+VBONOMO
+p2850
+sg8
+g54
+sg10
+V1984
+p2851
+sg12
+VLaurea in scienze giuridiche
+p2852
+sa(dp2853
+g2
+VFrancesco
+p2854
+sg4
+VPARTITO DEMOCRATICO
+p2855
+sg6
+VBONIFAZI
+p2856
+sg8
+g9
+sg10
+V1976
+p2857
+sg12
+VLaurea in giurisprudenza, Master in diritto tributario
+p2858
+sa(dp2859
+g2
+VFulvio
+p2860
+sg4
+VPARTITO DEMOCRATICO
+p2861
+sg6
+VBONAVITACOLA
+p2862
+sg8
+g9
+sg10
+V1957
+p2863
+sg12
+VLaurea in giurisprudenza
+p2864
+sa(dp2865
+g2
+VSimona
+p2866
+sg4
+VPARTITO DEMOCRATICO
+p2867
+sg6
+VBONAFE'
+p2868
+sg8
+g54
+sg10
+V1973
+p2869
+sg12
+V 
+p2870
+sa(dp2871
+g2
+VAlfonso
+p2872
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p2873
+sg6
+VBONAFEDE
+p2874
+sg8
+g9
+sg10
+V1976
+p2875
+sg12
+VDottorato di ricerca
+p2876
+sa(dp2877
+g2
+VLorenza
+p2878
+sg4
+VPARTITO DEMOCRATICO
+p2879
+sg6
+VBONACCORSI
+p2880
+sg8
+g54
+sg10
+V1968
+p2881
+sg12
+VLaurea in lettere moderne
+p2882
+sa(dp2883
+g2
+VAlberto
+p2884
+sg4
+VSCELTA CIVICA CON MONTI PER L'ITALIA
+p2885
+sg6
+VBOMBASSEI
+p2886
+sg8
+g9
+sg10
+V1940
+p2887
+sg12
+VLaurea in ingegneria meccanica
+p2888
+sa(dp2889
+g2
+VPaolo
+p2890
+sg4
+VPARTITO DEMOCRATICO
+p2891
+sg6
+VBOLOGNESI
+p2892
+sg8
+g9
+sg10
+V1944
+p2893
+sg12
+V 
+p2894
+sa(dp2895
+g2
+VLaura
+p2896
+sg4
+VSINISTRA ECOLOGIA LIBERTA'
+p2897
+sg6
+VBOLDRINI
+p2898
+sg8
+g54
+sg10
+V1961
+p2899
+sg12
+VLaurea in giurisprudenza
+p2900
+sa(dp2901
+g2
+VAntonio
+p2902
+sg4
+VPARTITO DEMOCRATICO
+p2903
+sg6
+VBOCCUZZI
+p2904
+sg8
+g9
+sg10
+V1973
+p2905
+sg12
+VDiploma di perito elettronico
+p2906
+sa(dp2907
+g2
+VGianpiero
+p2908
+sg4
+VPARTITO DEMOCRATICO
+p2909
+sg6
+VBOCCI
+p2910
+sg8
+g9
+sg10
+V1962
+p2911
+sg12
+VLaurea in scienze politiche
+p2912
+sa(dp2913
+g2
+VFrancesco
+p2914
+sg4
+VPARTITO DEMOCRATICO
+p2915
+sg6
+VBOCCIA
+p2916
+sg8
+g9
+sg10
+V1968
+p2917
+sg12
+VLaurea in scienze politiche
+p2918
+sa(dp2919
+g2
+VSergio
+p2920
+sg4
+VSINISTRA ECOLOGIA LIBERTA'
+p2921
+sg6
+VBOCCADUTRI
+p2922
+sg8
+g9
+sg10
+V1976
+p2923
+sg12
+VDiploma di liceo classico
+p2924
+sa(dp2925
+g2
+VLuigi
+p2926
+sg4
+VPARTITO DEMOCRATICO
+p2927
+sg6
+VBOBBA
+p2928
+sg8
+g9
+sg10
+V1955
+p2929
+sg12
+VLaurea in scienze politiche
+p2930
+sa(dp2931
+g2
+VTamara
+p2932
+sg4
+VPARTITO DEMOCRATICO
+p2933
+sg6
+VBLAZINA
+p2934
+sg8
+g54
+sg10
+V1952
+p2935
+sg12
+VDiploma di liceo classico
+p2936
+sa(dp2937
+g2
+VFranca
+p2938
+sg4
+VPARTITO DEMOCRATICO
+p2939
+sg6
+VBIONDELLI
+p2940
+sg8
+g54
+sg10
+V1957
+p2941
+sg12
+VDiploma dirigente comunità
+p2942
+sa(dp2943
+g2
+VCaterina
+p2944
+sg4
+VPARTITO DEMOCRATICO
+p2945
+sg6
+VBINI
+p2946
+sg8
+g54
+sg10
+V1975
+p2947
+sg12
+VLaurea in scienze politiche
+p2948
+sa(dp2949
+g2
+VRosy
+p2950
+sg4
+VPARTITO DEMOCRATICO
+p2951
+sg6
+VBINDI
+p2952
+sg8
+g54
+sg10
+V1951
+p2953
+sg12
+VLaurea in scienze politiche
+p2954
+sa(dp2955
+g2
+VMatteo
+p2956
+sg4
+VPARTITO DEMOCRATICO
+p2957
+sg6
+VBIFFONI
+p2958
+sg8
+g9
+sg10
+V1974
+p2959
+sg12
+VLaurea in giurisprudenza
+p2960
+sa(dp2961
+g2
+VSandro
+p2962
+sg4
+VIL POPOLO DELLA LIBERTA'
+p2963
+sg6
+VBIASOTTI
+p2964
+sg8
+g9
+sg10
+V1948
+p2965
+sg12
+VImprenditore settore concessionarie auto
+p2966
+sa(dp2967
+g2
+VMaurizio
+p2968
+sg4
+VIL POPOLO DELLA LIBERTA'
+p2969
+sg6
+VBIANCONI
+p2970
+sg8
+g9
+sg10
+V1946
+p2971
+sg12
+VLaurea in giurisprudenza
+p2972
+sa(dp2973
+g2
+VMichaela
+p2974
+sg4
+VIL POPOLO DELLA LIBERTA'
+p2975
+sg6
+VBIANCOFIORE
+p2976
+sg8
+g54
+sg10
+V1970
+p2977
+sg12
+VDiploma di istituto magistrale, laureanda in giurisprudenza
+p2978
+sa(dp2979
+g2
+VNicola
+p2980
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p2981
+sg6
+VBIANCHI
+p2982
+sg8
+g9
+sg10
+V1980
+p2983
+sg12
+VDiploma di perito capotecnico informatico
+p2984
+sa(dp2985
+g2
+VMariastella
+p2986
+sg4
+VPARTITO DEMOCRATICO
+p2987
+sg6
+VBIANCHI
+p2988
+sg8
+g54
+sg10
+V1969
+p2989
+sg12
+VLaurea in scienze politiche
+p2990
+sa(dp2991
+g2
+VDorina
+p2992
+sg4
+VIL POPOLO DELLA LIBERTA'
+p2993
+sg6
+VBIANCHI
+p2994
+sg8
+g54
+sg10
+V1966
+p2995
+sg12
+VLaurea in medicina e chirurgia, Specializzazione in radiologia
+p2996
+sa(dp2997
+g2
+VPier
+p2998
+sg4
+VPARTITO DEMOCRATICO
+p2999
+sg6
+VBERSANI
+p3000
+sg8
+g9
+sg10
+V1951
+p3001
+sg12
+VLaurea in filosofia
+p3002
+sa(dp3003
+g2
+VGiuseppe
+p3004
+sg4
+VPARTITO DEMOCRATICO
+p3005
+sg6
+VBERRETTA
+p3006
+sg8
+g9
+sg10
+V1970
+p3007
+sg12
+VLaurea in giurisprudenza, Dottorato di ricerca in diritto del lavoro e previdenza sociale
+p3008
+sa(dp3009
+g2
+VPaolo
+p3010
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p3011
+sg6
+VBERNINI
+p3012
+sg8
+g9
+sg10
+V1987
+p3013
+sg12
+VLaurea in tecnologia della comunicazione audiovisiva e multimediale
+p3014
+sa(dp3015
+g2
+VMassimiliano
+p3016
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p3017
+sg6
+VBERNINI
+p3018
+sg8
+g9
+sg10
+V1975
+p3019
+sg12
+VLaurea in scienze forestali ed ambientali, Dottorato di ricerca
+p3020
+sa(dp3021
+g2
+VMaurizio
+p3022
+sg4
+VIL POPOLO DELLA LIBERTA'
+p3023
+sg6
+VBERNARDO
+p3024
+sg8
+g9
+sg10
+V1963
+p3025
+sg12
+VLaurea in sociologia
+p3026
+sa(dp3027
+g2
+VMarina
+p3028
+sg4
+VPARTITO DEMOCRATICO
+p3029
+sg6
+VBERLINGHIERI
+p3030
+sg8
+g54
+sg10
+V1968
+p3031
+sg12
+VDiploma accademico di magistero in scienze religiose
+p3032
+sa(dp3033
+g2
+VPaolo
+p3034
+sg4
+VPARTITO DEMOCRATICO
+p3035
+sg6
+VBENI
+p3036
+sg8
+g9
+sg10
+V1954
+p3037
+sg12
+VDiploma di liceo classico
+p3038
+sa(dp3039
+g2
+VGianluca
+p3040
+sg4
+VPARTITO DEMOCRATICO
+p3041
+sg6
+VBENAMATI
+p3042
+sg8
+g9
+sg10
+V1962
+p3043
+sg12
+VLaurea in ingegneria chimica
+p3044
+sa(dp3045
+g2
+VTeresa
+p3046
+sg4
+VPARTITO DEMOCRATICO
+p3047
+sg6
+VBELLANOVA
+p3048
+sg8
+g54
+sg10
+V1958
+p3049
+sg12
+VLicenza media
+p3050
+sa(dp3051
+g2
+VEleonora
+p3052
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p3053
+sg6
+VBECHIS
+p3054
+sg8
+g54
+sg10
+V1974
+p3055
+sg12
+VDiploma di istituto professionale per i servizi alberghieri e ristorazione
+p3056
+sa(dp3057
+g2
+VAlfredo
+p3058
+sg4
+VPARTITO DEMOCRATICO
+p3059
+sg6
+VBAZOLI
+p3060
+sg8
+g9
+sg10
+V1969
+p3061
+sg12
+VLaurea in giurisprudenza
+p3062
+sa(dp3063
+g2
+VSergio
+p3064
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p3065
+sg6
+VBATTELLI
+p3066
+sg8
+g9
+sg10
+V1982
+p3067
+sg12
+VLicenza media
+p3068
+sa(dp3069
+g2
+VDemetrio
+p3070
+sg4
+VPARTITO DEMOCRATICO
+p3071
+sg6
+VBATTAGLIA
+p3072
+sg8
+g9
+sg10
+V1959
+p3073
+sg12
+VLaurea in giurisprudenza
+p3074
+sa(dp3075
+g2
+VLorenzo
+p3076
+sg4
+VPARTITO DEMOCRATICO
+p3077
+sg6
+VBASSO
+p3078
+sg8
+g9
+sg10
+V1976
+p3079
+sg12
+VDiploma di liceo scientifico
+p3080
+sa(dp3081
+g2
+VTatiana
+p3082
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p3083
+sg6
+VBASILIO
+p3084
+sg8
+g54
+sg10
+V1975
+p3085
+sg12
+VDiploma di liceo linguistico
+p3086
+sa(dp3087
+g2
+VDavide
+p3088
+sg4
+VPARTITO DEMOCRATICO
+p3089
+sg6
+VBARUFFI
+p3090
+sg8
+g9
+sg10
+V1974
+p3091
+sg12
+VDiploma di liceo scientifico
+p3092
+sa(dp3093
+g2
+VMassimo
+p3094
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p3095
+sg6
+VBARONI
+p3096
+sg8
+g9
+sg10
+V1973
+p3097
+sg12
+VSpecializzazione in psicologia clinica
+p3098
+sa(dp3099
+g2
+VCristina
+p3100
+sg4
+VPARTITO DEMOCRATICO
+p3101
+sg6
+VBARGERO
+p3102
+sg8
+g54
+sg10
+V1975
+p3103
+sg12
+VLaurea in giurisprudenza, Master in analisi delle politiche pubbliche CORES Torino
+p3104
+sa(dp3105
+g2
+VPier
+p3106
+sg4
+VPARTITO DEMOCRATICO
+p3107
+sg6
+VBARETTA
+p3108
+sg8
+g9
+sg10
+V1949
+p3109
+sg12
+VDiploma di istituto tecnico commerciale
+p3110
+sa(dp3111
+g2
+VRenato
+p3112
+sg4
+VSCELTA CIVICA CON MONTI PER L'ITALIA
+p3113
+sg6
+VBALDUZZI
+p3114
+sg8
+g9
+sg10
+V1955
+p3115
+sg12
+VLaurea magistrale in giurisprudenza
+p3116
+sa(dp3117
+g2
+VSimone
+p3118
+sg4
+VIL POPOLO DELLA LIBERTA'
+p3119
+sg6
+VBALDELLI
+p3120
+sg8
+g9
+sg10
+V1972
+p3121
+sg12
+VLaurea in scienze politiche
+p3122
+sa(dp3123
+g2
+VMarco
+p3124
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p3125
+sg6
+VBALDASSARRE
+p3126
+sg8
+g9
+sg10
+V1984
+p3127
+sg12
+VDiploma di istituto tecnico industriale
+p3128
+sa(dp3129
+g2
+VAnna
+p3130
+sg4
+VPARTITO DEMOCRATICO
+p3131
+sg6
+VASCANI
+p3132
+sg8
+g54
+sg10
+V1987
+p3133
+sg12
+VLaurea in filosofia teoretica, morale, politica ed estetica
+p3134
+sa(dp3135
+g2
+VMassimo
+p3136
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p3137
+sg6
+VARTINI
+p3138
+sg8
+g9
+sg10
+V1974
+p3139
+sg12
+VDiploma di istituto tecnico commerciale
+p3140
+sa(dp3141
+g2
+VTiziano
+p3142
+sg4
+VPARTITO DEMOCRATICO
+p3143
+sg6
+VARLOTTI
+p3144
+sg8
+g9
+sg10
+V1959
+p3145
+sg12
+VDiploma di istituto magistrale
+p3146
+sa(dp3147
+g2
+VIleana
+p3148
+sg4
+VPARTITO DEMOCRATICO
+p3149
+sg6
+VARGENTIN
+p3150
+sg8
+g54
+sg10
+V1963
+p3151
+sg12
+VLaurea in scienze politiche
+p3152
+sa(dp3153
+g2
+VMichele
+p3154
+sg4
+VPARTITO DEMOCRATICO
+p3155
+sg6
+VANZALDI
+p3156
+sg8
+g9
+sg10
+V1960
+p3157
+sg12
+VDiploma di liceo classico
+p3158
+sa(dp3159
+g2
+VMaria
+p3160
+sg4
+VPARTITO DEMOCRATICO
+p3161
+sg6
+VANTEZZA
+p3162
+sg8
+g54
+sg10
+V1965
+p3163
+sg12
+VDiploma di ragioniere e perito commerciale
+p3164
+sa(dp3165
+g2
+VAntonio
+p3166
+sg4
+VIL POPOLO DELLA LIBERTA'
+p3167
+sg6
+VANGELUCCI
+p3168
+sg8
+g9
+sg10
+V1944
+p3169
+sg12
+VLicenza media
+p3170
+sa(dp3171
+g2
+VSofia
+p3172
+sg4
+VPARTITO DEMOCRATICO
+p3173
+sg6
+VAMODDIO
+p3174
+sg8
+g54
+sg10
+V1964
+p3175
+sg12
+VLaurea in giurisprudenza
+p3176
+sa(dp3177
+g2
+VSesa
+p3178
+sg4
+VPARTITO DEMOCRATICO
+p3179
+sg6
+VAMICI
+p3180
+sg8
+g54
+sg10
+V1958
+p3181
+sg12
+VLaurea in lettere e filosofia
+p3182
+sa(dp3183
+g2
+VVincenzo
+p3184
+sg4
+VPARTITO DEMOCRATICO
+p3185
+sg6
+VAMENDOLA
+p3186
+sg8
+g9
+sg10
+V1973
+p3187
+sg12
+VDiploma di liceo scientifico
+p3188
+sa(dp3189
+g2
+VMaria
+p3190
+sg4
+VPARTITO DEMOCRATICO
+p3191
+sg6
+VAMATO
+p3192
+sg8
+g54
+sg10
+V1958
+p3193
+sg12
+VLaurea in medicina e chirurgia, Specializzazione in radiologia
+p3194
+sa(dp3195
+g2
+VPaolo
+p3196
+sg4
+VIL POPOLO DELLA LIBERTA'
+p3197
+sg6
+VALLI
+p3198
+sg8
+g9
+sg10
+V1950
+p3199
+sg12
+VLaurea in ingegneria elettronica
+p3200
+sa(dp3201
+g2
+VStefano
+p3202
+sg4
+VLEGA NORD
+p3203
+sg6
+VALLASIA
+p3204
+sg8
+g9
+sg10
+V1974
+p3205
+sg12
+VDiploma di istituto tecnico industriale
+p3206
+sa(dp3207
+g2
+VDaniel
+p3208
+sg4
+VSVP
+p3209
+sg6
+VALFREIDER
+p3210
+sg8
+g9
+sg10
+V1981
+p3211
+sg12
+VLaurea in ingegneria civile
+p3212
+sa(dp3213
+g2
+VAngelino
+p3214
+sg4
+VIL POPOLO DELLA LIBERTA'
+p3215
+sg6
+VALFANO
+p3216
+sg8
+g9
+sg10
+V1970
+p3217
+sg12
+VLaurea in giurisprudenza, Dottorato di ricerca in diritto dell'impresa
+p3218
+sa(dp3219
+g2
+VDino
+p3220
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p3221
+sg6
+VALBERTI
+p3222
+sg8
+g9
+sg10
+V1982
+p3223
+sg12
+VLaurea in ingegneria meccanica
+p3224
+sa(dp3225
+g2
+VLuisella
+p3226
+sg4
+VPARTITO DEMOCRATICO
+p3227
+sg6
+VALBANELLA
+p3228
+sg8
+g54
+sg10
+V1954
+p3229
+sg12
+VSindacalista
+p3230
+sa(dp3231
+g2
+VGiorgio
+p3232
+sg4
+VSINISTRA ECOLOGIA LIBERTA'
+p3233
+sg6
+VAIRAUDO
+p3234
+sg8
+g9
+sg10
+V1960
+p3235
+sg12
+V 
+p3236
+sa(dp3237
+g2
+VFerdinando
+p3238
+sg4
+VSINISTRA ECOLOGIA LIBERTA'
+p3239
+sg6
+VAIELLO
+p3240
+sg8
+g9
+sg10
+V1972
+p3241
+sg12
+VDiploma di istituto tecnico commerciale
+p3242
+sa(dp3243
+g2
+VRoberta
+p3244
+sg4
+VPARTITO DEMOCRATICO
+p3245
+sg6
+VAGOSTINI
+p3246
+sg8
+g54
+sg10
+V1966
+p3247
+sg12
+VLaurea in filosofia
+p3248
+sa(dp3249
+g2
+VLuciano
+p3250
+sg4
+VPARTITO DEMOCRATICO
+p3251
+sg6
+VAGOSTINI
+p3252
+sg8
+g9
+sg10
+V1958
+p3253
+sg12
+VDiploma di istituto tecnico industriale
+p3254
+sa(dp3255
+g2
+VDonatella
+p3256
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p3257
+sg6
+VAGOSTINELLI
+p3258
+sg8
+g54
+sg10
+V1974
+p3259
+sg12
+VLaurea in giurisprudenza
+p3260
+sa(dp3261
+g2
+VFerdinando
+p3262
+sg4
+VUNIONE DI CENTRO
+p3263
+sg6
+VADORNATO
+p3264
+sg8
+g9
+sg10
+V1954
+p3265
+sg12
+VLaurea in filosofia
+p3266
+sa(dp3267
+g2
+VIgnazio
+p3268
+sg4
+VIL POPOLO DELLA LIBERTA'
+p3269
+sg6
+VABRIGNANI
+p3270
+sg8
+g9
+sg10
+V1958
+p3271
+sg12
+VLaurea in giurisprudenza
+p3272
+sa(dp3273
+g2
+VBruno
+p3274
+sg4
+VIL POPOLO DELLA LIBERTA'
+p3275
+sg6
+VARCHI
+p3276
+sg8
+g9
+sg10
+V1962
+p3277
+sg12
+VLaurea in scienze politiche
+p3278
+sa(dp3279
+g2
+VSebastiano
+p3280
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p3281
+sg6
+VBARBANTI
+p3282
+sg8
+g9
+sg10
+V1976
+p3283
+sg12
+VLaurea in scienze statistiche ed attuariali, Marketing
+p3284
+sa(dp3285
+g2
+VSilvia
+p3286
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p3287
+sg6
+VBENEDETTI
+p3288
+sg8
+g54
+sg10
+V1979
+p3289
+sg12
+VLaurea in scienze biologiche
+p3290
+sa(dp3291
+g2
+VDeborah
+p3292
+sg4
+VIL POPOLO DELLA LIBERTA'
+p3293
+sg6
+VBERGAMINI
+p3294
+sg8
+g54
+sg10
+V1967
+p3295
+sg12
+VLaurea in lingue e letterature straniere
+p3296
+sa(dp3297
+g2
+VPaola
+p3298
+sg4
+VUNIONE DI CENTRO
+p3299
+sg6
+VBINETTI
+p3300
+sg8
+g54
+sg10
+V1943
+p3301
+sg12
+VLaurea in medicina e chirurgia, Specializzazione in neuropsichiatria infantile
+p3302
+sa(dp3303
+g2
+VGioacchino
+p3304
+sg4
+VIL POPOLO DELLA LIBERTA'
+p3305
+sg6
+VALFANO
+p3306
+sg8
+g9
+sg10
+V1963
+p3307
+sg12
+VLaurea in economia e commercio
+p3308
+sa(dp3309
+g2
+VUmberto
+p3310
+sg4
+VLEGA NORD
+p3311
+sg6
+VBOSSI
+p3312
+sg8
+g9
+sg10
+V1941
+p3313
+sg12
+VLiceo scientifico
+p3314
+sa(dp3315
+g2
+VAzzurra
+p3316
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p3317
+sg6
+VCANCELLERI
+p3318
+sg8
+g54
+sg10
+V1984
+p3319
+sg12
+VDiploma di liceo scientifico
+p3320
+sa(dp3321
+g2
+VRoberto
+p3322
+sg4
+VLEGA NORD
+p3323
+sg6
+VCOTA
+p3324
+sg8
+g9
+sg10
+V1968
+p3325
+sg12
+VLaurea in giurisprudenza
+p3326
+sa(dp3327
+g2
+VMARIA
+p3328
+sg4
+VPARTITO DEMOCRATICO
+p3329
+sg6
+VDE
+p3330
+sg8
+g9
+sg10
+V1966
+p3331
+sg12
+VDiploma di liceo scientifico
+p3332
+sa(dp3333
+g2
+VFederica
+p3334
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p3335
+sg6
+VDIENI
+p3336
+sg8
+g54
+sg10
+V1986
+p3337
+sg12
+VLaurea in giurisprudenza, Master in politiche di pace e cooperazione allo sviluppo nell'area del Mediterraneo
+p3338
+sa(dp3339
+g2
+VUmberto
+p3340
+sg4
+VPARTITO DEMOCRATICO
+p3341
+sg6
+VD'OTTAVIO
+p3342
+sg8
+g9
+sg10
+V1961
+p3343
+sg12
+VLaurea in scienze dell'educazione
+p3344
+sa(dp3345
+g2
+VGianni
+p3346
+sg4
+VPARTITO DEMOCRATICO
+p3347
+sg6
+VFARINA
+p3348
+sg8
+g9
+sg10
+V1941
+p3349
+sg12
+VDiploma di istituto tecnico per geometri
+p3350
+sa(dp3351
+g2
+VClaudio
+p3352
+sg4
+VSINISTRA ECOLOGIA LIBERTA'
+p3353
+sg6
+VFAVA
+p3354
+sg8
+g9
+sg10
+V1957
+p3355
+sg12
+VLaurea in giurisprudenza
+p3356
+sa(dp3357
+g2
+VMassimo
+p3358
+sg4
+VPARTITO DEMOCRATICO
+p3359
+sg6
+VFIORIO
+p3360
+sg8
+g9
+sg10
+V1968
+p3361
+sg12
+VLaurea in lettere e filosofia, Dottorato di ricerca in filosofia e scienze umane
+p3362
+sa(dp3363
+g2
+VCinzia
+p3364
+sg4
+VPARTITO DEMOCRATICO
+p3365
+sg6
+VFONTANA
+p3366
+sg8
+g54
+sg10
+V1963
+p3367
+sg12
+VLaurea in lingue e letterature straniere
+p3368
+sa(dp3369
+g2
+VAniello
+p3370
+sg4
+VCENTRO DEMOCRATICO
+p3371
+sg6
+VFORMISANO
+p3372
+sg8
+g9
+sg10
+V1954
+p3373
+sg12
+VLaurea in giurisprudenza
+p3374
+sa(dp3375
+g2
+VDario
+p3376
+sg4
+VPARTITO DEMOCRATICO
+p3377
+sg6
+VFRANCESCHINI
+p3378
+sg8
+g9
+sg10
+V1958
+p3379
+sg12
+VLaurea in giurisprudenza
+p3380
+sa(dp3381
+g2
+VRiccardo
+p3382
+sg4
+VIL POPOLO DELLA LIBERTA'
+p3383
+sg6
+VGALLO
+p3384
+sg8
+g9
+sg10
+V1967
+p3385
+sg12
+V 
+p3386
+sa(dp3387
+g2
+VSANTANCHE'
+p3388
+sg4
+VIL POPOLO DELLA LIBERTA'
+p3389
+sg6
+VGARNERO
+p3390
+sg8
+g54
+sg10
+V1961
+p3391
+sg12
+VLaurea in scienze politiche
+p3392
+sa(dp3393
+g2
+VFederico
+p3394
+sg4
+VPARTITO DEMOCRATICO
+p3395
+sg6
+VGINATO
+p3396
+sg8
+g9
+sg10
+V1974
+p3397
+sg12
+VLaurea in scienze politiche
+p3398
+sa(dp3399
+g2
+VGiuseppe
+p3400
+sg4
+VPARTITO DEMOCRATICO
+p3401
+sg6
+VLAURICELLA
+p3402
+sg8
+g9
+sg10
+V1960
+p3403
+sg12
+VLaurea in giurisprudenza, Avvocato cassazionista
+p3404
+sa(dp3405
+g2
+VGianfranco
+p3406
+sg4
+VSCELTA CIVICA CON MONTI PER L'ITALIA
+p3407
+sg6
+VLIBRANDI
+p3408
+sg8
+g9
+sg10
+V1954
+p3409
+sg12
+VLaurea in economia aziendale, Laurea in giurisprudenza
+p3410
+sa(dp3411
+g2
+VMarco
+p3412
+sg4
+VPARTITO DEMOCRATICO
+p3413
+sg6
+VMARCHETTI
+p3414
+sg8
+g9
+sg10
+V1977
+p3415
+sg12
+VDiploma di istituto tecnico commerciale
+p3416
+sa(dp3417
+g2
+VToni
+p3418
+sg4
+VSINISTRA ECOLOGIA LIBERTA'
+p3419
+sg6
+VMATARRELLI
+p3420
+sg8
+g9
+sg10
+V1975
+p3421
+sg12
+VLaurea in materie letterarie
+p3422
+sa(dp3423
+g2
+VSalvatore
+p3424
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p3425
+sg6
+VMICILLO
+p3426
+sg8
+g9
+sg10
+V1980
+p3427
+sg12
+VLaurea in scienze internazionali e diplomatiche
+p3428
+sa(dp3429
+g2
+VAntonino
+p3430
+sg4
+VIL POPOLO DELLA LIBERTA'
+p3431
+sg6
+VMINARDO
+p3432
+sg8
+g9
+sg10
+V1978
+p3433
+sg12
+VLaurea scienze politiche
+p3434
+sa(dp3435
+g2
+VAnna
+p3436
+sg4
+VPARTITO DEMOCRATICO
+p3437
+sg6
+VMIOTTO
+p3438
+sg8
+g54
+sg10
+V1948
+p3439
+sg12
+VDiploma di istituto tecnico commerciale
+p3440
+sa(dp3441
+g2
+VDaniele
+p3442
+sg4
+VPARTITO DEMOCRATICO
+p3443
+sg6
+VMONTRONI
+p3444
+sg8
+g9
+sg10
+V1961
+p3445
+sg12
+VDiploma di istituto tecnico industriale
+p3446
+sa(dp3447
+g2
+VMara
+p3448
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p3449
+sg6
+VMUCCI
+p3450
+sg8
+g54
+sg10
+V1982
+p3451
+sg12
+VLaurea in informatica
+p3452
+sa(dp3453
+g2
+VGiulia
+p3454
+sg4
+VPARTITO DEMOCRATICO
+p3455
+sg6
+VNARDUOLO
+p3456
+sg8
+g54
+sg10
+V1984
+p3457
+sg12
+VLaurea in lingue e letterature moderne euroamericane
+p3458
+sa(dp3459
+g2
+VEdoardo
+p3460
+sg4
+VSCELTA CIVICA CON MONTI PER L'ITALIA
+p3461
+sg6
+VNESI
+p3462
+sg8
+g9
+sg10
+V1964
+p3463
+sg12
+VDiploma di liceo scientifico
+p3464
+sa(dp3465
+g2
+VNicodemo
+p3466
+sg4
+VPARTITO DEMOCRATICO
+p3467
+sg6
+VOLIVERIO
+p3468
+sg8
+g9
+sg10
+V1956
+p3469
+sg12
+VLaurea in scienze politiche
+p3470
+sa(dp3471
+g2
+VAlessandro
+p3472
+sg4
+VIL POPOLO DELLA LIBERTA'
+p3473
+sg6
+VPAGANO
+p3474
+sg8
+g9
+sg10
+V1959
+p3475
+sg12
+VLaurea in economia e commercio, Laurea in economia bancaria, finanziaria e assicurativa
+p3476
+sa(dp3477
+g2
+VGiovanna
+p3478
+sg4
+VPARTITO DEMOCRATICO
+p3479
+sg6
+VPALMA
+p3480
+sg8
+g54
+sg10
+V1974
+p3481
+sg12
+VLaurea in giurisprudenza
+p3482
+sa(dp3483
+g2
+VValentina
+p3484
+sg4
+VPARTITO DEMOCRATICO
+p3485
+sg6
+VPARIS
+p3486
+sg8
+g54
+sg10
+V1981
+p3487
+sg12
+VLaurea in scienze politiche e delle relazioni internazionali
+p3488
+sa(dp3489
+g2
+VLuca
+p3490
+sg4
+VPARTITO DEMOCRATICO
+p3491
+sg6
+VPASTORINO
+p3492
+sg8
+g9
+sg10
+V1971
+p3493
+sg12
+VLaurea in economia aziendale
+p3494
+sa(dp3495
+g2
+VBruno
+p3496
+sg4
+VCENTRO DEMOCRATICO
+p3497
+sg6
+VTABACCI
+p3498
+sg8
+g9
+sg10
+V1946
+p3499
+sg12
+VLaurea in economia e commercio
+p3500
+sa(dp3501
+g2
+VAlessandra
+p3502
+sg4
+VPARTITO DEMOCRATICO
+p3503
+sg6
+VTERROSI
+p3504
+sg8
+g54
+sg10
+V1967
+p3505
+sg12
+VLaurea in scienze agrarie
+p3506
+sa(dp3507
+g2
+VVeronica
+p3508
+sg4
+VPARTITO DEMOCRATICO
+p3509
+sg6
+VTENTORI
+p3510
+sg8
+g54
+sg10
+V1985
+p3511
+sg12
+VLaurea in architettura
+p3512
+sa(dp3513
+g2
+VAssunta
+p3514
+sg4
+VPARTITO DEMOCRATICO
+p3515
+sg6
+VTARTAGLIONE
+p3516
+sg8
+g54
+sg10
+V1970
+p3517
+sg12
+VLaurea in giurisprudenza
+p3518
+sa(dp3519
+g2
+VTancredi
+p3520
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p3521
+sg6
+VTURCO
+p3522
+sg8
+g9
+sg10
+V1975
+p3523
+sg12
+VLaurea in giurisprudenza
+p3524
+sa(dp3525
+g2
+VMario
+p3526
+sg4
+VPARTITO DEMOCRATICO
+p3527
+sg6
+VTULLO
+p3528
+sg8
+g9
+sg10
+V1959
+p3529
+sg12
+VDiploma di assistente comunità infantile
+p3530
+sa(dp3531
+g2
+VElio
+p3532
+sg4
+VIL POPOLO DELLA LIBERTA'
+p3533
+sg6
+VVITO
+p3534
+sg8
+g9
+sg10
+V1960
+p3535
+sg12
+VLaurea in sociologia
+p3536
+sa(dp3537
+g2
+VAlberto
+p3538
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p3539
+sg6
+VZOLEZZI
+p3540
+sg8
+g9
+sg10
+V1974
+p3541
+sg12
+VLaurea in medicina e chirurgia, Specializzazione in malattie dell'apparato respiratorio
+p3542
+sa(dp3543
+g2
+VCecile
+p3544
+sg4
+VPARTITO DEMOCRATICO
+p3545
+sg6
+VKYENGE
+p3546
+sg8
+g54
+sg10
+V1964
+p3547
+sg12
+VLaurea in medicina e chirurgia, Specializzazione in oculistica
+p3548
+sa(dp3549
+g2
+VFlorian
+p3550
+sg4
+VSINISTRA ECOLOGIA LIBERTA'
+p3551
+sg6
+VKRONBICHLER
+p3552
+sg8
+g9
+sg10
+V1951
+p3553
+sg12
+VLaurea in scienze politiche
+p3554
+sa(dp3555
+g2
+VDavide
+p3556
+sg4
+VPARTITO DEMOCRATICO
+p3557
+sg6
+VZOGGIA
+p3558
+sg8
+g9
+sg10
+V1964
+p3559
+sg12
+VDiploma di istituto tecnico commerciale
+p3560
+sa(dp3561
+g2
+VDiego
+p3562
+sg4
+VPARTITO DEMOCRATICO
+p3563
+sg6
+VZARDINI
+p3564
+sg8
+g9
+sg10
+V1978
+p3565
+sg12
+VDiploma di liceo scientifico
+p3566
+sa(dp3567
+g2
+VFiliberto
+p3568
+sg4
+VSINISTRA ECOLOGIA LIBERTA'
+p3569
+sg6
+VZARATTI
+p3570
+sg8
+g9
+sg10
+V1956
+p3571
+sg12
+VLaurea in scienze politiche
+p3572
+sa(dp3573
+g2
+VGiuseppe
+p3574
+sg4
+VPARTITO DEMOCRATICO
+p3575
+sg6
+VZAPPULLA
+p3576
+sg8
+g9
+sg10
+V1957
+p3577
+sg12
+VDiploma di istituto professionale per il commercio
+p3578
+sa(dp3579
+g2
+VGiorgio
+p3580
+sg4
+VPARTITO DEMOCRATICO
+p3581
+sg6
+VZANIN
+p3582
+sg8
+g9
+sg10
+V1964
+p3583
+sg12
+VLaurea in lettere e filosofia
+p3584
+sa(dp3585
+g2
+VEnrico
+p3586
+sg4
+VSCELTA CIVICA CON MONTI PER L'ITALIA
+p3587
+sg6
+VZANETTI
+p3588
+sg8
+g9
+sg10
+V1973
+p3589
+sg12
+VLaurea in economia e commercio
+p3590
+sa(dp3591
+g2
+VAlessandro
+p3592
+sg4
+VSINISTRA ECOLOGIA LIBERTA'
+p3593
+sg6
+VZAN
+p3594
+sg8
+g9
+sg10
+V1973
+p3595
+sg12
+VLaurea in ingegneria delle telecomunicazioni
+p3596
+sa(dp3597
+g2
+VSandra
+p3598
+sg4
+VPARTITO DEMOCRATICO
+p3599
+sg6
+VZAMPA
+p3600
+sg8
+g54
+sg10
+V1956
+p3601
+sg12
+VLaurea in scienze politiche
+p3602
+sa(dp3603
+g2
+VAdriano
+p3604
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p3605
+sg6
+VZACCAGNINI
+p3606
+sg8
+g9
+sg10
+V1982
+p3607
+sg12
+VLaurea in scienze politiche
+p3608
+sa(dp3609
+g2
+VPaolo
+p3610
+sg4
+VSCELTA CIVICA CON MONTI PER L'ITALIA
+p3611
+sg6
+VVITELLI
+p3612
+sg8
+g9
+sg10
+V1947
+p3613
+sg12
+VLaurea in economia e commercio
+p3614
+sa(dp3615
+g2
+VCALIPARI
+p3616
+sg4
+VPARTITO DEMOCRATICO
+p3617
+sg6
+VVILLECCO
+p3618
+sg8
+g54
+sg10
+V1958
+p3619
+sg12
+VLaurea in scienze economiche
+p3620
+sa(dp3621
+g2
+VAlessio
+p3622
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p3623
+sg6
+VVILLAROSA
+p3624
+sg8
+g9
+sg10
+V1981
+p3625
+sg12
+VLaurea in economia aziendale
+p3626
+sa(dp3627
+g2
+VStefano
+p3628
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p3629
+sg6
+VVIGNAROLI
+p3630
+sg8
+g9
+sg10
+V1976
+p3631
+sg12
+VDiploma di istituto tecnico industriale
+p3632
+sa(dp3633
+g2
+VRaffaello
+p3634
+sg4
+VIL POPOLO DELLA LIBERTA'
+p3635
+sg6
+VVIGNALI
+p3636
+sg8
+g9
+sg10
+V1963
+p3637
+sg12
+VLaurea in filosofia
+p3638
+sa(dp3639
+g2
+VMaria
+p3640
+sg4
+VSCELTA CIVICA CON MONTI PER L'ITALIA
+p3641
+sg6
+VVEZZALI
+p3642
+sg8
+g54
+sg10
+V1974
+p3643
+sg12
+VDiploma di istituto tecnico commerciale
+p3644
+sa(dp3645
+g2
+VWalter
+p3646
+sg4
+VPARTITO DEMOCRATICO
+p3647
+sg6
+VVERINI
+p3648
+sg8
+g9
+sg10
+V1956
+p3649
+sg12
+VDiploma di liceo classico
+p3650
+sa(dp3651
+g2
+VLiliana
+p3652
+sg4
+VPARTITO DEMOCRATICO
+p3653
+sg6
+VVENTRICELLI
+p3654
+sg8
+g54
+sg10
+V1986
+p3655
+sg12
+VDiploma di liceo classico
+p3656
+sa(dp3657
+g2
+VLaura
+p3658
+sg4
+VPARTITO DEMOCRATICO
+p3659
+sg6
+VVENITTELLI
+p3660
+sg8
+g54
+sg10
+V1960
+p3661
+sg12
+VLaurea in giurisprudenza
+p3662
+sa(dp3663
+g2
+VNichi
+p3664
+sg4
+VSINISTRA ECOLOGIA LIBERTA'
+p3665
+sg6
+VVENDOLA
+p3666
+sg8
+g9
+sg10
+V1958
+p3667
+sg12
+VLaurea in lettere e filosofia
+p3668
+sa(dp3669
+g2
+VSilvia
+p3670
+sg4
+VPARTITO DEMOCRATICO
+p3671
+sg6
+VVELO
+p3672
+sg8
+g54
+sg10
+V1967
+p3673
+sg12
+VLaurea in chimica e tecnologie farmaceutiche
+p3674
+sa(dp3675
+g2
+VPaolo
+p3676
+sg4
+VIL POPOLO DELLA LIBERTA'
+p3677
+sg6
+VVELLA
+p3678
+sg8
+g9
+sg10
+V1950
+p3679
+sg12
+VLaurea in architettura
+p3680
+sa(dp3681
+g2
+VAndrea
+p3682
+sg4
+VSCELTA CIVICA CON MONTI PER L'ITALIA
+p3683
+sg6
+VVECCHIO
+p3684
+sg8
+g9
+sg10
+V1939
+p3685
+sg12
+V 
+p3686
+sa(dp3687
+g2
+VFranco
+p3688
+sg4
+VPARTITO DEMOCRATICO
+p3689
+sg6
+VVAZIO
+p3690
+sg8
+g9
+sg10
+V1962
+p3691
+sg12
+VLaurea in giurisprudenza
+p3692
+sa(dp3693
+g2
+VPierpaolo
+p3694
+sg4
+VSCELTA CIVICA CON MONTI PER L'ITALIA
+p3695
+sg6
+VVARGIU
+p3696
+sg8
+g9
+sg10
+V1957
+p3697
+sg12
+VLaurea in medicina e chirurgia, Master EMMAS SDA Bocconi, Specializzazione in medicina legale, Specializzazione in odontostomatologia, Specializzazione in radiologia
+p3698
+sa(dp3699
+g2
+VAndrea
+p3700
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p3701
+sg6
+VVALLASCAS
+p3702
+sg8
+g9
+sg10
+V1975
+p3703
+sg12
+VLaurea in ingegneria edile
+p3704
+sa(dp3705
+g2
+VSimone
+p3706
+sg4
+VPARTITO DEMOCRATICO
+p3707
+sg6
+VVALIANTE
+p3708
+sg8
+g9
+sg10
+V1974
+p3709
+sg12
+VLaurea in giurisprudenza
+p3710
+sa(dp3711
+g2
+VValentino
+p3712
+sg4
+VIL POPOLO DELLA LIBERTA'
+p3713
+sg6
+VVALENTINI
+p3714
+sg8
+g9
+sg10
+V1962
+p3715
+sg12
+VLaurea di interprete, Master in business administration
+p3716
+sa(dp3717
+g2
+VValeria
+p3718
+sg4
+VPARTITO DEMOCRATICO
+p3719
+sg6
+VVALENTE
+p3720
+sg8
+g54
+sg10
+V1976
+p3721
+sg12
+VLaurea in giurisprudenza
+p3722
+sa(dp3723
+g2
+VSimone
+p3724
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p3725
+sg6
+VVALENTE
+p3726
+sg8
+g9
+sg10
+V1987
+p3727
+sg12
+VDiploma di istituto tecnico industriale
+p3728
+sa(dp3729
+g2
+VGuglielmo
+p3730
+sg4
+VPARTITO DEMOCRATICO
+p3731
+sg6
+VVACCARO
+p3732
+sg8
+g9
+sg10
+V1967
+p3733
+sg12
+VLaurea in economia e commercio
+p3734
+sa(dp3735
+g2
+VGianluca
+p3736
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p3737
+sg6
+VVACCA
+p3738
+sg8
+g9
+sg10
+V1973
+p3739
+sg12
+VLaurea in lettere moderne
+p3740
+sa(dp3741
+g2
+VDavide
+p3742
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p3743
+sg6
+VTRIPIEDI
+p3744
+sg8
+g9
+sg10
+V1984
+p3745
+sg12
+VLicenza media
+p3746
+sa(dp3747
+g2
+VAchille
+p3748
+sg4
+VFRATELLI D'ITALIA
+p3749
+sg6
+VTOTARO
+p3750
+sg8
+g9
+sg10
+V1965
+p3751
+sg12
+VDiploma di liceo scientifico
+p3752
+sa(dp3753
+g2
+VDanilo
+p3754
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p3755
+sg6
+VTONINELLI
+p3756
+sg8
+g9
+sg10
+V1974
+p3757
+sg12
+VLaurea in giurisprudenza
+p3758
+sa(dp3759
+g2
+VAngelo
+p3760
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p3761
+sg6
+VTOFALO
+p3762
+sg8
+g9
+sg10
+V1981
+p3763
+sg12
+VLaurea in ingegneria civile
+p3764
+sa(dp3765
+g2
+VIrene
+p3766
+sg4
+VSCELTA CIVICA CON MONTI PER L'ITALIA
+p3767
+sg6
+VTINAGLI
+p3768
+sg8
+g54
+sg10
+V1974
+p3769
+sg12
+VPhD in Public Policy
+p3770
+sa(dp3771
+g2
+VMarietta
+p3772
+sg4
+VPARTITO DEMOCRATICO
+p3773
+sg6
+VTIDEI
+p3774
+sg8
+g54
+sg10
+V1975
+p3775
+sg12
+VLaurea in scienze dell'amministrazione
+p3776
+sa(dp3777
+g2
+VPatrizia
+p3778
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p3779
+sg6
+VTERZONI
+p3780
+sg8
+g54
+sg10
+V1982
+p3781
+sg12
+VLaurea in ingegneria civile e ambientale
+p3782
+sa(dp3783
+g2
+VMino
+p3784
+sg4
+VPARTITO DEMOCRATICO
+p3785
+sg6
+VTARICCO
+p3786
+sg8
+g9
+sg10
+V1959
+p3787
+sg12
+VDiploma di istituto tecnico agrario
+p3788
+sa(dp3789
+g2
+VLuigi
+p3790
+sg4
+VPARTITO DEMOCRATICO
+p3791
+sg6
+VTARANTO
+p3792
+sg8
+g9
+sg10
+V1960
+p3793
+sg12
+VDiploma di liceo classico
+p3794
+sa(dp3795
+g2
+VPaolo
+p3796
+sg4
+VIL POPOLO DELLA LIBERTA'
+p3797
+sg6
+VTANCREDI
+p3798
+sg8
+g9
+sg10
+V1966
+p3799
+sg12
+VLaurea in ingegneria elettronica
+p3800
+sa(dp3801
+g2
+VMarcello
+p3802
+sg4
+VFRATELLI D'ITALIA
+p3803
+sg6
+VTAGLIALATELA
+p3804
+sg8
+g9
+sg10
+V1955
+p3805
+sg12
+VLaurea in Giurisprudenza
+p3806
+sa(dp3807
+g2
+VAlessio
+p3808
+sg4
+VMOVIMENTO 5 STELLE BEPPEGRILLO.IT
+p3809
+sg6
+VTACCONI
+p3810
+sg8
+g9
+sg10
+V1977
+p3811
+sg12
+VLaurea in ingegneria gestionale
+p3812
+sa.

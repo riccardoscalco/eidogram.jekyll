@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="utf-8"> 
+	<title>Positive vs negative emotion from twitter streaming</title>
+    <meta name="author" content="Riccardo Scalco">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Analytic Journalism, Data Journalism, Data Driven Journalism,
+    Data Visualization, Data Analysis, Web Spidering, Data scientist, Data
+    artist, interactive things, web design, web developer, twitter streaming">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <link rel="stylesheet" type="text/css" href="./normalize.min.css">
+    <style type='text/css'>
+        body {
+            background-color:#d1dbde;
+            color: #36454f;
+            font-family:sans-serif;
+        }
+        ::selection {
+            background-color: #36454f;
+            color: #f5f5f5;
+        }
+        #wrapper {
+            width:1024px;
+            margin:auto;
+        }
+        #menu {
+            float: left;
+            width:20%;
+            background-color: red;
+        }
+        #box {
+            float: left;
+            margin: 0 auto;
+            width: 784px;
+            height: 500px;
+            //border: 1.5px solid #fff;
+            //background-color:#f6f6f6;
+        }
+        #details {
+            clear:both;
+            padding-top:35px;
+            padding-left:10px;
+            padding-right:10px;
+        }
+        #tweets {
+            //border-top: 2px dotted  #f5f5f5;
+            padding-left:10px;
+            border-right: 2px dotted  #fff;
+            border-left: 2px dotted  #fff;
+            float:left;
+            width:224px;
+            //height:700px;
+            overflow:hidden;
+        }
+        #tweets1 {
+            overflow-y:scroll;
+            overflow-x:hidden;
+            width:240px;
+            height:500px
+        }
+        #tweets1 p {
+            font-size:11px;
+            margin-top:20px;
+            margin-right:10px;
+        }
+        
+        //#tweets1 p:nth-child(even) {}
+        
+        .amo, .felice, .bello, .bene {
+            color: #fff;
+            text-decoration:underline
+        }
+        
+        .triste, .brutto, .male, .odio {
+            color: #36454f;
+            text-decoration:underline
+        }
+        
+        img {
+            margin-top: 30px;
+            margin-left:10px;
+        }
+
+        h1 {
+        	padding-bottom:30px;
+        }
+
+        footer, details {
+            padding-top:20px;
+            color: #36454f;
+            font-size:11px;
+        }
+        summary:focus {
+            outline: 0px;
+        }
+        nav li {
+            display: inline-block;
+        }
+        span.neg {
+		    color:#36454f;
+	    }
+
+	    span.pos {
+	    	color: #fff;
+	    }
+
+
+        a {color:#36454f;}
+        button {
+            border: 0px;
+            padding: 3px 6px 3px 6px;
+            //border-radius:25px;
+            margin-right:0px;
+            color:#36454f;
+            background-color:transparent;
+            font-size:11px;
+        }
+        .active {
+            border: 2px dotted  #fff;
+            padding: 3px 6px 3px 6px;
+        } 
+        .axis path {
+            fill: none;
+            stroke: #36454f;
+            stroke-width: 1px;
+            shape-rendering: crispEdges;
+        }
+        .axis line {
+            fill: none;
+            stroke: #46454f;
+            stroke-width: 1px;
+            shape-rendering: crispEdges;
+        }
+        text {
+            fill:#36454f;
+        }
+        text {font: 10px sans-serif;}
+        .bline {fill: #36454f; stroke: #36454f; stroke-width:2; fill-opacity:0.7;}
+        .line {fill: #fff; stroke: #fff; stroke-width:2; fill-opacity:0.7;}
+        h1 {font-size:18px;}
+
+    </style>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-28849332-2', 'eidogram.com');
+      ga('send', 'pageview');
+    </script>
+  </head>
+  <body>
+
+      <div id="wrapper">
+          <!--<img src="title.png" alt="Positive and negative emotions from twitter streaming" width="1000">-->
+          <h1>Positive and negative emotions from the twitter streaming</h1>
+          <nav>
+           <ul>
+               <li><button onclick="func_amo()" class="active"><span class="pos">amo</span>/<span class="neg">odio</span></button></li>
+               <li><button onclick="func_felice()"><span class="pos">felice</span>/<span class="neg">triste</span></button></li>
+                <li><button onclick="func_bello()"><span class="pos">bello</span>/<span class="neg">brutto</span></button></li>
+                <li><button onclick="func_bene()"><span class="pos">bene</span>/<span class="neg">male</span></button></li>
+           </ul>
+          </nav>
+
+      <div id="box"></div>
+      <aside id="tweets">
+      <!--<h1>scroll down for a selection of tweets</h1>-->
+      <div id="tweets1">
+      <p>Trenitalia <b class="odio">ti odio</b> dal profondo del cuore!!!</p>
+      <p><b class="odio">io odio</b> potenze,frazioni,prodotti notevoli,x y e z. porca eva è la terza volta che mi rifaccio sta cazzo di espressione!</p>
+      <p>@CantatrioneM anche <b class="amo">io amo</b> la mia merda di fratello :33 :')</p>
+      <p>Poi un giorno scopri che qualcuno chiama zucchini le zucchine e pensi che <b class="bello">è bello</b> perché vario, ecco.</p>
+      <p>Non è che <b class="odio">ti odio</b>. È che se tu stessi per morire manderei una tartaruga in tuo aiuto</p>
+      <p>oddio quanto <b class="brutto">è brutto</b> stare senza connessione...</p>
+      <p>Quando <b class="triste">sono triste</b> penso alla voce di Maria de Filippi e che nel mondo esistono persone più basse di me e ritorno a sorridere</p>
+      <p>@claudiaa_51 <b class="triste">sono triste</b> come quando ti cade il gelato dopo solo una leccata :(</p>
+      <p>mi sto abituando ad avere sempre un sorriso sulla faccia..anche se <b class="triste">sono triste</b></p>
+      <p>Mal di gola di merda maledetto <b class="odio">ti odio</b>.. Antibiotico e cortisone.. vai cosi.. Tanto stasera non devo cantare.. No no.. NON</p>
+      <p>@AndreaBorrell asdrj,<b class="amo">io amo</b> disegnare,ma non ho mai l'ispirazione. cc</p>
+      <p>Oggi <b class="felice">sono felice</b>. Dopo anni mi hanno controllato il biglietto sulla #Circumvesuviana. Poi, però, sono rimasto solo nel vagone...</p>
+      <p>@ehileto non so se è una bella cosa ahah <b class="amo">io amo</b> i delfini, sei un delfino allora? ahah &lt;3</p>
+      <p>mia mamma mi ha proibito di guardare "Sabrina vita da strega". <b class="triste">sono triste</b> come quando mi sveglio e non sono magra.</p>
+      <p>Malgrado tutto, io <b class="amo">ti amo</b>.</p>
+      <p><b class="amo">io amo</b> troppo la sua risata mi fa stare troppo bene</p>
+      <p>Ah, visto che ami lei, staccati da me, non mi cercare, non dire <b class="amo">ti amo</b> a me, cazzo. Sei solo un bugiardo del cazzo. Vaffanculo.</p>
+      <p>Consideratemi strana ma <b class="amo">io amo</b> la notte.</p>
+      <p>“@RitaGaudente: Un <b class="amo">ti amo</b> detto da un uomo mentre fa sesso ,vale quanto alle promesse di non bere più mentre vomiti.” bellissima 🌹</p>
+      <p><b class="amo">io amo</b> il mio migliore amico.</p>
+      <p>Qualcuno ha detto che <b class"amo">ti amo</b> sia sinonimo di <b class="bello">è bello</b> ke tu esista così cm 6 e se nn esistessi ti ricreerei esattamente cm 6,difetti compresi</p>
+      <p>@Delbensabrina ti ho mai detto che <b class="odio">ti odio</b> con tutto il cuore?</p>
+      <p><b class="odio">ti odio</b>.con amore, un'amica qualunque</p>
+      <p>@rhythmofbeatles <b class="amo">io amo</b> mangiare AHHAHAHAHHA</p>
+      <p>Non troverò mai un posto nel mondo dove <b class="bene">sto bene</b>.. amen!</p>
+      <p>@onedsways <b class="odio">ti odio</b>, sul serio.</p>
+      <p>Ho i sensi di colpa quando <b class="felice">sono felice</b></p>
+      <p>abbiamo bevuto la birra e per strada ridevamo e scleravamo..con lei <b class="bene">sto bene</b>,è l'unica persona che c'è sempre.</p>
+      <p>@MauriGiada si :) peccato che non lo facciano più, <b class="bello">è bello</b> rivedere le vecchie ma con le nuove puntate c'è l'ansia di non sapere cosa succed</p>
+      <p><b class="felice">sono felice</b>, sono felice, sono felice, sono felice, sono felice, sono felice, sono felice, sono felice, sono felice, sono felice.</p>
+      <p>@moRosita_S bhe io <b class="bene">sto bene</b> fino a lunedì eh</p>
+      <p>Perche' <b class="male">sto male</b> perche?</p>
+      <p>@ashtonsv0dka - e dopo un'estate muore ... okei detto così è pietoso  però <b class="bello">è bello</b> lol</p>
+      <p>Parlo dei Muse e <b class="male">sto male</b>. E li ascolto pure. Che idiota.</p>
+      <p>@MiddleQuasar08 non pensare male HAHAHAHAHAHAHAHAHAHAHAHAH nel senso che <b class="bello">è bello</b> avere un amica più vecchia, no?ee</p>
+      <p>Voi vi scannate per un ragazzo, io <b class="felice">sono felice</b> e <b class"bene">sto bene</b> con la mia ragazza :)</p>
+      <p>AHAHAHAAH, Come se fossiamo amici, tesoro, io <b class="odio">ti odio</b>, ricorda ♥</p>
+      <p>Se tu sei felice, anche io <b class="felice">sono felice</b>. Dipense tutto da te. :')</p>
+      <p>a mia madre fregherebbe qualcosa di me solo se ho roba da dire tipo gossip...e <b class="odio">io odio</b> il gossip.</p>
+      <p>Chiedimi se <b class="felice">sono felice</b>!</p>
+      <p><b class="odio">io odio</b> la mediocrità, l'ho sempre odiata. che mi succede?</p>
+      <p>cazzo,<b class="male">sto male</b>.</p>
+      <p>mi è passato il dolore e <b class="felice">mi sento felice</b> aaaah ho riguadagnato 5 anni di vita</p>
+      <p>com'<b class="brutto">è brutto</b> il silenzio.</p>
+      <p>Buon Giorno,donna,<b class="amo">ti amo</b>.Spero tu stia bene da potermi aiutare,io <b class="male">sto male</b>.</p>
+      <p>Che poi, quando <class="felice">sono felice</b> c'ho fame quando <b class="triste">sono triste</b> c'ho fame uguale quindi, fondamentalmente di base c'ho fame il resto ruota intorno</p>
+      <p>@Deppiana_ @_picsara @johnnyhugme omg. immagini!?! mi metto a ballare la 'deliranza' per tutta casa (?) ok, <b class="male">sto male</b> lol</p>
+      <p><b class="bello">è bello</b> quando non mi cagate perché mi date la conferma di non valere un cazzo.</p>
+      <p>@Legalize_Larry_ il problema è che sono divertente perché quando <b class="triste">sono triste</b> tiro fuori il lato pagliaccioso di me! lol</p>
+      <p>@LucreziadiRenzo <b class="male">sto male</b> entro già in para a a a a a</p>
+      <p>Io non so nulla di lui,non so la verità,niente. So però che quando parlo con lui,<b class="bene">sto bene</b>..</p>
+      <p><b class="brutto">è brutto</b> sentirsi sola in una stanza piena di gente.</p>
+      <p><b class="triste">sono triste</b> ,afflitta, avvilita e depressa e a nessuno delle persone che mi circondano interessa.</p>
+      <p><b class="odio">io odio</b> le gonne. io odio il trucco. io odio i vestiti.</p>
+      <p>anche <b class="odio">io odio</b> le api... batti il cinque *virtuale* haha (@jawaadhugsme live on http://t.co/Vbkrhkj83u)</p>
+      <p>comunque <b class="felice">sono felice</b>. ma felice felice. :D</p> 
+      <p>quanto cazzo <b class="bello">è bello</b> non avere compiti per tutta l'estate?</p>
+      <p><b class="odio">io odio</b> le mie amiche. perchè devono mettermi sempre nei pasticci? se ho detto che non mi piace, non mi piace.</p>
+      <p>quanto <b class="male">sto male</b>, dio..</p>
+      <p>@patrizia1234 oggi nè un giorno di quelli che si vede tutto nero, non vedo niente di buono, <b class="triste">sono triste</b> molto triste</p>
+      <p>Più <b class="bello">è bello</b> più è difficile arrivarci. Parlo di luoghi.</p>
+      <p>@irvi75 Però quando ti lava i capelli <b class="bello">è bello</b>... Dormirei io... Solo il bordo del lavandino è scomodo! Perché non lo imbottiscono?!?!</p>
+      <p>@smileofmyidols ti ho già detto che <b class="odio">ti odio</b>? nel dubbio: TI ODIO. T I O D I O. TiOdIo</p>
+      <p>sto spellando, <b class="odio">io odio</b> spellare</p>
+      <p>Un pensiero va pensato, <b class="odio">io odio</b> i pensieri indotti, io odio chi cerca di farti pensare le cose comuni... Io ho un pensiero ed è tutto mio!</p>
+      <p>Oggi <b class="triste">mi sento triste</b>. .Ma perché?!</p>
+      <p>@sidsrocketqueen scusami se <b class="odio">ti odio</b></p>
+      <p>@heinjaller aiuto, sto per tagliarmi, lo faccio, lo faccio davvero, ti prego aiutami <b class="male">sto male</b></p>
+      <p>com'<b class="brutto">è brutto</b> il mondo seeenza te.</p>
+      <p>'sono una ragazza,quando dico <b class="odio">ti odio</b> intendo dire che-'NO.IO INTENDO DIRE CHE MI STAI SULLE PALLE E CHE MI HA ROTTO I COJONI</p>
+      <p>stupido copyright -.-"" <b class="odio">ti odio</b></p>
+      <p>perchè non cambi nome su Twitter??Cicciolina <b class="brutto">è brutto</b>... — 1)fatti i cavoli tuoi. 2)il nome deve piacere a me e ... http://t.co/wu7Hr58niB</p>
+      <p>A volte <b class="brutto">è brutto</b> riuscire a prevedere le cose. Si sta male ancor prima che accadano. E non sempre si può fare qualcosa per cambiarle.</p>
+      <p>@Minhyuk_CNBluee Io <b class="amo">ti amo</b> quasi quanto amo il mio gran bel culo. *^*</p>
+      <p>Però sono felice perchè <b class="amo">io amo</b> viaggiare in aereo, specialmente di notte</p>
+      <p>Già <b class="brutto">è brutto</b> guardare la signora in giallo, in più questo l'ho già visto!</p>
+      <p>Cosa hai imparato oggi? — che svegliarsi presto in vacanza,<b class="brutto">è brutto</b>. http://t.co/nimWgyioqr</p>
+      <p>@96_matteo <b class="amo">io amo</b> l'accento romano hahahah:(</p>
+      <p><b class="amo">io amo</b> il freddo.</p>
+      <p><b class="amo">io amo</b> i miei nonni, davvero sono bellissimi</p>
+      <p>Quanto <b class="brutto">è brutto</b> essere prevedibili! E scontati,e finti,e sporchi!</p>
+      <p>@saranghaevin <b class="amo">io amo</b> un po' la volpe.</p>
+      <p>Ed <b class="brutto">è brutto</b> quando...sei a casa di qualcuno e ti scappa la cacca. AHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAH CREPO AHAHAHAHAHAHAHAHAHAHAHAHAH</p>
+      </div>
+      </aside>
+      <div id="details">
+          <footer>
+          Further details:
+          <p>
+          Data has been collected during June 28th 2013 for a total of 208269 tweets. Only italian words (like 'amo', odio', 'felice', 'triste', ...) have been used
+          as tracks on the public Twitter streaming. Finally, the actual amount of wanted phrases has been discovered by further analysis performed using Python, selecting about 20000 tweets among all.
+          On  thc y-axis are shown the amount of tweets per 5 minutes intervals (the values are not integers because of a B-spline interpolation). Have a look at the <a href="https://github.com/eidogram/eidogram.github.io/tree/master/bQ9rSvt/proj_source">project source</a> for more details.</p>
+          <p style="text-align:right">Created by <a href="http://eidogram.com/">eidogram.com</a></p>
+          </footer>
+      </div>
+
+      </div>
+  </body>
+  <script>
+
+      $(function() {
+         $('button').click(function() {
+            $('button').removeClass();
+            $($(this).addClass('active'));
+         });
+      });
+
+      var margin = {top: 20, right: 50, bottom: 30, left: 50};
+      var width = 784 - margin.left - margin.right,
+          height = 500 - margin.top - margin.bottom;
+
+      var svg = d3.select("#box").append("svg").attr("width", width + margin.right + margin.left)
+                .attr("height", height + margin.top + margin.bottom)
+                .append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+      var parseTime = d3.time.format("%H:%M").parse;
+
+      var x = d3.time.scale().range([0, width]);
+      var xAxis = d3.svg.axis().scale(x).orient("bottom");
+      var y = d3.scale.linear().range([height,0]);
+      var yAxis = d3.svg.axis().scale(y).orient("left");
+
+      var entry_pos = "amo",
+          entry_neg = "odio";
+     
+      var line = d3.svg.line()
+                 .interpolate("basis")
+                 .x(function(d) { return x(d.time); })
+                 .y(function(d) { return y(d[entry_pos]); });
+      var bline = d3.svg.line()
+                 .interpolate("basis")
+                 .x(function(d) { return x(d.time); })
+                 .y(function(d) { return y(-1 * d[entry_neg]); });
+      var baseline = d3.svg.line()
+                 .interpolate("basis")
+                 .x(function(d) { return x(d.time); })
+                 .y(function(d) { return y(0); });
+     
+
+      //get data
+      d3.csv("file.csv",
+             function(d) {
+                 var result = {
+                     time: parseTime(d["time"]),
+                     amo: +d["amo"],
+                     odio: +d["odio"],
+                     felice: +d["felice"],
+                     triste: +d["triste"],
+                     bene: +d["bene"],
+                     male: +d["male"],
+                     bello: +d["bello"],
+                     brutto: +d["brutto"]
+                 };
+                 return result;
+             },
+             function(error,rows) {return callback(error,rows);}
+             );
+
+        function callback(e,r) {
+          mydata = r;
+
+          r[0]["amo"] = 0;
+          r[r.length - 1]["amo"] = 0;
+          r[0]["odio"] = 0;
+          r[r.length - 1]["odio"] = 0;
+          r[0]["felice"] = 0;
+          r[r.length - 1]["felice"] = 0;
+          r[0]["triste"] = 0;
+          r[r.length - 1]["triste"] = 0;
+          r[0]["bello"] = 0;
+          r[r.length - 1]["bello"] = 0;
+          r[0]["brutto"] = 0;
+          r[r.length - 1]["brutto"] = 0;
+          r[0]["bene"] = 0;
+          r[r.length - 1]["bene"] = 0;
+          r[0]["male"] = 0;
+          r[r.length - 1]["male"] = 0;
+
+
+
+          x.domain([r[0].time, r[r.length - 1].time]);
+          var ypos_dom = d3.extent(r, function(r) {return r["amo"]});
+          var mmax = d3.max(ypos_dom);
+          var yneg_dom = d3.extent(r, function(r) {return r["odio"]});
+          var mmin = d3.max(yneg_dom);
+
+          y.domain([-mmin,mmax]);
+          svg.append("g").attr("class", "axis").attr("transform","translate(0," + height +")").call(xAxis);
+          svg.append("g").attr("id","yaxis").attr("class", "axis").attr("transform","translate (-2,0)").call(yAxis);
+         
+          svg.append("path").datum(r).attr("class", "line").attr("id","top").attr("d","M "+x(r[0]["time"])+" "+y(r[0]["amo"])+" L "+x(r[0]["time"])+" "+y(r[0]["amo"]))
+             .transition().duration(1250).attr("d","M "+x(r[0]["time"])+" "+y(r[0]["amo"])+" L "+x(r[r.length - 1]["time"])+" "+y(r[r.length - 1]["amo"]))
+             .transition().duration(100).attr("d",baseline)
+             .transition().duration(750).attr("d",function(d) { return line(d) + "Z"; });
+         
+          /*
+          // does the same job as the last slice of code above (may be slower?)
+          var k = 1;
+          svg.append("path")
+             .attr("id","mypath");
+          d3.timer(
+              function() {
+                 svg.select("#mypath")
+                     .datum(r.slice(0,k))
+                     .attr("class","line")
+                     .attr("d",baseline);
+                 k = k + 1;
+                 if (k > r.length) {
+                     svg.select("#mypath")
+                     .transition().duration(750)
+                     .attr("d",line);
+                     return true;};
+              }
+          );
+          */
+
+          svg.append("path").datum(r).attr("class", "bline").attr("id","bottom").attr("transform","translate(0,2)").attr("d","M "+x(r[0]["time"])+" "+y(r[0]["odio"])+" L "+x(r[0]["time"])+" "+y(r[0]["odio"]))
+             .transition().duration(1250).attr("d","M "+x(r[0]["time"])+" "+y(r[0]["odio"])+" L "+x(r[r.length - 1]["time"])+" "+y(r[r.length - 1]["odio"]))
+             .transition().duration(100).attr("d",baseline)
+             .transition().duration(750).attr("d",function(d) { return bline(d) + "Z"; });
+      }
+
+      function func_felice() {
+          
+          entry_pos = "felice";
+          entry_neg = "triste";
+
+          var ypos_dom = d3.extent(mydata, function(mydata) {return mydata[entry_pos]});
+          var mmax = d3.max(ypos_dom);
+          var yneg_dom = d3.extent(mydata, function(mydata) {return mydata[entry_neg]});
+          var mmin = d3.max(yneg_dom);
+          y.domain([-mmin,mmax]);
+          svg.select("#yaxis").transition().duration(1000).call(yAxis);
+
+          svg.select("#top").transition().duration(750).attr("d",function(d) { return line(d) + "Z"; });
+          svg.select("#bottom").transition().duration(750).attr("d",function(d) { return bline(d) + "Z"; });
+      }
+
+      function func_amo() {
+          entry_pos = "amo";
+          entry_neg = "odio";
+
+          var ypos_dom = d3.extent(mydata, function(mydata) {return mydata[entry_pos]});
+          var mmax = d3.max(ypos_dom);
+          var yneg_dom = d3.extent(mydata, function(mydata) {return mydata[entry_neg]});
+          var mmin = d3.max(yneg_dom);
+          y.domain([-mmin,mmax]);
+          svg.select("#yaxis").transition().duration(1000).call(yAxis);
+
+
+          svg.select("#top").transition().duration(750).attr("d",function(d) { return line(d) + "Z"; });
+          svg.select("#bottom").transition().duration(750).attr("d",function(d) { return bline(d) + "Z"; });
+      }
+
+      function func_bello() {
+          entry_pos = "bello";
+          entry_neg = "brutto";
+
+          var ypos_dom = d3.extent(mydata, function(mydata) {return mydata[entry_pos]});
+          var mmax = d3.max(ypos_dom);
+          var yneg_dom = d3.extent(mydata, function(mydata) {return mydata[entry_neg]});
+          var mmin = d3.max(yneg_dom);
+          y.domain([-mmin,mmax]);
+          svg.select("#yaxis").transition().duration(1000).call(yAxis);
+
+          svg.select("#top").transition().duration(750).attr("d",function(d) { return line(d) + "Z"; });
+          svg.select("#bottom").transition().duration(750).attr("d",function(d) { return bline(d) + "Z"; });
+      }
+
+      function func_bene() {
+          entry_pos = "bene";
+          entry_neg = "male";
+
+          var ypos_dom = d3.extent(mydata, function(mydata) {return mydata[entry_pos]});
+          var mmax = d3.max(ypos_dom);
+          var yneg_dom = d3.extent(mydata, function(mydata) {return mydata[entry_neg]});
+          var mmin = d3.max(yneg_dom);
+          y.domain([-mmin,mmax]);
+          svg.select("#yaxis").transition().duration(1000).call(yAxis);
+
+          svg.select("#top").transition().duration(750).attr("d",function(d) { return line(d) + "Z"; });
+          svg.select("#bottom").transition().duration(750).attr("d",function(d) { return bline(d) + "Z"; });
+      }
+
+  </script>
+</html>
+

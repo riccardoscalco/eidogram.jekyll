@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="700"
+   height="700"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="bubbles.svg">
+  <metadata
+     id="metadata164">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs162" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1058"
+     id="namedview160"
+     showgrid="false"
+     inkscape:zoom="0.953584"
+     inkscape:cx="291.2823"
+     inkscape:cy="344.61031"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <circle
+     class="node"
+     cx="423.0369811607559"
+     cy="182.43414204338436"
+     r="31.304951684997054"
+     style="fill: rgb(0, 151, 204); fill-opacity: 0.3; stroke: rgb(255, 36, 0); stroke-width: 6; stroke-dasharray: none; cursor: pointer;"
+     id="circle4" />
+  <circle
+     class="node"
+     cx="552.1437839637601"
+     cy="359.70194107659955"
+     r="33.015148038438355"
+     style="fill: rgb(255, 215, 0); fill-opacity: 0.3; stroke: rgb(255, 36, 0); stroke-width: 6; stroke-dasharray: none; cursor: pointer;"
+     id="circle6" />
+  <circle
+     class="node"
+     cx="319.4570157668017"
+     cy="484.8177878787451"
+     r="54.49770637375485"
+     style="fill: rgb(255, 36, 0); fill-opacity: 0.3; stroke: rgb(255, 36, 0); stroke-width: 6; stroke-dasharray: none; cursor: pointer;"
+     id="circle8" />
+  <circle
+     class="node"
+     cx="94.99354857544554"
+     cy="320.94036988483197"
+     r="14.142135623730951"
+     style="fill: rgb(52, 145, 55); fill-opacity: 0.3; stroke: rgb(255, 36, 0); stroke-width: 6; stroke-dasharray: none; cursor: pointer;"
+     id="circle10" />
+  <circle
+     class="node"
+     cx="209.21398850595227"
+     cy="146.4916413083248"
+     r="19.748417658131498"
+     style="fill: rgb(192, 192, 192); fill-opacity: 0.3; stroke: rgb(255, 36, 0); stroke-width: 6; stroke-dasharray: none; cursor: pointer;"
+     id="circle12" />
+  <circle
+     class="node"
+     cx="461.69673265202726"
+     cy="147.69617981172416"
+     r="16.1245154965971"
+     style="fill: rgb(255, 0, 127); fill-opacity: 0.3; stroke: rgb(255, 36, 0); stroke-width: 3; stroke-dasharray: none; cursor: pointer;"
+     id="circle14" />
+  <circle
+     class="node"
+     cx="370.90635037690976"
+     cy="217.02492362012003"
+     r="26.832815729997474"
+     style="fill: rgb(0, 0, 255); fill-opacity: 0.3; stroke: rgb(255, 36, 0); stroke-width: 3; stroke-dasharray: none; cursor: pointer;"
+     id="circle16" />
+  <circle
+     class="node"
+     cx="493.76326207112623"
+     cy="155.8784839161505"
+     r="14.142135623730951"
+     style="fill: rgb(123, 160, 91); fill-opacity: 0.3; stroke: rgb(255, 36, 0); stroke-width: 2; stroke-dasharray: none; cursor: pointer;"
+     id="circle18" />
+  <circle
+     class="node"
+     cx="459.97553505507113"
+     cy="120.8084110000503"
+     r="7.745966692414834"
+     style="fill: rgb(167, 252, 0); fill-opacity: 0.3; stroke: rgb(255, 36, 0); stroke-width: 2; stroke-dasharray: none; cursor: pointer;"
+     id="circle20" />
+  <circle
+     class="node"
+     cx="517.6619444360614"
+     cy="148.1187986126256"
+     r="8.94427190999916"
+     style="fill:none;fill-opacity:0.29999999999999999;stroke:rgb(255, 36, 0);stroke-width:1;stroke-dasharray:2;cursor:pointer"
+     id="circle22" />
+  <circle
+     class="node"
+     cx="513.4970452799636"
+     cy="174.50503795215468"
+     r="10.954451150103322"
+     style="fill:none;fill-opacity:0.29999999999999999;stroke:rgb(255, 36, 0);stroke-width:1;stroke-dasharray:5, 1;cursor:pointer"
+     id="circle24" />
+  <circle
+     class="node"
+     cx="452.7437268546287"
+     cy="109.70989024640262"
+     r="3.162277660168379"
+     style="fill:none;fill-opacity:0.29999999999999999;stroke:rgb(255, 36, 0);stroke-width:1;stroke-dasharray:2;cursor:pointer"
+     id="circle26" />
+  <circle
+     class="node"
+     cx="467.5833601393687"
+     cy="105.72284888336085"
+     r="7.0710678118654755"
+     style="fill:none;fill-opacity:0.29999999999999999;stroke:rgb(255, 36, 0);stroke-width:1;stroke-dasharray:5, 1;cursor:pointer"
+     id="circle28" />
+  <circle
+     class="node"
+     cx="330.3637133420196"
+     cy="174.6364462761526"
+     r="10.954451150103322"
+     style="fill:none;fill-opacity:0.29999999999999999;stroke:rgb(255, 36, 0);stroke-width:1;stroke-dasharray:5, 1;cursor:pointer"
+     id="circle30" />
+  <circle
+     class="node"
+     cx="359.1809966150884"
+     cy="154.78468871379542"
+     r="7.745966692414834"
+     style="fill:none;fill-opacity:0.29999999999999999;stroke:rgb(255, 36, 0);stroke-width:1;stroke-dasharray:2;cursor:pointer"
+     id="circle32" />
+  <circle
+     class="node"
+     cx="356.1663659650581"
+     cy="177.7344653969204"
+     r="13.416407864998737"
+     style="fill: rgb(85, 85, 85); fill-opacity: 0.3; stroke: rgb(255, 36, 0); stroke-width: 2; stroke-dasharray: none; cursor: pointer;"
+     id="circle34" />
+  <circle
+     class="node"
+     cx="316.54770941147086"
+     cy="295.29587387512316"
+     r="19.235384061671347"
+     style="fill:none;fill-opacity:0.29999999999999999;stroke:rgb(255, 36, 0);stroke-width:1;stroke-dasharray:5, 1;cursor:pointer"
+     id="circle36" />
+  <circle
+     class="node"
+     cx="308.2088468640473"
+     cy="265.50810888319677"
+     r="11.832159566199232"
+     style="fill:none;fill-opacity:0.29999999999999999;stroke:rgb(255, 36, 0);stroke-width:1;stroke-dasharray:2;cursor:pointer"
+     id="circle38" />
+  <circle
+     class="node"
+     cx="344.73428154745426"
+     cy="261.82033334718386"
+     r="22.58317958127243"
+     style="fill: rgb(123, 160, 91); fill-opacity: 0.3; stroke: rgb(255, 36, 0); stroke-width: 2; stroke-dasharray: none; cursor: pointer;"
+     id="circle40" />
+  <circle
+     class="node"
+     cx="325.86456998237105"
+     cy="217.69508489518486"
+     r="3.162277660168379"
+     style="fill:none;fill-opacity:0.29999999999999999;stroke:rgb(255, 36, 0);stroke-width:1;stroke-dasharray:5, 1;cursor:pointer"
+     id="circle42" />
+  <circle
+     class="node"
+     cx="324.5412516627639"
+     cy="226.245849101278"
+     r="4.47213595499958"
+     style="fill:none;fill-opacity:0.29999999999999999;stroke:rgb(255, 36, 0);stroke-width:1;stroke-dasharray:2;cursor:pointer"
+     id="circle44" />
+  <circle
+     class="node"
+     cx="336.19569322561136"
+     cy="221.7048170236391"
+     r="5.477225575051661"
+     style="fill: rgb(167, 252, 0); fill-opacity: 0.3; stroke: rgb(255, 36, 0); stroke-width: 2; stroke-dasharray: none; cursor: pointer;"
+     id="circle46" />
+  <circle
+     class="node"
+     cx="509.2795465833424"
+     cy="447.87442144072327"
+     r="5.477225575051661"
+     style="fill:none;fill-opacity:0.29999999999999999;stroke:rgb(255, 36, 0);stroke-width:1;stroke-dasharray:5, 1;cursor:pointer"
+     id="circle48" />
+  <circle
+     class="node"
+     cx="518.3925355640504"
+     cy="460.00338849768957"
+     r="5.477225575051661"
+     style="fill:none;fill-opacity:0.29999999999999999;stroke:rgb(255, 36, 0);stroke-width:1;stroke-dasharray:2;cursor:pointer"
+     id="circle50" />
+  <circle
+     class="node"
+     cx="524.2145715845294"
+     cy="445.78596304582595"
+     r="7.745966692414834"
+     style="fill: rgb(123, 160, 91); fill-opacity: 0.3; stroke: rgb(255, 36, 0); stroke-width: 2; stroke-dasharray: none; cursor: pointer;"
+     id="circle52" />
+  <circle
+     class="node"
+     cx="551.4567667931402"
+     cy="514.8416781194267"
+     r="19.748417658131498"
+     style="fill:none;fill-opacity:0.29999999999999999;stroke:rgb(255, 36, 0);stroke-width:1;stroke-dasharray:5, 1;cursor:pointer"
+     id="circle54" />
+  <circle
+     class="node"
+     cx="594.969327977175"
+     cy="511.8274312777204"
+     r="16.431676725154983"
+     style="fill:none;fill-opacity:0.29999999999999999;stroke:rgb(255, 36, 0);stroke-width:1;stroke-dasharray:2;cursor:pointer"
+     id="circle56" />
+  <circle
+     class="node"
+     cx="574.530068884224"
+     cy="473.3533098758331"
+     r="25.69046515733026"
+     style="fill: rgb(167, 252, 0); fill-opacity: 0.3; stroke: rgb(255, 36, 0); stroke-width: 2; stroke-dasharray: none; cursor: pointer;"
+     id="circle58" />
+  <circle
+     class="node"
+     cx="553.123291815009"
+     cy="423.127400392177"
+     r="26.832815729997474"
+     style="fill: rgb(0, 0, 255); fill-opacity: 0.3; stroke: rgb(255, 36, 0); stroke-width: 3; stroke-dasharray: none; cursor: pointer;"
+     id="circle60" />
+  <circle
+     class="node"
+     cx="581.3671930289843"
+     cy="249.86094953417626"
+     r="10.954451150103322"
+     style="fill:none;fill-opacity:0.29999999999999999;stroke:rgb(255, 36, 0);stroke-width:1;stroke-dasharray:2;cursor:pointer"
+     id="circle62" />
+  <circle
+     class="node"
+     cx="609.0284530266116"
+     cy="280.18484672985176"
+     r="15.165750888103101"
+     style="fill:none;fill-opacity:0.29999999999999999;stroke:rgb(255, 36, 0);stroke-width:1;stroke-dasharray:5, 1;cursor:pointer"
+     id="circle64" />
+  <circle
+     class="node"
+     cx="573.5256877605418"
+     cy="280.25612222575273"
+     r="18.708286933869708"
+     style="fill: rgb(167, 252, 0); fill-opacity: 0.3; stroke: rgb(255, 36, 0); stroke-width: 2; stroke-dasharray: none; cursor: pointer;"
+     id="circle66" />
+  <circle
+     class="node"
+     cx="519.0767133650264"
+     cy="277.6992104950761"
+     r="3.162277660168379"
+     style="fill:none;fill-opacity:0.29999999999999999;stroke:rgb(255, 36, 0);stroke-width:1;stroke-dasharray:2;cursor:pointer"
+     id="circle68" />
+  <circle
+     class="node"
+     cx="512.6424502134188"
+     cy="284.5147345989533"
+     r="3.162277660168379"
+     style="fill:none;fill-opacity:0.29999999999999999;stroke:rgb(255, 36, 0);stroke-width:1;stroke-dasharray:5, 1;cursor:pointer"
+     id="circle70" />
+  <circle
+     class="node"
+     cx="522.0374133561023"
+     cy="287.0198936737479"
+     r="4.47213595499958"
+     style="fill: rgb(123, 160, 91); fill-opacity: 0.3; stroke: rgb(255, 36, 0); stroke-width: 2; stroke-dasharray: none; cursor: pointer;"
+     id="circle72" />
+  <circle
+     class="node"
+     cx="541.7819943302345"
+     cy="304.6980196362858"
+     r="19.235384061671347"
+     style="fill: rgb(255, 0, 127); fill-opacity: 0.3; stroke: rgb(255, 36, 0); stroke-width: 3; stroke-dasharray: none; cursor: pointer;"
+     id="circle74" />
+  <circle
+     class="node"
+     cx="330.49751274488375"
+     cy="373.8995091443166"
+     r="7.745966692414834"
+     style="fill:none;fill-opacity:0.29999999999999999;stroke:rgb(255, 36, 0);stroke-width:1;stroke-dasharray:5, 1;cursor:pointer"
+     id="circle76" />
+  <circle
+     class="node"
+     cx="321.7669543986818"
+     cy="388.00833650011515"
+     r="6.324555320336758"
+     style="fill:none;fill-opacity:0.29999999999999999;stroke:rgb(255, 36, 0);stroke-width:1;stroke-dasharray:2;cursor:pointer"
+     id="circle78" />
+  <circle
+     class="node"
+     cx="340.14620028468744"
+     cy="391.30682112645115"
+     r="10"
+     style="fill: rgb(85, 85, 85); fill-opacity: 0.3; stroke: rgb(255, 36, 0); stroke-width: 2; stroke-dasharray: none; cursor: pointer;"
+     id="circle80" />
+  <circle
+     class="node"
+     cx="436.7046000553265"
+     cy="511.98593156951085"
+     r="21.908902300206645"
+     style="fill:none;fill-opacity:0.29999999999999999;stroke:rgb(255, 36, 0);stroke-width:1;stroke-dasharray:5, 1;cursor:pointer"
+     id="circle82" />
+  <circle
+     class="node"
+     cx="403.87216862873504"
+     cy="511.2968525959551"
+     r="12.649110640673516"
+     style="fill:none;fill-opacity:0.29999999999999999;stroke:rgb(255, 36, 0);stroke-width:1;stroke-dasharray:2;cursor:pointer"
+     id="circle84" />
+  <circle
+     class="node"
+     cx="408.55045819021416"
+     cy="471.25214545547465"
+     r="25.298221281347033"
+     style="fill: rgb(123, 160, 91); fill-opacity: 0.3; stroke: rgb(255, 36, 0); stroke-width: 2; stroke-dasharray: none; cursor: pointer;"
+     id="circle86" />
+  <circle
+     class="node"
+     cx="441.99821917535854"
+     cy="352.2491715926645"
+     r="17.88854381999832"
+     style="fill:none;fill-opacity:0.29999999999999999;stroke:rgb(255, 36, 0);stroke-width:1;stroke-dasharray:5, 1;cursor:pointer"
+     id="circle88" />
+  <circle
+     class="node"
+     cx="404.42485024195605"
+     cy="345.22764048117807"
+     r="7.745966692414834"
+     style="fill:none;fill-opacity:0.29999999999999999;stroke:rgb(255, 36, 0);stroke-width:1;stroke-dasharray:2;cursor:pointer"
+     id="circle90" />
+  <circle
+     class="node"
+     cx="409.6670286158292"
+     cy="373.68844211695114"
+     r="19.49358868961793"
+     style="fill: rgb(167, 252, 0); fill-opacity: 0.3; stroke: rgb(255, 36, 0); stroke-width: 2; stroke-dasharray: none; cursor: pointer;"
+     id="circle92" />
+  <circle
+     class="node"
+     cx="377.8327077735678"
+     cy="417.9322644712075"
+     r="33.46640106136302"
+     style="fill: rgb(255, 0, 127); fill-opacity: 0.3; stroke: rgb(255, 36, 0); stroke-width: 3; stroke-dasharray: none; cursor: pointer;"
+     id="circle94" />
+  <circle
+     class="node"
+     cx="304.6112605839753"
+     cy="611.209930146483"
+     r="10.954451150103322"
+     style="fill:none;fill-opacity:0.29999999999999999;stroke:rgb(255, 36, 0);stroke-width:1;stroke-dasharray:5, 1;cursor:pointer"
+     id="circle96" />
+  <circle
+     class="node"
+     cx="281.8095509662106"
+     cy="621.7892991324152"
+     r="7.0710678118654755"
+     style="fill:none;fill-opacity:0.29999999999999999;stroke:rgb(255, 36, 0);stroke-width:1;stroke-dasharray:2;cursor:pointer"
+     id="circle98" />
+  <circle
+     class="node"
+     cx="281.11148540035026"
+     cy="599.8196278942249"
+     r="13.038404810405297"
+     style="fill: rgb(85, 85, 85); fill-opacity: 0.3; stroke: rgb(255, 36, 0); stroke-width: 2; stroke-dasharray: none; cursor: pointer;"
+     id="circle100" />
+  <circle
+     class="node"
+     cx="139.8993294330252"
+     cy="465.5152697332003"
+     r="28.635642126552703"
+     style="fill:none;fill-opacity:0.29999999999999999;stroke:rgb(255, 36, 0);stroke-width:1;stroke-dasharray:5, 1;cursor:pointer"
+     id="circle102" />
+  <circle
+     class="node"
+     cx="110.7671402022505"
+     cy="520.841521783119"
+     r="22.80350850198276"
+     style="fill:none;fill-opacity:0.29999999999999999;stroke:rgb(255, 36, 0);stroke-width:1;stroke-dasharray:2;cursor:pointer"
+     id="circle104" />
+  <circle
+     class="node"
+     cx="171.12347932073845"
+     cy="525.1087129203744"
+     r="36.60601043544625"
+     style="fill: rgb(123, 160, 91); fill-opacity: 0.3; stroke: rgb(255, 36, 0); stroke-width: 2; stroke-dasharray: none; cursor: pointer;"
+     id="circle106" />
+  <circle
+     class="node"
+     cx="211.72988668794594"
+     cy="461.9459552974793"
+     r="13.784048752090223"
+     style="fill:none;fill-opacity:0.29999999999999999;stroke:rgb(255, 36, 0);stroke-width:1;stroke-dasharray:5, 1;cursor:pointer"
+     id="circle108" />
+  <circle
+     class="node"
+     cx="235.83210946350607"
+     cy="457.2983626031825"
+     r="12.24744871391589"
+     style="fill:none;fill-opacity:0.29999999999999999;stroke:rgb(255, 36, 0);stroke-width:1;stroke-dasharray:2;cursor:pointer"
+     id="circle110" />
+  <circle
+     class="node"
+     cx="231.95409342794397"
+     cy="490.1433012822811"
+     r="18.439088914585774"
+     style="fill: rgb(167, 252, 0); fill-opacity: 0.3; stroke: rgb(255, 36, 0); stroke-width: 2; stroke-dasharray: none; cursor: pointer;"
+     id="circle112" />
+  <circle
+     class="node"
+     cx="247.72429206022477"
+     cy="551.9536958932406"
+     r="43.01162633521314"
+     style="fill: rgb(0, 0, 255); fill-opacity: 0.3; stroke: rgb(255, 36, 0); stroke-width: 3; stroke-dasharray: none; cursor: pointer;"
+     id="circle114" />
+  <circle
+     class="node"
+     cx="104.32296044562494"
+     cy="251.7499139620828"
+     r="6.324555320336758"
+     style="fill:none;fill-opacity:0.29999999999999999;stroke:rgb(255, 36, 0);stroke-width:1;stroke-dasharray:5, 1;cursor:pointer"
+     id="circle116" />
+  <circle
+     class="node"
+     cx="129.0664017141391"
+     cy="255.55058922138338"
+     r="8.366600265340756"
+     style="fill:none;fill-opacity:0.29999999999999999;stroke:rgb(255, 36, 0);stroke-width:1;stroke-dasharray:2;cursor:pointer"
+     id="circle118" />
+  <circle
+     class="node"
+     cx="112.91920719580875"
+     cy="268.41209758763625"
+     r="10.488088481701515"
+     style="fill: rgb(123, 160, 91); fill-opacity: 0.3; stroke: rgb(255, 36, 0); stroke-width: 2; stroke-dasharray: none; cursor: pointer;"
+     id="circle120" />
+  <circle
+     class="node"
+     cx="80.93951397181121"
+     cy="290.1348024598528"
+     r="3.162277660168379"
+     style="fill:none;fill-opacity:0.29999999999999999;stroke:rgb(255, 36, 0);stroke-width:1;stroke-dasharray:2;cursor:pointer"
+     id="circle122" />
+  <circle
+     class="node"
+     cx="89.65022299874468"
+     cy="291.51431771685645"
+     r="3.162277660168379"
+     style="fill: rgb(85, 85, 85); fill-opacity: 0.3; stroke: rgb(255, 36, 0); stroke-width: 2; stroke-dasharray: none; cursor: pointer;"
+     id="circle124" />
+  <circle
+     class="node"
+     cx="137.71283673519292"
+     cy="324.7018372215078"
+     r="5.477225575051661"
+     style="fill:none;fill-opacity:0.29999999999999999;stroke:rgb(255, 36, 0);stroke-width:1;stroke-dasharray:2;cursor:pointer"
+     id="circle126" />
+  <circle
+     class="node"
+     cx="148.98694580228164"
+     cy="312.05036214602416"
+     r="7.0710678118654755"
+     style="fill:none;fill-opacity:0.29999999999999999;stroke:rgb(255, 36, 0);stroke-width:1;stroke-dasharray:5, 1;cursor:pointer"
+     id="circle128" />
+  <circle
+     class="node"
+     cx="130.92023049611578"
+     cy="309.44589174898726"
+     r="8.94427190999916"
+     style="fill: rgb(167, 252, 0); fill-opacity: 0.3; stroke: rgb(255, 36, 0); stroke-width: 2; stroke-dasharray: none; cursor: pointer;"
+     id="circle130" />
+  <circle
+     class="node"
+     cx="109.50950447488569"
+     cy="294.84368727338716"
+     r="14.142135623730951"
+     style="fill: rgb(0, 0, 255); fill-opacity: 0.3; stroke: rgb(255, 36, 0); stroke-width: 3; stroke-dasharray: none; cursor: pointer;"
+     id="circle132" />
+  <circle
+     class="node"
+     cx="161.08504542318659"
+     cy="190.25749619209756"
+     r="4.47213595499958"
+     style="fill:none;fill-opacity:0.29999999999999999;stroke:rgb(255, 36, 0);stroke-width:1;stroke-dasharray:2;cursor:pointer"
+     id="circle134" />
+  <circle
+     class="node"
+     cx="176.75631987243574"
+     cy="200.7698846430372"
+     r="7.0710678118654755"
+     style="fill:none;fill-opacity:0.29999999999999999;stroke:rgb(255, 36, 0);stroke-width:1;stroke-dasharray:5, 1;cursor:pointer"
+     id="circle136" />
+  <circle
+     class="node"
+     cx="174.25165445618293"
+     cy="183.46647834682997"
+     r="8.366600265340756"
+     style="fill: rgb(123, 160, 91); fill-opacity: 0.3; stroke: rgb(255, 36, 0); stroke-width: 2; stroke-dasharray: none; cursor: pointer;"
+     id="circle138" />
+  <circle
+     class="node"
+     cx="156.14331651033365"
+     cy="151.402071776597"
+     r="4.47213595499958"
+     style="fill:none;fill-opacity:0.29999999999999999;stroke:rgb(255, 36, 0);stroke-width:1;stroke-dasharray:2;cursor:pointer"
+     id="circle140" />
+  <circle
+     class="node"
+     cx="166.25911276283188"
+     cy="156.1840191162885"
+     r="4.47213595499958"
+     style="fill: rgb(167, 252, 0); fill-opacity: 0.3; stroke: rgb(255, 36, 0); stroke-width: 2; stroke-dasharray: none; cursor: pointer;"
+     id="circle142" />
+  <circle
+     class="node"
+     cx="180.955949157795"
+     cy="164.02444857189516"
+     r="9.486832980505138"
+     style="fill: rgb(255, 0, 127); fill-opacity: 0.3; stroke: rgb(255, 36, 0); stroke-width: 3; stroke-dasharray: none; cursor: pointer;"
+     id="circle144" />
+  <circle
+     class="node"
+     cx="282.42639865622397"
+     cy="146.68628012565284"
+     r="4.47213595499958"
+     style="fill:none;fill-opacity:0.29999999999999999;stroke:rgb(255, 36, 0);stroke-width:1;stroke-dasharray:2;cursor:pointer"
+     id="circle146" />
+  <circle
+     class="node"
+     cx="291.22504084556954"
+     cy="127.13842220805225"
+     r="8.94427190999916"
+     style="fill:none;fill-opacity:0.29999999999999999;stroke:rgb(255, 36, 0);stroke-width:1;stroke-dasharray:5, 1;cursor:pointer"
+     id="circle148" />
+  <circle
+     class="node"
+     cx="271.5177397266719"
+     cy="134.6480752173189"
+     r="10"
+     style="fill: rgb(85, 85, 85); fill-opacity: 0.3; stroke: rgb(255, 36, 0); stroke-width: 2; stroke-dasharray: none; cursor: pointer;"
+     id="circle150" />
+  <circle
+     class="node"
+     cx="265.08103364287103"
+     cy="67.12795207878406"
+     r="10.954451150103322"
+     style="fill:none;fill-opacity:0.29999999999999999;stroke:rgb(255, 36, 0);stroke-width:1;stroke-dasharray:5, 1;cursor:pointer"
+     id="circle152" />
+  <circle
+     class="node"
+     cx="282.53024709745966"
+     cy="82.71205219377865"
+     r="8.94427190999916"
+     style="fill:none;fill-opacity:0.29999999999999999;stroke:rgb(255, 36, 0);stroke-width:1;stroke-dasharray:2;cursor:pointer"
+     id="circle154" />
+  <circle
+     class="node"
+     cx="259.40366288786964"
+     cy="93.56535885701896"
+     r="14.142135623730951"
+     style="fill: rgb(123, 160, 91); fill-opacity: 0.3; stroke: rgb(255, 36, 0); stroke-width: 2; stroke-dasharray: none; cursor: pointer;"
+     id="circle156" />
+  <circle
+     class="node"
+     cx="243.84067990341916"
+     cy="124.1704138347958"
+     r="17.32050807568877"
+     style="fill: rgb(0, 0, 255); fill-opacity: 0.3; stroke: rgb(255, 36, 0); stroke-width: 3; stroke-dasharray: none; cursor: pointer;"
+     id="circle158" />
+</svg>

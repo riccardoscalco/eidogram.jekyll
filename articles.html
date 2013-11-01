@@ -1,0 +1,27 @@
+---
+layout: default
+title: Analytic 
+---
+
+<aside class="posts">
+This is a collection of tiny mathematical essays.
+I do this simply because I love mathematics and
+I like write about it, taking care to be clear, correct and pragmatic as much as possible.
+Probably, here you will find stuff related to data visualization, but not necessarily.
+</aside>
+
+<!--<h1>Articles</h1>-->
+<ul class="posts">
+{% for post in site.posts %}
+  {% if post.post == true %}
+  <!--<li class="{{ post.sticky }}">-->
+  <li>
+    <h1 class="posts">
+      <time>{{ post.date | date_to_string }}</time>
+      <a class="posts" href="{{ post.url }}">{{ post.title }}</a>
+    </h1>
+    <p class="posts">{{ post.abstract }}</p>
+  </li>
+  {% endif  %}
+{% endfor %}
+</ul>

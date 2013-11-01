@@ -1,0 +1,26 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Riccardo Scalco, eidogram.com</title>
+ <link href="http://eidogram.com/atom.xml" rel="self"/>
+ <link href="http://eidogram.com/"/>
+ <updated>{{ site.time | date_to_xmlschema }}</updated>
+ <id>http://eidogram.com/</id>
+ <author>
+   <name>Riccardo Scalco</name>
+   <email>riccardo.scalco@gmail.com</email>
+ </author>
+
+ {% for post in site.posts %}{% if post.post == true %}
+ <entry>
+   <title>{{ post.title }}</title>
+   <link href="http://eidogram.com{{ post.url }}"/>
+   <updated>{{ post.date | date_to_xmlschema }}</updated>
+   <id>http://eidogram.com{{ post.id }}</id>
+   <content type="html">{{ post.abstract | xml_escape }}</content>
+ </entry>
+ {% endif %}{% endfor %} 
+</feed>

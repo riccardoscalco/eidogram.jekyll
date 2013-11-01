@@ -1,0 +1,64 @@
+html{height:100%;}/* make sure it is at least as tall as the viewport */
+
+body {
+    margin: 0;
+    padding: 0;
+    height:100% ;
+    color: #ff2400;
+    font-weight: bold;
+    //background-color: #f5f5f5;
+    background-image:url('./background.png');
+}
+
+#wrap {
+    min-height: 100%;
+}
+
+.container{
+    margin: auto;
+    width:1024px;
+    //padding-bottom: 25px;
+    padding-top: 25px;
+    //height: 100%;
+}
+
+header {
+    height: 25px;
+    margin-bottom: -25px;
+    background-color:#ff2400;
+}
+
+
+footer{
+    //background-image:url('footer.png');
+    background-color:#ff2400;
+    margin-top: -25px;
+    height: 25px;
+    clear:both;
+    position: relative;
+}
+.containerfooter{
+    margin:0 auto;
+}
+
+
+h1, p, h3 {display: inline;}
+
+aside{
+    padding-right: 0px;
+    padding-left; 0px;
+    padding-top: 400px;
+    padding-bottom: 0px;
+    width: 324px;
+    float: left;
+    text-left: center;
+}
+section{
+    text-align: right;
+    width: 700px;
+    //height: 100%;
+    float:left;
+    padding-left: 0px;
+    overflow:hidden;
+    position:relative;
+}
